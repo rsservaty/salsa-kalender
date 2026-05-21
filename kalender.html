@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💃 Salsa Frankfurt – Kalender</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #1e0a2e 0%, #2d0a4e 50%, #1a0f30 100%);
+      padding: 1.8rem 1.5rem 1.4rem;
+      text-align: center;
+      border-bottom: 1px solid #3d1f6a;
+    }
+    header h1 { font-size: 1.7rem; font-weight: 700; color: #f0c4ff; }
+    header p.subtitle { margin-top: 0.35rem; font-size: 0.84rem; color: #c4aed8; }
+    .data-note {
+      margin-top: 0.75rem;
+      display: inline-block;
+      background: rgba(255,200,80,0.12);
+      border: 1px solid rgba(255,200,80,0.3);
+      color: #fcd34d;
+      font-size: 0.74rem;
+      padding: 0.28rem 0.75rem;
+      border-radius: 99px;
+    }
+
+    /* ── FILTER TABS ── */
+    .filters {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.9rem 1.2rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      background: #13161f;
+      border-bottom: 1px solid #1e2436;
+    }
+    .filters::-webkit-scrollbar { display: none; }
+    .filter-btn {
+      flex-shrink: 0;
+      background: #1e2436;
+      border: 1px solid #2d3a52;
+      color: #cbd5e1;
+      padding: 0.38rem 1rem;
+      border-radius: 99px;
+      font-size: 0.81rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: #7c3aed; color: #e0d4ff; }
+    .filter-btn.active {
+      background: #7c3aed;
+      border-color: #7c3aed;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* ── MAIN ── */
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1rem 1rem 4rem;
+    }
+
+    /* ── DAY GROUP ── */
+    .day-group { margin-bottom: 0.3rem; }
+    .day-group.hidden { display: none; }
+
+    .day-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 1.2rem 0 0.5rem;
+    }
+    .day-header .day-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #b8c6d4;
+      white-space: nowrap;
+    }
+    .day-header .day-label .date-num {
+      font-size: 1rem;
+      font-weight: 800;
+      color: #d4bbf5;
+      margin-right: 0.2rem;
+    }
+    .day-header::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #1e2a42;
+    }
+    .day-header.today .day-label { color: #a78bfa; }
+    .day-header.today .date-num { color: #c4b5fd; }
+    .today-pill {
+      font-size: 0.65rem;
+      font-weight: 700;
+      background: #7c3aed;
+      color: #fff;
+      padding: 0.12rem 0.5rem;
+      border-radius: 99px;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── EVENT CARD ── */
+    .card {
+      background: #161b2e;
+      border: 1px solid #1e2a42;
+      border-radius: 12px;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      gap: 0.8rem;
+      align-items: flex-start;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+    .card:hover { border-color: #4f3a8a; transform: translateY(-1px); }
+    .card.hidden { display: none; }
+
+    /* type accent */
+    .card[data-type="party"]     { border-left: 3px solid #ef4444; }
+    .card[data-type="outdoor"]   { border-left: 3px solid #22c55e; }
+    .card[data-type="indoor"]    { border-left: 3px solid #8b5cf6; }
+    .card[data-type="recurring"] { border-left: 3px solid #14b8a6; }
+    .card[data-type="festival"]  { border-left: 3px solid #f59e0b; }
+    .card[data-type="workshop"]  { border-left: 3px solid #3b82f6; }
+
+    /* type icon */
+    .type-icon {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      background: #1e2a42;
+    }
+
+    .card-body { flex: 1; min-width: 0; }
+    .card-title {
+      font-size: 0.93rem;
+      font-weight: 700;
+      color: #e2e8f0;
+      line-height: 1.3;
+    }
+    .price {
+      display: inline-block;
+      background: rgba(99,102,241,0.15);
+      color: #a5b4fc;
+      border: 1px solid rgba(99,102,241,0.25);
+      font-size: 0.66rem;
+      font-weight: 700;
+      padding: 0.12rem 0.45rem;
+      border-radius: 99px;
+      margin-left: 0.35rem;
+      vertical-align: middle;
+    }
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.65rem;
+      margin-top: 0.35rem;
+      font-size: 0.77rem;
+      color: #cbd5e1;
+    }
+    .card-desc {
+      margin-top: 0.4rem;
+      font-size: 0.77rem;
+      color: #b8c6d4;
+      line-height: 1.55;
+    }
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.28rem;
+      margin-top: 0.45rem;
+    }
+    .tag {
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.16rem 0.45rem;
+      border-radius: 99px;
+      letter-spacing: 0.04em;
+    }
+    .tag-party    { background: rgba(239,68,68,0.15);   color: #fca5a5; border: 1px solid rgba(239,68,68,0.3); }
+    .tag-workshop { background: rgba(59,130,246,0.15);  color: #93c5fd; border: 1px solid rgba(59,130,246,0.3); }
+    .tag-outdoor  { background: rgba(34,197,94,0.15);   color: #86efac; border: 1px solid rgba(34,197,94,0.3); }
+    .tag-festival { background: rgba(251,191,36,0.15);  color: #fde68a; border: 1px solid rgba(251,191,36,0.3); }
+    .tag-indoor   { background: rgba(139,92,246,0.15);  color: #c4b5fd; border: 1px solid rgba(139,92,246,0.3); }
+    .tag-recurring{ background: rgba(20,184,166,0.15);  color: #5eead4; border: 1px solid rgba(20,184,166,0.3); }
+    .tag-free     { background: rgba(16,185,129,0.12);  color: #6ee7b7; border: 1px solid rgba(16,185,129,0.25);}
+    .tag-reise    { background: rgba(245,158,11,0.15);  color: #fcd34d; border: 1px solid rgba(245,158,11,0.3); }
+
+    /* empty */
+    .empty { text-align: center; padding: 3rem 1rem; color: #8899b4; font-size: 0.9rem; }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.71rem;
+      color: #8899b4;
+      border-top: 1px solid #1e2436;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💃 Salsa – Frankfurt Rhein-Main</h1>
+  <p class="subtitle">Alle Termine chronologisch · Nächste 10 Wochen</p>
+</header>
+
+<div class="filters">
+  <button class="filter-btn active" data-filter="alle">Alle</button>
+  <button class="filter-btn" data-filter="party">🎉 Party</button>
+  <button class="filter-btn" data-filter="workshop">🎓 Workshop</button>
+  <button class="filter-btn" data-filter="outdoor">☀️ Outdoor</button>
+  <button class="filter-btn" data-filter="festival">🌟 Festival</button>
+  <button class="filter-btn" data-filter="recurring">🔁 Wiederkehrend</button>
+</div>
+
+<main id="calendar">
+  <div class="empty" id="emptyMsg" style="display:none">Keine Termine gefunden.</div>
+</main>
+
+<footer>
+  Alle Angaben ohne Gewähr · Stand Mai 2026
+</footer>
+
+<script>
+// ── DATUM-HELFER ──────────────────────────────────────────────────
+
+const WEEKDAYS_DE = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
+const MONTHS_DE   = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+
+function dateKey(d) {
+  return d.toISOString().slice(0, 10);
+}
+
+// ── KALENDER AUFBAUEN ─────────────────────────────────────────────
+
+function buildCalendar(recurring, specific) {
+
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+const end = new Date(today);
+end.setDate(end.getDate() + 70); // 10 Wochen
+
+// Alle Event-Instanzen sammeln
+const allEvents = [];
+
+// Wiederkehrende Termine generieren
+for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
+  const cur = new Date(d);
+  recurring.forEach(r => {
+    if (cur.getDay() === r.weekday) {
+      allEvents.push({ ...r, dateObj: cur, isRecurring: true });
+    }
+  });
+}
+
+// Einzeltermine hinzufügen
+specific.forEach(s => {
+  const d = new Date(s.date + 'T00:00:00');
+  if (d >= today && d <= end) {
+    allEvents.push({ ...s, dateObj: d, isRecurring: false });
+  }
+});
+
+// Sortieren: nach Datum, dann order
+allEvents.sort((a, b) => a.dateObj - b.dateObj || (a.order || 50) - (b.order || 50));
+
+// Nach Datum gruppieren
+const groups = {};
+allEvents.forEach(e => {
+  const key = dateKey(e.dateObj);
+  if (!groups[key]) groups[key] = { dateObj: e.dateObj, events: [] };
+  groups[key].events.push(e);
+});
+
+// ── RENDERN ───────────────────────────────────────────────────────
+
+const cal = document.getElementById('calendar');
+const todayKey = dateKey(today);
+
+Object.keys(groups).sort().forEach(key => {
+  const group = groups[key];
+  const isToday = key === todayKey;
+
+  const groupEl = document.createElement('div');
+  groupEl.className = 'day-group';
+  // Collect all cats for filtering at group level
+  const allCats = group.events.map(e => e.cats).join(' ');
+  groupEl.dataset.cats = allCats;
+
+  // Day header
+  const header = document.createElement('div');
+  header.className = 'day-header' + (isToday ? ' today' : '');
+  header.innerHTML = `<span class="day-label"><span class="date-num">${group.dateObj.getDate()}. ${MONTHS_DE[group.dateObj.getMonth()]}</span> – ${WEEKDAYS_DE[group.dateObj.getDay()]}</span>${isToday ? '<span class="today-pill">Heute</span>' : ''}`;
+  groupEl.appendChild(header);
+
+  // Cards
+  group.events.forEach(e => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.dataset.type = e.type;
+    card.dataset.cats = e.cats;
+
+    const tagsHTML = e.tags.map(([label, cls]) =>
+      `<span class="tag ${cls}">${label}</span>`
+    ).join('');
+
+    card.innerHTML = `
+      <div class="type-icon">${e.emoji}</div>
+      <div class="card-body">
+        <div class="card-title">${e.title}<span class="price">${e.price}</span></div>
+        <div class="card-meta">
+          <span>🕒 ${e.time}</span>
+          <span>📍 ${e.location}</span>
+        </div>
+        <div class="card-desc">${e.desc}</div>
+        <div class="card-tags">${tagsHTML}</div>
+      </div>`;
+
+    groupEl.appendChild(card);
+  });
+
+  cal.insertBefore(groupEl, document.getElementById('emptyMsg'));
+});
+
+// ── FILTER ────────────────────────────────────────────────────────
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+
+    let anyVisible = false;
+    document.querySelectorAll('.day-group').forEach(group => {
+      // Check if any card in the group matches
+      const cards = group.querySelectorAll('.card');
+      let groupVisible = false;
+      cards.forEach(card => {
+        const match = filter === 'alle' || (card.dataset.cats || '').includes(filter);
+        card.classList.toggle('hidden', !match);
+        if (match) groupVisible = true;
+      });
+      group.classList.toggle('hidden', !groupVisible);
+      if (groupVisible) anyVisible = true;
+    });
+
+    document.getElementById('emptyMsg').style.display = anyVisible ? 'none' : 'block';
+  });
+});
+
+} // end buildCalendar()
+
+// ── DATEN LADEN ───────────────────────────────────────────────────
+fetch('events.json')
+  .then(r => r.json())
+  .then(data => buildCalendar(data.recurring, data.specific))
+  .catch(() => {
+    document.getElementById('emptyMsg').textContent = 'Fehler beim Laden der Termine.';
+    document.getElementById('emptyMsg').style.display = 'block';
+  });
+</script>
+</body>
+</html>
