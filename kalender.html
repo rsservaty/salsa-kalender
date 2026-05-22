@@ -188,21 +188,28 @@
       transition: color 0.15s;
     }
     .card-meta a.maps-link:hover { color: #bbf7d0; border-bottom-color: #86efac; }
-    .card-meta .dj-info {
-      color: #a78bfa;
-      font-size: 0.75rem;
-    }
+    .card-meta .dj-info { color: #a78bfa; font-size: 0.75rem; }
+
     .card-desc {
       margin-top: 0.4rem;
       font-size: 0.77rem;
       color: #b8c6d4;
       line-height: 1.55;
     }
+
+    /* ── CARD FOOTER (tags + ics-button) ── */
+    .card-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: 0.5rem;
+    }
     .card-tags {
       display: flex;
       flex-wrap: wrap;
       gap: 0.28rem;
-      margin-top: 0.45rem;
+      flex: 1;
     }
     .tag {
       font-size: 0.65rem;
@@ -219,6 +226,28 @@
     .tag-recurring{ background: rgba(20,184,166,0.15);  color: #5eead4; border: 1px solid rgba(20,184,166,0.3); }
     .tag-free     { background: rgba(16,185,129,0.12);  color: #6ee7b7; border: 1px solid rgba(16,185,129,0.25);}
     .tag-reise    { background: rgba(245,158,11,0.15);  color: #fcd34d; border: 1px solid rgba(245,158,11,0.3); }
+
+    /* ── ICS BUTTON ── */
+    .ics-btn {
+      flex-shrink: 0;
+      background: rgba(167,139,250,0.08);
+      border: 1px solid rgba(167,139,250,0.22);
+      color: #a78bfa;
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 99px;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+      font-family: inherit;
+    }
+    .ics-btn:hover {
+      background: rgba(167,139,250,0.18);
+      border-color: rgba(167,139,250,0.5);
+      color: #c4b5fd;
+    }
+    .ics-btn:active { transform: scale(0.96); }
 
     /* empty */
     .empty { text-align: center; padding: 3rem 1rem; color: #8899b4; font-size: 0.9rem; }
@@ -272,7 +301,7 @@ function mapsLink(location) {
   return `<a class="maps-link" href="${url}" target="_blank" rel="noopener">📍 ${location}</a>`;
 }
 
-// ── STICKY-HÖHE (Header + Filterbar) ─────────────────────────────
+// ── STICKY-HÖHE ───────────────────────────────────────────────────
 
 function stickyHeight() {
   const h = document.querySelector('header');
@@ -289,6 +318,71 @@ function scrollToFirstVisible() {
   window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
 }
 
+// ── ICS / KALENDER-EXPORT ─────────────────────────────────────────
+
+function parseStartEnd(timeStr, dateObj) {
+  const pad = n => String(n).padStart(2, '0');
+  const matches = [...timeStr.matchAll(/(\d{1,2}):(\d{2})/g)];
+  const d = dateObj;
+  const base = `${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}`;
+
+  let startH = 20, startM = 0, endH = 23, endM = 0;
+  if (matches.length >= 1) {
+    startH = parseInt(matches[0][1]);
+    startM = parseInt(matches[0][2]);
+    endH   = (startH + 3) % 24;
+    endM   = startM;
+  }
+  if (matches.length >= 2) {
+    // Use last time as end
+    const last = matches[matches.length - 1];
+    endH = parseInt(last[1]);
+    endM = parseInt(last[2]);
+    // If end <= start, assume next day — skip for simplicity
+    if (endH <= startH) endH = startH + 3;
+  }
+  return {
+    dtStart: `${base}T${pad(startH)}${pad(startM)}00`,
+    dtEnd:   `${base}T${pad(endH)}${pad(endM)}00`
+  };
+}
+
+function escapeICS(str) {
+  return (str || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
+}
+
+function downloadICS(evt) {
+  const { dtStart, dtEnd } = parseStartEnd(evt.time, evt.dateObj);
+  const uid = `${dtStart}-${Math.random().toString(36).slice(2)}@salsa-rheinmain`;
+
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Salsa Rhein-Main//DE',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH',
+    'BEGIN:VEVENT',
+    `UID:${uid}`,
+    `DTSTART:${dtStart}`,
+    `DTEND:${dtEnd}`,
+    `SUMMARY:${escapeICS(evt.title)}`,
+    `LOCATION:${escapeICS(evt.location)}`,
+    `DESCRIPTION:${escapeICS(evt.desc + (evt.dj ? ' · DJ: ' + evt.dj : ''))}`,
+    'END:VEVENT',
+    'END:VCALENDAR'
+  ].join('\r\n');
+
+  const blob = new Blob([lines], { type: 'text/calendar;charset=utf-8' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = evt.title.replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') + '.ics';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 // ── KALENDER AUFBAUEN ─────────────────────────────────────────────
 
 function buildCalendar(recurring, specific) {
@@ -297,12 +391,11 @@ const today = new Date();
 today.setHours(0, 0, 0, 0);
 
 const end = new Date(today);
-end.setDate(end.getDate() + 70); // 10 Wochen
+end.setDate(end.getDate() + 70);
 
-// Alle Event-Instanzen sammeln
 const allEvents = [];
 
-// Wiederkehrende Termine generieren
+// Wiederkehrende Termine
 for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
   const cur = new Date(d);
   recurring.forEach(r => {
@@ -312,7 +405,7 @@ for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
   });
 }
 
-// Einzeltermine hinzufügen
+// Einzeltermine
 specific.forEach(s => {
   const d = new Date(s.date + 'T00:00:00');
   if (d >= today && d <= end) {
@@ -320,10 +413,8 @@ specific.forEach(s => {
   }
 });
 
-// Sortieren: nach Datum, dann order
 allEvents.sort((a, b) => a.dateObj - b.dateObj || (a.order || 50) - (b.order || 50));
 
-// Nach Datum gruppieren
 const groups = {};
 allEvents.forEach(e => {
   const key = dateKey(e.dateObj);
@@ -333,23 +424,22 @@ allEvents.forEach(e => {
 
 // ── RENDERN ───────────────────────────────────────────────────────
 
-const cal = document.getElementById('calendar');
+const cal     = document.getElementById('calendar');
 const todayKey = dateKey(today);
 
 Object.keys(groups).sort().forEach(key => {
-  const group = groups[key];
+  const group   = groups[key];
   const isToday = key === todayKey;
 
   const groupEl = document.createElement('div');
   groupEl.className = 'day-group';
-  const allCats = group.events.map(e => e.cats).join(' ');
-  groupEl.dataset.cats = allCats;
+  groupEl.dataset.cats = group.events.map(e => e.cats).join(' ');
 
   // Day header
-  const header = document.createElement('div');
-  header.className = 'day-header' + (isToday ? ' today' : '');
-  header.innerHTML = `<span class="day-label"><span class="date-num">${group.dateObj.getDate()}. ${MONTHS_DE[group.dateObj.getMonth()]}</span> – ${WEEKDAYS_DE[group.dateObj.getDay()]}</span>${isToday ? '<span class="today-pill">Heute</span>' : ''}`;
-  groupEl.appendChild(header);
+  const hdr = document.createElement('div');
+  hdr.className = 'day-header' + (isToday ? ' today' : '');
+  hdr.innerHTML = `<span class="day-label"><span class="date-num">${group.dateObj.getDate()}. ${MONTHS_DE[group.dateObj.getMonth()]}</span> – ${WEEKDAYS_DE[group.dateObj.getDay()]}</span>${isToday ? '<span class="today-pill">Heute</span>' : ''}`;
+  groupEl.appendChild(hdr);
 
   // Cards
   group.events.forEach(e => {
@@ -361,7 +451,6 @@ Object.keys(groups).sort().forEach(key => {
     const tagsHTML = e.tags.map(([label, cls]) =>
       `<span class="tag ${cls}">${label}</span>`
     ).join('');
-
     const djHTML = e.dj ? `<span class="dj-info">🎧 ${e.dj}</span>` : '';
 
     card.innerHTML = `
@@ -374,8 +463,17 @@ Object.keys(groups).sort().forEach(key => {
           ${djHTML}
         </div>
         <div class="card-desc">${e.desc}</div>
-        <div class="card-tags">${tagsHTML}</div>
+        <div class="card-footer">
+          <div class="card-tags">${tagsHTML}</div>
+          <button class="ics-btn">📅 Speichern</button>
+        </div>
       </div>`;
+
+    // ICS-Button Listener (Zugriff auf e über Closure)
+    card.querySelector('.ics-btn').addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      downloadICS(e);
+    });
 
     groupEl.appendChild(card);
   });
@@ -405,8 +503,6 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     });
 
     document.getElementById('emptyMsg').style.display = anyVisible ? 'none' : 'block';
-
-    // Nach oben scrollen zum ersten sichtbaren Event
     setTimeout(scrollToFirstVisible, 50);
   });
 });
