@@ -112,6 +112,21 @@
     },
     {
       "date": "2026-05-22",
+      "order": 8,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Bachata & Salsa Cubana & Latino Party – Conexion",
+      "time": "21:00 Bachata Kurs · 21:15 Salsa Rueda · 22:00 Party",
+      "location": "Conexion, Am Industriehof 7, Frankfurt",
+      "dj": "DJ Yexy · DJ Francesco · DG DG",
+      "price": "10 € inkl. Kurs",
+      "link": "https://www.conexion.de",
+      "desc": "21:00–22:00 Bachata Mittelstufe Kurs mit Yexy & Sofia. 21:15–21:45 Salsa Rueda. Ab 22:00 Bachata, Salsa Cubana & Latino Party.",
+      "cats": "party workshop indoor",
+      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
+    },
+    {
+      "date": "2026-05-22",
       "order": 5,
       "type": "party",
       "emoji": "🎵",
