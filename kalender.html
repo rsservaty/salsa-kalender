@@ -188,6 +188,10 @@
       transition: color 0.15s;
     }
     .card-meta a.maps-link:hover { color: #bbf7d0; border-bottom-color: #86efac; }
+    .card-meta .dj-info {
+      color: #a78bfa;
+      font-size: 0.75rem;
+    }
     .card-desc {
       margin-top: 0.4rem;
       font-size: 0.77rem;
@@ -268,6 +272,23 @@ function mapsLink(location) {
   return `<a class="maps-link" href="${url}" target="_blank" rel="noopener">📍 ${location}</a>`;
 }
 
+// ── STICKY-HÖHE (Header + Filterbar) ─────────────────────────────
+
+function stickyHeight() {
+  const h = document.querySelector('header');
+  const f = document.querySelector('.filters');
+  return (h ? h.offsetHeight : 40) + (f ? f.offsetHeight : 40) + 8;
+}
+
+// ── SCROLL ZUM ERSTEN SICHTBAREN EVENT ───────────────────────────
+
+function scrollToFirstVisible() {
+  const first = document.querySelector('.day-group:not(.hidden)');
+  if (!first) return;
+  const top = first.getBoundingClientRect().top + window.scrollY - stickyHeight();
+  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+}
+
 // ── KALENDER AUFBAUEN ─────────────────────────────────────────────
 
 function buildCalendar(recurring, specific) {
@@ -286,7 +307,7 @@ for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
   const cur = new Date(d);
   recurring.forEach(r => {
     if (cur.getDay() === r.weekday) {
-      allEvents.push({ ...r, dateObj: cur, isRecurring: true });
+      allEvents.push({ ...r, dateObj: new Date(cur), isRecurring: true });
     }
   });
 }
@@ -321,7 +342,6 @@ Object.keys(groups).sort().forEach(key => {
 
   const groupEl = document.createElement('div');
   groupEl.className = 'day-group';
-  // Collect all cats for filtering at group level
   const allCats = group.events.map(e => e.cats).join(' ');
   groupEl.dataset.cats = allCats;
 
@@ -342,6 +362,8 @@ Object.keys(groups).sort().forEach(key => {
       `<span class="tag ${cls}">${label}</span>`
     ).join('');
 
+    const djHTML = e.dj ? `<span class="dj-info">🎧 ${e.dj}</span>` : '';
+
     card.innerHTML = `
       <div class="type-icon">${e.emoji}</div>
       <div class="card-body">
@@ -349,6 +371,7 @@ Object.keys(groups).sort().forEach(key => {
         <div class="card-meta">
           <span>🕒 ${e.time}</span>
           <span>${mapsLink(e.location)}</span>
+          ${djHTML}
         </div>
         <div class="card-desc">${e.desc}</div>
         <div class="card-tags">${tagsHTML}</div>
@@ -370,7 +393,6 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 
     let anyVisible = false;
     document.querySelectorAll('.day-group').forEach(group => {
-      // Check if any card in the group matches
       const cards = group.querySelectorAll('.card');
       let groupVisible = false;
       cards.forEach(card => {
@@ -383,6 +405,9 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
     });
 
     document.getElementById('emptyMsg').style.display = anyVisible ? 'none' : 'block';
+
+    // Nach oben scrollen zum ersten sichtbaren Event
+    setTimeout(scrollToFirstVisible, 50);
   });
 });
 
