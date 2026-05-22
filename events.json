@@ -112,6 +112,20 @@
     },
     {
       "date": "2026-05-22",
+      "order": 4,
+      "type": "outdoor",
+      "emoji": "🌇",
+      "title": "Bachata am Main Friday",
+      "time": "19:30 Beginner · 20:00 Open Level Workshop · 21:00 Social Dance",
+      "location": "Honsellstraße 7, 60314 Frankfurt",
+      "link": "https://www.instagram.com/bachata.meetup",
+      "price": "Spendenbasis",
+      "desc": "Bachata Open Air an der Honsellbrücke. 19:30 Beginner, 20:00 Open Level Workshop, ab 21:00 Social Dance.",
+      "cats": "workshop outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
+    },
+    {
+      "date": "2026-05-22",
       "order": 8,
       "type": "party",
       "emoji": "💃",
@@ -179,6 +193,19 @@
       "desc": "4 Tanzflächen: Bachata / Salsa Mix / Salsa Linea / Kizomba. Kurse: 20:00 Salsa Suelta (Jordan), 20:45 Salsa & Bachata Anfänger, 21:00 Bachata Mittelstufe (Yexy & Sofia). Gratis-Buffet süß & herzhaft!",
       "cats": "party workshop indoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
+    },
+    {
+      "date": "2026-05-24",
+      "order": 5,
+      "type": "outdoor",
+      "emoji": "☀️",
+      "title": "Outdoor Fiesta Latina – Honsellbrücke",
+      "time": "15:30 Salsa Beginner · 17:00 Rueda Beginner · 18:00 Rueda Mittelstufe · ab 19:00 Social Dance",
+      "location": "Honsellstraße 7 (unter der Honsellbrücke), Frankfurt",
+      "price": "Spendenbasis",
+      "desc": "Outdoor Fiesta mit Youyou: 15:30 Salsa for Beginner, 17:00 & 18:00 Rueda de Casino. Ab 19:00 freies Tanzen – Salsa, Bachata, Kizomba, Merengue, Reggaeton. Buffet inklusive.",
+      "cats": "party workshop outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
     },
     {
       "date": "2026-05-26",
