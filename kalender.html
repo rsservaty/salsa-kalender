@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>💃 Salsa Frankfurt – Kalender</title>
+  <title>💃 Salsa Rhein-Main – Kalender</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -17,33 +17,36 @@
     /* ── HEADER ── */
     header {
       background: linear-gradient(135deg, #1e0a2e 0%, #2d0a4e 50%, #1a0f30 100%);
-      padding: 1.8rem 1.5rem 1.4rem;
+      padding: 0.65rem 1.5rem;
       text-align: center;
       border-bottom: 1px solid #3d1f6a;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
-    header h1 { font-size: 1.7rem; font-weight: 700; color: #f0c4ff; }
-    header p.subtitle { margin-top: 0.35rem; font-size: 0.84rem; color: #c4aed8; }
-    .data-note {
-      margin-top: 0.75rem;
+    header h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #f0c4ff;
+      cursor: pointer;
       display: inline-block;
-      background: rgba(255,200,80,0.12);
-      border: 1px solid rgba(255,200,80,0.3);
-      color: #fcd34d;
-      font-size: 0.74rem;
-      padding: 0.28rem 0.75rem;
-      border-radius: 99px;
+      user-select: none;
     }
+    header h1:hover { color: #fff; }
 
     /* ── FILTER TABS ── */
     .filters {
       display: flex;
       gap: 0.5rem;
-      padding: 0.9rem 1.2rem;
+      padding: 0.65rem 1rem;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
       background: #13161f;
       border-bottom: 1px solid #1e2436;
+      position: sticky;
+      top: 40px;
+      z-index: 99;
     }
     .filters::-webkit-scrollbar { display: none; }
     .filter-btn {
@@ -51,9 +54,9 @@
       background: #1e2436;
       border: 1px solid #2d3a52;
       color: #cbd5e1;
-      padding: 0.38rem 1rem;
+      padding: 0.32rem 0.85rem;
       border-radius: 99px;
-      font-size: 0.81rem;
+      font-size: 0.79rem;
       cursor: pointer;
       transition: all 0.2s;
       white-space: nowrap;
@@ -178,6 +181,13 @@
       font-size: 0.77rem;
       color: #cbd5e1;
     }
+    .card-meta a.maps-link {
+      color: #86efac;
+      text-decoration: none;
+      border-bottom: 1px dotted rgba(134,239,172,0.4);
+      transition: color 0.15s;
+    }
+    .card-meta a.maps-link:hover { color: #bbf7d0; border-bottom-color: #86efac; }
     .card-desc {
       margin-top: 0.4rem;
       font-size: 0.77rem;
@@ -221,8 +231,7 @@
 <body>
 
 <header>
-  <h1>💃 Salsa – Frankfurt Rhein-Main</h1>
-  <p class="subtitle">Alle Termine chronologisch · Nächste 10 Wochen</p>
+  <h1 id="siteTitle">💃 Salsa – Rhein-Main</h1>
 </header>
 
 <div class="filters">
@@ -250,6 +259,13 @@ const MONTHS_DE   = ['Januar','Februar','März','April','Mai','Juni','Juli','Aug
 
 function dateKey(d) {
   return d.toISOString().slice(0, 10);
+}
+
+// ── GOOGLE MAPS LINK ──────────────────────────────────────────────
+
+function mapsLink(location) {
+  const url = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(location);
+  return `<a class="maps-link" href="${url}" target="_blank" rel="noopener">📍 ${location}</a>`;
 }
 
 // ── KALENDER AUFBAUEN ─────────────────────────────────────────────
@@ -332,7 +348,7 @@ Object.keys(groups).sort().forEach(key => {
         <div class="card-title">${e.title}<span class="price">${e.price}</span></div>
         <div class="card-meta">
           <span>🕒 ${e.time}</span>
-          <span>📍 ${e.location}</span>
+          <span>${mapsLink(e.location)}</span>
         </div>
         <div class="card-desc">${e.desc}</div>
         <div class="card-tags">${tagsHTML}</div>
@@ -371,6 +387,11 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 });
 
 } // end buildCalendar()
+
+// ── TITEL-KLICK → zurück nach oben ───────────────────────────────
+document.getElementById('siteTitle').addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 // ── DATEN LADEN ───────────────────────────────────────────────────
 fetch('events.json')
