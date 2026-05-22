@@ -47,6 +47,7 @@
       "title": "Wednesday Social Dance Meetup",
       "time": "Einlass 18:45 · Workshops 19:00 · Party ab 21:00",
       "location": "Karlson, Karlstraße 17, Frankfurt (2 min vom HBF)",
+      "dj": "wechselnde DJs",
       "price": "10 € / 7 € Stud.",
       "desc": "Floor 1: Bachata-Workshop + Party. Floor 2: Kizomba & Salsa-Workshop + Party. Top DJs, 2 Dancefloors, mega Stimmung.",
       "cats": "party workshop indoor recurring",
@@ -60,8 +61,9 @@
       "title": "Salsa Tuesday Night – Wohnzimmer Wiesbaden",
       "time": "Party ab 21:30 Uhr (freier Eintritt bis 21:00 Uhr)",
       "location": "Wohnzimmer, Wiesbaden",
+      "dj": "DJ TomX & Gäste",
       "price": "Freier Eintritt bis 21 Uhr",
-      "desc": "Wöchentliche Salsa-Bachata-Kizomba-Party im Wohnzimmer Wiesbaden. Klimatisierte Tanzfläche, Parkhaus nebenan. DJ TomX und Gäste.",
+      "desc": "Wöchentliche Salsa-Bachata-Kizomba-Party im Wohnzimmer Wiesbaden. Klimatisierte Tanzfläche, Parkhaus nebenan.",
       "cats": "party indoor recurring free",
       "tags": [["🔁 Wöchentlich","tag-recurring"], ["Party","tag-party"], ["Indoor","tag-indoor"], ["Wiesbaden","tag-free"]]
     },
@@ -86,8 +88,9 @@
       "title": "Outdoor Salsa Party – Rheinufer Mainz/Kastel ☀️ (wetterabhängig)",
       "time": "ab 18:00 Uhr",
       "location": "Rheinufer Mainz-Kastel (Wiesbaden)",
+      "dj": "DJ TomX & Gäste",
       "price": "Eintritt frei",
-      "desc": "Salsa, Bachata & Kizomba am Rheinufer. Saisonale Veranstaltung (ca. Mai–September), wetterabhängig – bei schlechtem Wetter Absage (Info in WhatsApp-Gruppe). DJ TomX & Gäste.",
+      "desc": "Salsa, Bachata & Kizomba am Rheinufer. Saisonale Veranstaltung (ca. Mai–September), wetterabhängig – bei schlechtem Wetter Absage (Info in WhatsApp-Gruppe).",
       "cats": "party outdoor recurring free",
       "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Wetterabhängig","tag-recurring"]]
     }
@@ -101,8 +104,9 @@
       "title": "Bachata & Salsa Night im MyZeil Frankfurt",
       "time": "19:30 Open Air · 20:00 Workshop · 22:00 Party",
       "location": "MyZeil Frankfurt (Terrasse L'Osteria + Innen)",
+      "dj": "DJ Roberto",
       "price": "Eintritt variiert",
-      "desc": "Ab 19:30 Open-Air-Warmup auf der Terrasse. 20:00 Bachata Basics mit Luis & Julia, 21:00 Bachata Mittelstufe. Ab 22:00 Bachata & Salsa Party mit DJ Roberto. Info: instagram.com/bachatasalsafrankfurt",
+      "desc": "Ab 19:30 Open-Air-Warmup auf der Terrasse. 20:00 Bachata Basics mit Luis & Julia, 21:00 Bachata Mittelstufe. Ab 22:00 Bachata & Salsa Party.",
       "cats": "party workshop indoor outdoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Outdoor & Indoor","tag-outdoor"]]
     },
@@ -140,8 +144,9 @@
       "title": "Bachata XXL – Darmstadt Edition",
       "time": "20:00 Workshops · 22:00 Party",
       "location": "Weststadt Bar, Mainzer Str. 106, 64293 Darmstadt",
+      "dj": "DJ Roberto",
       "price": "Eintritt variiert",
-      "desc": "20:00–21:00 Bachata Fusion mit Rafael & Chiara. 21:00–22:00 Madrid Combos mit Yulenka & Jhersy (Madrid). Ab 22:00 Party mit DJ Roberto. Wahrscheinlich die größte Bachata-Party in Darmstadt!",
+      "desc": "20:00–21:00 Bachata Fusion mit Rafael & Chiara. 21:00–22:00 Madrid Combos mit Yulenka & Jhersy (Madrid). Ab 22:00 Party.",
       "cats": "party workshop indoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
     },
@@ -153,8 +158,9 @@
       "title": "Gran Fiesta – Conexion Frankfurt",
       "time": "20:00 Kurse · 22:00 Party · Gratis Buffet",
       "location": "Conexion, Am Industriehof 7, Frankfurt",
+      "dj": "DJ Andres · DJ Hawa · DJ Yexy · DJ Instinct",
       "price": "12 € inkl. Kurse",
-      "desc": "4 Tanzflächen: Bachata / Salsa Mix / Salsa Linea / Kizomba. Kurse: 20:00 Salsa Suelta (Jordan), 20:45 Salsa & Bachata Anfänger, 21:00 Bachata Mittelstufe (Yexy & Sofia). Party mit 4 DJs. Gratis-Buffet süß & herzhaft!",
+      "desc": "4 Tanzflächen: Bachata / Salsa Mix / Salsa Linea / Kizomba. Kurse: 20:00 Salsa Suelta (Jordan), 20:45 Salsa & Bachata Anfänger, 21:00 Bachata Mittelstufe (Yexy & Sofia). Gratis-Buffet süß & herzhaft!",
       "cats": "party workshop indoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
     },
@@ -169,7 +175,7 @@
       "price": "Eintritt frei",
       "desc": "Open-Air Salsa & Bachata im Schloss-Biergarten Mainz. Eintritt ist frei – einfach vorbeikommen und tanzen!",
       "cats": "party outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Mainz","tag-recurring"]]
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
     },
     {
       "date": "2026-06-03",
@@ -205,8 +211,9 @@
       "title": "Strasbourg Bachata Festival 2026 (10.–12. Juli)",
       "time": "3 Tage · Workshops, Shows & Partys",
       "location": "Straßburg, Frankreich",
+      "dj": "DJ Roberto",
       "price": "Festivalpass (Frühbucher-Rabatt)",
-      "desc": "Internationales Festival mit Top-Artists: Marco Espejo, Raquel, Gero & Migle, Eduardo & Natalia (Frankfurt), DJ Roberto. Live: Shama. Tickets: goandance.com/en/event/8960/strasbourg-bachata-festival-2026 · Promo-Code: DJROBERTO",
+      "desc": "Internationales Festival mit Top-Artists: Marco Espejo, Raquel, Gero & Migle, Eduardo & Natalia (Frankfurt). Live: Shama. Tickets: goandance.com/en/event/8960/strasbourg-bachata-festival-2026 · Code: DJROBERTO",
       "cats": "festival workshop party",
       "tags": [["🌟 Festival","tag-festival"], ["3 Tage","tag-outdoor"], ["Workshop","tag-workshop"], ["Party","tag-party"]]
     }
