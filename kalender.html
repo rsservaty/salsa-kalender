@@ -45,7 +45,7 @@
       background: #13161f;
       border-bottom: 1px solid #1e2436;
       position: sticky;
-      top: 40px;
+      top: 40px; /* wird per JS dynamisch gesetzt */
       z-index: 99;
     }
     .filters::-webkit-scrollbar { display: none; }
@@ -306,6 +306,16 @@ function mapsLink(location) {
   const url = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(location);
   return `<a class="maps-link" href="${url}" target="_blank" rel="noopener">📍 ${location}</a>`;
 }
+
+// ── FILTER-TOP DYNAMISCH SETZEN ───────────────────────────────────
+
+function updateFilterTop() {
+  const h = document.querySelector('header');
+  const f = document.querySelector('.filters');
+  if (h && f) f.style.top = h.offsetHeight + 'px';
+}
+window.addEventListener('load', updateFilterTop);
+window.addEventListener('resize', updateFilterTop);
 
 // ── STICKY-HÖHE ───────────────────────────────────────────────────
 
