@@ -53,6 +53,19 @@
       "tags": [["🔁 Wöchentlich","tag-recurring"], ["Indoor","tag-indoor"], ["Party","tag-party"], ["Workshop","tag-workshop"]]
     },
     {
+      "weekday": 2,
+      "order": 30,
+      "type": "party",
+      "emoji": "🌃",
+      "title": "Salsa Tuesday Night – Wohnzimmer Wiesbaden",
+      "time": "Party ab 21:30 Uhr (freier Eintritt bis 21:00 Uhr)",
+      "location": "Wohnzimmer, Wiesbaden",
+      "price": "Freier Eintritt bis 21 Uhr",
+      "desc": "Wöchentliche Salsa-Bachata-Kizomba-Party im Wohnzimmer Wiesbaden. Klimatisierte Tanzfläche, Parkhaus nebenan. DJ TomX und Gäste.",
+      "cats": "party indoor recurring free",
+      "tags": [["🔁 Wöchentlich","tag-recurring"], ["Party","tag-party"], ["Indoor","tag-indoor"], ["Wiesbaden","tag-free"]]
+    },
+    {
       "weekday": 5,
       "order": 10,
       "type": "party",
@@ -64,6 +77,19 @@
       "desc": "Wöchentliche Salsa-Bachata-Party. Parken beim Arbeitsamt Mainz oder direkt bei der Tanzschule. Lässige Atmosphäre, günstiger Eintritt.",
       "cats": "party indoor recurring",
       "tags": [["🔁 Wöchentlich","tag-recurring"], ["Party","tag-party"], ["Indoor","tag-indoor"]]
+    },
+    {
+      "weekday": 6,
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🌊",
+      "title": "Outdoor Salsa Party – Rheinufer Mainz/Kastel ☀️ (wetterabhängig)",
+      "time": "ab 18:00 Uhr",
+      "location": "Rheinufer Mainz-Kastel (Wiesbaden)",
+      "price": "Eintritt frei",
+      "desc": "Salsa, Bachata & Kizomba am Rheinufer. Saisonale Veranstaltung (ca. Mai–September), wetterabhängig – bei schlechtem Wetter Absage (Info in WhatsApp-Gruppe). DJ TomX & Gäste.",
+      "cats": "party outdoor recurring free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Wetterabhängig","tag-recurring"]]
     }
   ],
   "specific": [
@@ -131,6 +157,19 @@
       "desc": "4 Tanzflächen: Bachata / Salsa Mix / Salsa Linea / Kizomba. Kurse: 20:00 Salsa Suelta (Jordan), 20:45 Salsa & Bachata Anfänger, 21:00 Bachata Mittelstufe (Yexy & Sofia). Party mit 4 DJs. Gratis-Buffet süß & herzhaft!",
       "cats": "party workshop indoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
+    },
+    {
+      "date": "2026-05-26",
+      "order": 5,
+      "type": "outdoor",
+      "emoji": "🏰",
+      "title": "Salsa Bachata Open-Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "price": "Eintritt frei",
+      "desc": "Open-Air Salsa & Bachata im Schloss-Biergarten Mainz. Eintritt ist frei – einfach vorbeikommen und tanzen!",
+      "cats": "party outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Mainz","tag-recurring"]]
     },
     {
       "date": "2026-06-03",
