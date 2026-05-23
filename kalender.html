@@ -429,7 +429,16 @@ specific.forEach(s => {
   }
 });
 
-allEvents.sort((a, b) => a.dateObj - b.dateObj || (a.order || 50) - (b.order || 50));
+function getStartMinutes(timeStr) {
+  if (!timeStr) return 9999;
+  const m = timeStr.match(/(\d{1,2}):(\d{2})/);
+  return m ? parseInt(m[1]) * 60 + parseInt(m[2]) : 9999;
+}
+allEvents.sort((a, b) =>
+  a.dateObj - b.dateObj ||
+  getStartMinutes(a.time) - getStartMinutes(b.time) ||
+  (a.order || 50) - (b.order || 50)
+);
 
 const groups = {};
 allEvents.forEach(e => {
