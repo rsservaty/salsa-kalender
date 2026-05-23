@@ -221,6 +221,21 @@
       "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
     },
     {
+      "date": "2026-05-30",
+      "order": 5,
+      "type": "party",
+      "emoji": "🎺",
+      "title": "Salsa Party Wiesbaden – Sombrero Latino",
+      "time": "20:00 Workshop (Intermediate On2) · 21:00 Party bis 01:00",
+      "location": "Sombrero Latino, Adolfstraße 3, 65185 Wiesbaden",
+      "dj": "DJ Kamal Dura",
+      "price": "10 € inkl. Workshop (nur Bar)",
+      "link": "https://salsa-autentica.de/event/",
+      "desc": "Workshop Intermediate On2 mit Salsa Auténtica / Gül & Ben (20:00). Ab 21:00 Salsa Party bis 01:00 mit DJ Kamal Dura. Eintritt 10 € inkl. Workshop, nur Barzahlung.",
+      "cats": "party workshop indoor",
+      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["Wiesbaden","tag-free"]]
+    },
+    {
       "date": "2026-06-03",
       "order": 5,
       "type": "festival",
