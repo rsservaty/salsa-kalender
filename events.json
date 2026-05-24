@@ -4,14 +4,15 @@
       "weekday": 0,
       "order": 10,
       "type": "outdoor",
-      "emoji": "☀️",
-      "title": "Outdoor Social Dance (bei Regen: Indoor)",
-      "time": "ab 15:00 Kurse · 18:30 – 22:30 Freies Tanzen",
-      "location": "Honsellstr. 7 ☀️  oder  Damaschkeanger 156 🌧️, Frankfurt",
-      "price": "Spendenbasis",
-      "desc": "Salsa, Bachata, Kizomba, Merengue auf 2 Tanzflächen. Bei Regen weicht die Gruppe in die Christ-König-Gemeinde Praunheim aus. Buffet inklusive – gerne Fingerfood mitbringen.",
+      "emoji": "🌟",
+      "title": "Outdoor Fiesta Latina – Honsellbrücke",
+      "time": "17:00 Salsa & Rueda Beginner · 18:00 Rueda de Casino · ab 19:00 – 22:30 Social Dance",
+      "location": "Unter der Honsellbrücke, Honsellstraße 7, 60314 Frankfurt",
+      "link": "https://maps.app.goo.gl/j3bLNYy2dig9uyvcA",
+      "price": "Spendenbasis (PayPal: youyouffm@gmail.com)",
+      "desc": "Outdoor Fiesta mit Youyou: 17:00-18:00 Salsa & Rueda for Beginner, 18:00-19:00 Rueda de Casino for all. Ab 19:00-22:30 Social Club Dance - freies Tanzen: Salsa, Bachata, Kizomba, Merengue, Reggaeton. Wasser & Softgetränke inklusive, Fingerfood willkommen! Parken: Querstraße 24, 60314 Frankfurt.",
       "cats": "party workshop outdoor recurring free",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
+      "tags": [["🔁 Wöchentlich","tag-recurring"], ["🌟 Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
     },
     {
       "weekday": 2,
@@ -207,20 +208,6 @@
       "desc": "4 Tanzflächen: Bachata / Salsa Mix / Salsa Linea / Kizomba. Kurse: 20:00 Salsa Suelta (Jordan), 20:45 Salsa & Bachata Anfänger, 21:00 Bachata Mittelstufe (Yexy & Sofia). Gratis-Buffet süß & herzhaft!",
       "cats": "party workshop indoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
-    },
-    {
-      "date": "2026-05-24",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "🌟",
-      "title": "Outdoor Fiesta Latina – Honsellbrücke",
-      "time": "17:00 Salsa & Rueda Beginner · 18:00 Rueda de Casino · ab 19:00 – 22:30 Social Dance",
-      "location": "Unter der Honsellbrücke, Honsellstraße 7, 60314 Frankfurt",
-      "link": "https://maps.app.goo.gl/j3bLNYy2dig9uyvcA",
-      "price": "Spendenbasis (PayPal: youyouffm@gmail.com)",
-      "desc": "Outdoor Fiesta mit Youyou: 17:00-18:00 Salsa & Rueda for Beginner, 18:00-19:00 Rueda de Casino for all. Ab 19:00-22:30 Social Club Dance - freies Tanzen: Salsa, Bachata, Kizomba, Merengue, Reggaeton. Wasser & Softgetränke inklusive, Fingerfood willkommen! Parken: Querstraße 24, 60314 Frankfurt.",
-      "cats": "party workshop outdoor free",
-      "tags": [["🌟 Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
     },
     {
       "date": "2026-05-24",
