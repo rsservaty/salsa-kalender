@@ -237,6 +237,20 @@
       "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Season Opening","tag-festival"]]
     },
     {
+      "date": "2026-05-25",
+      "order": 5,
+      "type": "outdoor",
+      "emoji": "⚓",
+      "title": "Outdoor Salsa & Bachata Night – Am Alten Kran",
+      "time": "ab 18:00 Uhr",
+      "location": "Am Rheinufer, Mainz-Kastel (am Alten Kran)",
+      "dj": "DJ Sergio",
+      "price": "Spendenbasis",
+      "desc": "Salsa, Bachata & Merengue am Rheinufer in Mainz-Kastel. Powered by Baila Con Corazon. Auf Spendenbasic – kommt und tanzt!",
+      "cats": "party outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos (Spende)","tag-free"]]
+    },
+    {
       "date": "2026-05-26",
       "order": 5,
       "type": "outdoor",
@@ -263,6 +277,20 @@
       "desc": "Workshop Intermediate On2 mit Salsa Auténtica / Gül & Ben (20:00). Ab 21:00 Salsa Party bis 01:00 mit DJ Kamal Dura. Eintritt 10 € inkl. Workshop, nur Barzahlung.",
       "cats": "party workshop indoor",
       "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["Wiesbaden","tag-free"]]
+    },
+    {
+      "date": "2026-05-30",
+      "order": 8,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Gran Fiesta – 4 Floors / 4 DJs (Conexion)",
+      "time": "20:00 Gratis Kurse · 22:00 Party",
+      "location": "Conexion, Am Industriehof 7, Frankfurt",
+      "dj": "DJ Francesco (Salsa Cubana) · DJane Mambo · DJ ABDD (Bachata) · DJ Arman (Kiz)",
+      "price": "12 € inkl. Kurse",
+      "desc": "Gratis Preparty Kurse: 20:45–22:00 Salsa & Bachata Beginner. 20:00–21:00 Bachata Mittelstufe 2 (Nick & Raquel). 21:00–22:00 Bachata Mittelstufe 1 (Nick & Raquel). 21:00–22:00 Salsa Suelta for Men & Ladies (Yordan). Ab 22:00 Party auf 4 Floors: Salsa Cubana, Salsa Mambo, Bachata, Kizomba. After Raquel's Bootcamp.",
+      "cats": "party workshop indoor festival",
+      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
     },
     {
       "date": "2026-06-03",
