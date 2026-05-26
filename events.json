@@ -252,6 +252,19 @@
     },
     {
       "date": "2026-05-26",
+      "order": 3,
+      "type": "party",
+      "emoji": "🌍",
+      "title": "International Tuesday – El Punto Frankfurt",
+      "time": "ab 18:00 Uhr",
+      "location": "El Punto Restaurant, Walther-von-Cronberg-Platz 3, Frankfurt",
+      "price": "5 € an der Abendkasse",
+      "desc": "International Tuesday – Every Tuesday at El Punto Frankfurt. Salsa, Bachata & mehr. Doors open 18:00. 5€ at the door.",
+      "cats": "party indoor",
+      "tags": [["Party","tag-party"], ["Indoor","tag-indoor"]]
+    },
+    {
+      "date": "2026-05-26",
       "order": 5,
       "type": "outdoor",
       "emoji": "🏰",
@@ -262,6 +275,31 @@
       "desc": "Open-Air Salsa & Bachata im Schloss-Biergarten Mainz. Eintritt ist frei – einfach vorbeikommen und tanzen!",
       "cats": "party outdoor free",
       "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
+    },
+    {
+      "date": "2026-05-26",
+      "order": 7,
+      "type": "party",
+      "emoji": "💫",
+      "title": "Baila con Corazón – Heidelberg",
+      "time": "Abends (Zeit nicht angegeben)",
+      "location": "Chapel, Rheinstr. 12/4, Heidelberg",
+      "desc": "3 Floors, 6 Workshops. Artists: Martin y Vanessa & Audrey & Claudia (Bachata Sensual), DJ Lobo (Bachata), DJ KizSaa (Salsa), Chris y Mira (Kizomba), German y Cristina (Salsa Line LA), Maryna (Footwork).",
+      "cats": "party workshop indoor",
+      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["3 Floors","tag-festival"]]
+    },
+    {
+      "date": "2026-05-28",
+      "order": 5,
+      "type": "outdoor",
+      "emoji": "🎭",
+      "title": "Salsa an der Oper – Outdoor",
+      "time": "18:45–19:30 Salsa Kurs Anfänger · 19:30–22:00 Tanzen",
+      "location": "Opernplatz, 60313 Frankfurt",
+      "price": "Eintritt frei",
+      "desc": "Outdoor Salsa, Timba & Bachata am Opernplatz Frankfurt. 18:45–19:30 Salsa Anfangerkurs, danach freies Tanzen bis 22:00. Instagram: @salsa.frankfurt",
+      "cats": "party workshop outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos","tag-free"]]
     },
     {
       "date": "2026-05-30",
@@ -318,6 +356,20 @@
       "desc": "Salsa, Bachata & Kizomba auf der Adria! Check-out 13. Juni morgens, Rückreise über Opatija. Anmeldung via WhatsApp-Gruppe bei Youyou.",
       "cats": "festival reise outdoor party",
       "tags": [["🌟 Festival","tag-festival"], ["⛵ Segeln","tag-reise"], ["7 Tage","tag-outdoor"], ["Party","tag-party"]]
+    },
+    {
+      "date": "2026-10-30",
+      "order": 5,
+      "type": "festival",
+      "emoji": "🎊",
+      "title": "Bachata Flow Generation Festival (30. Okt – 1. Nov)",
+      "time": "3 Tage · Workshops, Shows & Partys",
+      "location": "Centrium, Frankfurt",
+      "link": "https://fluxdancefestival.com",
+      "price": "Festivalpass (siehe Website)",
+      "desc": "Flux Dance presents: The Bachata Flow Generation. 3-tagiges internationales Festival in Frankfurt mit Top-Artists, Workshops und Partys. Infos & Tickets: fluxdancefestival.com",
+      "cats": "festival workshop party indoor",
+      "tags": [["🌟 Festival","tag-festival"], ["3 Tage","tag-outdoor"], ["Workshop","tag-workshop"], ["Party","tag-party"]]
     },
     {
       "date": "2026-07-10",
