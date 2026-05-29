@@ -316,6 +316,20 @@
     },
     {
       "date": "2026-05-29",
+      "order": 2,
+      "type": "outdoor",
+      "emoji": "🌴",
+      "title": "Fiesta Tropical – Open Air Mainz-Kastel",
+      "time": "ab 19:00 Uhr",
+      "location": "Rampenstr. 1A (Rheinufer), 55252 Wiesbaden (Mainz-Kastel)",
+      "dj": "Deejay Antonio Y Su Combo",
+      "price": "Eintritt frei",
+      "desc": "Fiesta Tropical Open Air am Rheinufer in Mainz-Kastel. Salsa, Bachata, Merengue & mehr mit Deejay Antonio Y Su Combo.",
+      "cats": "party outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
+    },
+    {
+      "date": "2026-05-29",
       "order": 3,
       "type": "outdoor",
       "emoji": "💃",
@@ -396,6 +410,20 @@
       "desc": "Salsa, Bachata & Kizomba auf der Adria! Check-out 13. Juni morgens, Rückreise über Opatija. Anmeldung via WhatsApp-Gruppe bei Youyou.",
       "cats": "festival reise outdoor party",
       "tags": [["🌟 Festival","tag-festival"], ["⛵ Segeln","tag-reise"], ["7 Tage","tag-outdoor"], ["Party","tag-party"]]
+    },
+    {
+      "date": "2026-08-22",
+      "order": 5,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Salsa & Bachata Night – Motsi Mabuse Taunustanzschule",
+      "time": "18:00 Aperitif · 19:15 Bachata Workshop · 20:15 Salsa Workshop · ab 21:00 Party",
+      "location": "Motsi Mabuse – Die Taunustanzschule, Margarete-v.-Wrangell-Str. 15, 65779 Kelkheim",
+      "dj": "Laura del Vecchio (Live DJ) · DJ Yala",
+      "price": "ab 20 € (Party) / 45 € (Party + Workshops)",
+      "desc": "Salsa & Bachata Night prasentiert von Motsi Mabuse – Die Taunustanzschule. 18:00 Aperitif, 19:15–20:00 Bachata Workshop, 20:15–21:00 Salsa Workshop, ab 21:00 Party open end. Tickets: Option 1 Party ohne Workshops 20€ (VVK) / 25€ Abendkasse inkl. Aperol Spritz. Option 2 Party + Workshops 45€ inkl. Aperol Spritz. Option 3 nur Workshop 20€ / beide Workshops 35€. Anmeldung: info@motsimabuse-dietanzschule.de oder Tel. +49 6195 977 59 40.",
+      "cats": "party workshop indoor",
+      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
     },
     {
       "date": "2026-10-30",
