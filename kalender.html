@@ -258,6 +258,35 @@
     /* empty */
     .empty { text-align: center; padding: 3rem 1rem; color: #8899b4; font-size: 0.9rem; }
 
+    /* ── PULL TO REFRESH ── */
+    .ptr-indicator {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: #a78bfa;
+      height: 0;
+      overflow: hidden;
+      transition: height 0.2s;
+      background: #0f1117;
+    }
+    .ptr-indicator.visible { height: 48px; }
+    .ptr-spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(167,139,250,0.3);
+      border-top-color: #a78bfa;
+      border-radius: 50%;
+      opacity: 0;
+    }
+    .ptr-indicator.loading .ptr-spinner {
+      opacity: 1;
+      animation: ptr-spin 0.7s linear infinite;
+    }
+    @keyframes ptr-spin { to { transform: rotate(360deg); } }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -272,6 +301,10 @@
 <header>
   <h1 id="siteTitle">💃 Salsa-Radar.de<br><span style="font-size:0.8em;opacity:0.8;">– Rhein-Main –</span></h1>
 </header>
+<div class="ptr-indicator" id="ptrIndicator">
+  <div class="ptr-spinner"></div>
+  <span class="ptr-text">↓ Zum Aktualisieren ziehen</span>
+</div>
 
 <div class="filters">
   <button class="filter-btn active" data-filter="alle">Alle</button>
@@ -540,13 +573,68 @@ document.getElementById('siteTitle').addEventListener('click', () => {
 });
 
 // ── DATEN LADEN ───────────────────────────────────────────────────
-fetch('events.json')
-  .then(r => r.json())
-  .then(data => buildCalendar(data.recurring, data.specific))
-  .catch(() => {
-    document.getElementById('emptyMsg').textContent = 'Fehler beim Laden der Termine.';
-    document.getElementById('emptyMsg').style.display = 'block';
-  });
+function loadEvents(isRefresh) {
+  const ptr = document.getElementById('ptrIndicator');
+  if (isRefresh) {
+    ptr.classList.add('loading');
+    ptr.querySelector('.ptr-text').textContent = 'Wird aktualisiert…';
+  }
+  fetch('events.json?v=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      document.querySelectorAll('.day-group').forEach(el => el.remove());
+      buildCalendar(data.recurring, data.specific);
+      if (isRefresh) {
+        ptr.classList.remove('loading');
+        ptr.querySelector('.ptr-text').textContent = '✓ Aktualisiert!';
+        setTimeout(() => {
+          ptr.classList.remove('visible');
+          ptr.querySelector('.ptr-text').textContent = '↓ Zum Aktualisieren ziehen';
+        }, 1200);
+      }
+    })
+    .catch(() => {
+      document.getElementById('emptyMsg').textContent = 'Fehler beim Laden der Termine.';
+      document.getElementById('emptyMsg').style.display = 'block';
+      if (isRefresh) ptr.classList.remove('visible', 'loading');
+    });
+}
+
+// ── PULL TO REFRESH ───────────────────────────────────────────────
+let ptrStartY = 0;
+let ptrActive = false;
+const PTR_THRESHOLD = 70;
+const ptrEl = document.getElementById('ptrIndicator');
+
+document.addEventListener('touchstart', e => {
+  if (window.scrollY === 0) {
+    ptrStartY = e.touches[0].clientY;
+    ptrActive = true;
+  }
+}, { passive: true });
+
+document.addEventListener('touchmove', e => {
+  if (!ptrActive) return;
+  const dy = e.touches[0].clientY - ptrStartY;
+  if (dy > 10) {
+    ptrEl.classList.add('visible');
+    ptrEl.querySelector('.ptr-text').textContent =
+      dy >= PTR_THRESHOLD ? '↑ Loslassen zum Aktualisieren' : '↓ Zum Aktualisieren ziehen';
+  }
+}, { passive: true });
+
+document.addEventListener('touchend', e => {
+  if (!ptrActive) return;
+  ptrActive = false;
+  const dy = e.changedTouches[0].clientY - ptrStartY;
+  if (dy >= PTR_THRESHOLD) {
+    loadEvents(true);
+  } else {
+    ptrEl.classList.remove('visible');
+  }
+});
+
+loadEvents(false);
 </script>
 </body>
 </html>
