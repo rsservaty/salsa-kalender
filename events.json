@@ -93,6 +93,19 @@
       "desc": "Salsa, Bachata & Kizomba am Rheinufer. Saisonale Veranstaltung (ca. Mai–September), wetterabhängig – bei schlechtem Wetter Absage (Info in WhatsApp-Gruppe).",
       "cats": "party outdoor recurring free",
       "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Wetterabhängig","tag-recurring"]]
+    },
+    {
+      "weekday": 4,
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🏖️",
+      "title": "Salsa am Beach – Honischbeach (wetterabhängig)",
+      "time": "ab Einbruch der Dunkelheit",
+      "location": "Honischbeach, Niedernberg (bei Aschaffenburg)",
+      "price": "Eintritt frei",
+      "desc": "Saisonale Outdoor-Salsa-Party am Honischbeach in Niedernberg. Ab April jeden Donnerstag bei schönem Wetter. Bei Regen Absage – Info in der Gruppe.",
+      "cats": "party outdoor recurring free",
+      "tags": [["🔁 Wöchentlich","tag-recurring"], ["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Wetterabhängig","tag-recurring"]]
     }
   ],
   "specific": [
@@ -300,6 +313,33 @@
       "desc": "Outdoor Salsa, Timba & Bachata am Opernplatz Frankfurt. 18:45–19:30 Salsa Anfangerkurs, danach freies Tanzen bis 22:00. Instagram: @salsa.frankfurt",
       "cats": "party workshop outdoor free",
       "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos","tag-free"]]
+    },
+    {
+      "date": "2026-05-29",
+      "order": 3,
+      "type": "outdoor",
+      "emoji": "💃",
+      "title": "Bachata at GoetheUni – Open Air",
+      "time": "18:00–19:00 Practice · 19:00–20:00 Bachazouk · 20:00–22:00 Open Air Practice",
+      "location": "Goetheuniversitat, Theodor-W.-Adorno-Platz 2, Frankfurt",
+      "price": "Eintritt frei",
+      "desc": "Bachata Open Air an der Goetheuniversitat Frankfurt. 18:00 Practice, 19:00 Bachazouk, 20:00 Open Air Practice bis 22:00. Dance. Connect. Enjoy.",
+      "cats": "workshop outdoor free",
+      "tags": [["☀️ Outdoor","tag-outdoor"], ["Workshop","tag-workshop"], ["Kostenlos","tag-free"]]
+    },
+    {
+      "date": "2026-05-29",
+      "order": 7,
+      "type": "party",
+      "emoji": "🎺",
+      "title": "Havana Night – Salon Latino Darmstadt",
+      "time": "19:00 Einsteiger Workshop · 20:00 Fortgeschrittene · 21:00 Salsa Party",
+      "location": "Salon Latino, Rheinstr. 99, 64295 Darmstadt",
+      "dj": "DJ Calentador",
+      "price": "Eintritt variiert",
+      "desc": "Havana Night im Salon Latino. 19:00 Einsteiger Workshop, 20:00 Workshop Fortgeschrittene, ab 21:00 Salsa Party mit DJ Calentador. Veranstalter: Ronneburger Tanzsportclub.",
+      "cats": "party workshop indoor",
+      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
     },
     {
       "date": "2026-05-30",
