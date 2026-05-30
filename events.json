@@ -11,7 +11,28 @@
       "price": "Spendenbasis",
       "desc": "Salsa, Bachata, Kizomba, Merengue auf 2 Tanzflächen. Bei Regen weicht die Gruppe in die Christ-König-Gemeinde Praunheim aus. Buffet inklusive – gerne Fingerfood mitbringen.",
       "cats": "party workshop outdoor recurring free",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos (Spende)",
+          "tag-free"
+        ]
+      ]
     },
     {
       "weekday": 2,
@@ -24,7 +45,20 @@
       "price": "Spendenbasis",
       "desc": "Zumba Gold Mix & Zumba Gold Seated. Sportkleidung. Optional: kleine Hanteln (max. 1 kg) oder 2 × 500-ml-Wasserflaschen mitbringen.",
       "cats": "workshop recurring free",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos (Spende)",
+          "tag-free"
+        ]
+      ]
     },
     {
       "weekday": 2,
@@ -37,7 +71,24 @@
       "price": "Spendenbasis",
       "desc": "19:30–20:00 Salsa Cubana (auch als Line Dance). 20:00–21:00 Rueda de Casino. Level: Mittelstufe / Fortgeschrittene. Mit Youyou.",
       "cats": "workshop outdoor recurring free",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["☀️ Outdoor","tag-outdoor"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos (Spende)",
+          "tag-free"
+        ]
+      ]
     },
     {
       "weekday": 3,
@@ -51,7 +102,24 @@
       "price": "10 € / 7 € Stud.",
       "desc": "Floor 1: Bachata-Workshop + Party. Floor 2: Kizomba & Salsa-Workshop + Party. Top DJs, 2 Dancefloors, mega Stimmung.",
       "cats": "party workshop indoor recurring",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["Indoor","tag-indoor"], ["Party","tag-party"], ["Workshop","tag-workshop"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ]
     },
     {
       "weekday": 2,
@@ -65,7 +133,24 @@
       "price": "Freier Eintritt bis 21 Uhr",
       "desc": "Wöchentliche Salsa-Bachata-Kizomba-Party im Wohnzimmer Wiesbaden. Klimatisierte Tanzfläche, Parkhaus nebenan.",
       "cats": "party indoor recurring free",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["Party","tag-party"], ["Indoor","tag-indoor"], ["Wiesbaden","tag-free"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ],
+        [
+          "Wiesbaden",
+          "tag-free"
+        ]
+      ]
     },
     {
       "weekday": 5,
@@ -78,7 +163,20 @@
       "price": "5 €",
       "desc": "Wöchentliche Salsa-Bachata-Party. Parken beim Arbeitsamt Mainz oder direkt bei der Tanzschule. Lässige Atmosphäre, günstiger Eintritt.",
       "cats": "party indoor recurring",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["Party","tag-party"], ["Indoor","tag-indoor"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
     },
     {
       "weekday": 6,
@@ -92,7 +190,24 @@
       "price": "Eintritt frei",
       "desc": "Salsa, Bachata & Kizomba am Rheinufer. Saisonale Veranstaltung (ca. Mai–September), wetterabhängig – bei schlechtem Wetter Absage (Info in WhatsApp-Gruppe).",
       "cats": "party outdoor recurring free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Wetterabhängig","tag-recurring"]]
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ],
+        [
+          "Wetterabhängig",
+          "tag-recurring"
+        ]
+      ]
     },
     {
       "weekday": 4,
@@ -105,256 +220,31 @@
       "price": "Eintritt frei",
       "desc": "Saisonale Outdoor-Salsa-Party am Honischbeach in Niedernberg. Ab April jeden Donnerstag bei schönem Wetter. Bei Regen Absage – Info in der Gruppe.",
       "cats": "party outdoor recurring free",
-      "tags": [["🔁 Wöchentlich","tag-recurring"], ["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Wetterabhängig","tag-recurring"]]
+      "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ],
+        [
+          "Wetterabhängig",
+          "tag-recurring"
+        ]
+      ]
     }
   ],
   "specific": [
-    {
-      "date": "2026-05-21",
-      "order": 5,
-      "type": "party",
-      "emoji": "🎶",
-      "title": "Bachata & Salsa Night im MyZeil Frankfurt",
-      "time": "19:30 Open Air · 20:00 Workshop · 22:00 Party",
-      "location": "MyZeil Frankfurt (Terrasse L'Osteria + Innen)",
-      "dj": "DJ Roberto",
-      "price": "Eintritt variiert",
-      "desc": "Ab 19:30 Open-Air-Warmup auf der Terrasse. 20:00 Bachata Basics mit Luis & Julia, 21:00 Bachata Mittelstufe. Ab 22:00 Bachata & Salsa Party.",
-      "cats": "party workshop indoor outdoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Outdoor & Indoor","tag-outdoor"]]
-    },
-    {
-      "date": "2026-05-22",
-      "order": 4,
-      "type": "outdoor",
-      "emoji": "🌇",
-      "title": "Bachata am Main Friday",
-      "time": "19:30 Beginner · 20:00 Open Level Workshop · 21:00 Social Dance",
-      "location": "Honsellstraße 7, 60314 Frankfurt",
-      "link": "https://www.instagram.com/bachata.meetup",
-      "price": "Spendenbasis",
-      "desc": "Bachata Open Air an der Honsellbrücke. 19:30 Beginner, 20:00 Open Level Workshop, ab 21:00 Social Dance.",
-      "cats": "workshop outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
-    },
-    {
-      "date": "2026-05-22",
-      "order": 8,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Bachata & Salsa Cubana & Latino Party – Conexion",
-      "time": "21:00 Bachata Kurs · 21:15 Salsa Rueda · 22:00 Party",
-      "location": "Conexion, Am Industriehof 7, Frankfurt",
-      "dj": "DJ Yexy · DJ Francesco · DG DG",
-      "price": "10 € inkl. Kurs",
-      "link": "https://www.conexion.de",
-      "desc": "21:00–22:00 Bachata Mittelstufe Kurs mit Yexy & Sofia. 21:15–21:45 Salsa Rueda. Ab 22:00 Bachata, Salsa Cubana & Latino Party.",
-      "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
-    },
-    {
-      "date": "2026-05-22",
-      "order": 5,
-      "type": "party",
-      "emoji": "🎵",
-      "title": "Salsa-Treff Frankfurt",
-      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
-      "location": "Miquelallee 160, 60323 Frankfurt",
-      "link": "https://www.salsa-treff.net",
-      "price": "Eintritt frei",
-      "desc": "Monatlicher Salsa- & Bachata-Tanzabend. 19:00 kostenlose Schnuppertanzkurse für Neueinsteiger, ab 20:00 offener Tanzabend. Mehr: salsa-treff.net",
-      "cats": "party workshop indoor free",
-      "tags": [["Party","tag-party"], ["Schnupperkurs","tag-workshop"], ["Indoor","tag-indoor"], ["Kostenlos","tag-free"]]
-    },
-    {
-      "date": "2026-05-23",
-      "order": 2,
-      "type": "outdoor",
-      "emoji": "🎧",
-      "title": "Rumba y Vacilón – Salsa & Bachata Open-Air",
-      "time": "ab 19:00 Uhr",
-      "location": "An der Honselbrücke, Frankfurt am Main",
-      "dj": "DJ del Barrio",
-      "price": "Eintritt frei",
-      "desc": "Salsa und Bachata in the Mix – Open-Air an der Honselbrücke mit DJ del Barrio. Freier Eintritt.",
-      "cats": "party outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
-    },
-    {
-      "date": "2026-05-23",
-      "order": 3,
-      "type": "workshop",
-      "emoji": "🩰",
-      "title": "Toalha Intensive – Bachata Workshop",
-      "time": "16:00 – 18:00 Uhr",
-      "location": "Tanzschule Weiss, Offenbach",
-      "price": "25 € / 20 € (Stud. u. 27 J.)",
-      "desc": "Intensiv-Workshop mit Olga. Anmeldung an der Tür. Ideal für alle, die ihre Technik vertiefen wollen.",
-      "cats": "workshop indoor",
-      "tags": [["Workshop","tag-workshop"], ["Intensiv","tag-indoor"]]
-    },
-    {
-      "date": "2026-05-23",
-      "order": 6,
-      "type": "party",
-      "emoji": "🔥",
-      "title": "Bachata XXL – Darmstadt Edition",
-      "time": "20:00 Workshops · 22:00 Party",
-      "location": "Weststadt Bar, Mainzer Str. 106, 64293 Darmstadt",
-      "dj": "DJ Roberto",
-      "price": "Eintritt variiert",
-      "desc": "20:00–21:00 Bachata Fusion mit Rafael & Chiara. 21:00–22:00 Madrid Combos mit Yulenka & Jhersy (Madrid). Ab 22:00 Party.",
-      "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
-    },
-    {
-      "date": "2026-05-23",
-      "order": 8,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Gran Fiesta – Conexion Frankfurt",
-      "time": "20:00 Kurse · 22:00 Party · Gratis Buffet",
-      "location": "Conexion, Am Industriehof 7, Frankfurt",
-      "dj": "DJ Andres · DJ Hawa · DJ Yexy · DJ Instinct",
-      "price": "12 € inkl. Kurse",
-      "desc": "4 Tanzflächen: Bachata / Salsa Mix / Salsa Linea / Kizomba. Kurse: 20:00 Salsa Suelta (Jordan), 20:45 Salsa & Bachata Anfänger, 21:00 Bachata Mittelstufe (Yexy & Sofia). Gratis-Buffet süß & herzhaft!",
-      "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
-    },
-    {
-      "date": "2026-05-24",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "🌟",
-      "title": "Outdoor Fiesta Latina – Honsellbrücke",
-      "time": "17:00–18:00 Salsa & Rueda Beginner · 18:00–19:00 Rueda de Casino · 19:00–22:30 Social Club Dance",
-      "location": "Unter der Honsellbrücke, Honsellstraße 7, 60314 Frankfurt",
-      "link": "https://maps.app.goo.gl/j3bLNYy2dig9uyvcA",
-      "price": "Spendenbasis (PayPal: youyouffm@gmail.com)",
-      "desc": "17:00–18:00 Salsa & Rueda for Beginner. 18:00–19:00 Rueda de Casino for all. 19:00–22:30 Social Club Dance – freies Tanzen: Salsa, Bachata, Kizomba, Merengue, Reggaeton. Wasser, Softgetränke & Naschereien vorhanden – Fingerfood willkommen! Parken: Querstraße 24, 60314 Frankfurt.",
-      "cats": "party workshop outdoor free",
-      "tags": [["🌟 Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos (Spende)","tag-free"]]
-    },
-    {
-      "date": "2026-05-24",
-      "order": 6,
-      "type": "outdoor",
-      "emoji": "🧺",
-      "title": "Salsa & Bachata Picknick – Season Opening",
-      "time": "ab 18:00 Uhr",
-      "location": "Lieblingspaltz, Rampenstraße, Mainz-Kastel",
-      "dj": "DJ Lobo",
-      "price": "Eintritt frei",
-      "desc": "Season Opening! Finest Salsa, Bachata y Kiz am Rheinufer in Mainz-Kastel. Open-Air Picknick-Atmosphäre mit DJ Lobo.",
-      "cats": "party outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"], ["Season Opening","tag-festival"]]
-    },
-    {
-      "date": "2026-05-25",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "⚓",
-      "title": "Outdoor Salsa & Bachata Night – Am Alten Kran",
-      "time": "ab 18:00 Uhr",
-      "location": "Am Rheinufer, Mainz-Kastel (am Alten Kran)",
-      "dj": "DJ Sergio",
-      "price": "Spendenbasis",
-      "desc": "Salsa, Bachata & Merengue am Rheinufer in Mainz-Kastel. Powered by Baila Con Corazon. Auf Spendenbasic – kommt und tanzt!",
-      "cats": "party outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos (Spende)","tag-free"]]
-    },
-    {
-      "date": "2026-05-26",
-      "order": 3,
-      "type": "party",
-      "emoji": "🌍",
-      "title": "International Tuesday – El Punto Frankfurt",
-      "time": "ab 18:00 Uhr",
-      "location": "El Punto Restaurant, Walther-von-Cronberg-Platz 3, Frankfurt",
-      "price": "5 € an der Abendkasse",
-      "desc": "International Tuesday – Every Tuesday at El Punto Frankfurt. Salsa, Bachata & mehr. Doors open 18:00. 5€ at the door.",
-      "cats": "party indoor",
-      "tags": [["Party","tag-party"], ["Indoor","tag-indoor"]]
-    },
-    {
-      "date": "2026-05-26",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "🏰",
-      "title": "Salsa Bachata Open-Air – Schloss Biergarten Mainz",
-      "time": "ab 18:00 Uhr",
-      "location": "Schloss Biergarten, Mainz",
-      "price": "Eintritt frei",
-      "desc": "Open-Air Salsa & Bachata im Schloss-Biergarten Mainz. Eintritt ist frei – einfach vorbeikommen und tanzen!",
-      "cats": "party outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
-    },
-    {
-      "date": "2026-05-26",
-      "order": 7,
-      "type": "party",
-      "emoji": "💫",
-      "title": "Baila con Corazón – Heidelberg",
-      "time": "Abends (Zeit nicht angegeben)",
-      "location": "Chapel, Rheinstr. 12/4, Heidelberg",
-      "desc": "3 Floors, 6 Workshops. Artists: Martin y Vanessa & Audrey & Claudia (Bachata Sensual), DJ Lobo (Bachata), DJ KizSaa (Salsa), Chris y Mira (Kizomba), German y Cristina (Salsa Line LA), Maryna (Footwork).",
-      "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["3 Floors","tag-festival"]]
-    },
-    {
-      "date": "2026-05-28",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "🎭",
-      "title": "Salsa an der Oper – Outdoor",
-      "time": "18:45–19:30 Salsa Kurs Anfänger · 19:30–22:00 Tanzen",
-      "location": "Opernplatz, 60313 Frankfurt",
-      "price": "Eintritt frei",
-      "desc": "Outdoor Salsa, Timba & Bachata am Opernplatz Frankfurt. 18:45–19:30 Salsa Anfangerkurs, danach freies Tanzen bis 22:00. Instagram: @salsa.frankfurt",
-      "cats": "party workshop outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Workshop","tag-workshop"], ["Kostenlos","tag-free"]]
-    },
-    {
-      "date": "2026-05-29",
-      "order": 2,
-      "type": "outdoor",
-      "emoji": "🌴",
-      "title": "Fiesta Tropical – Open Air Mainz-Kastel",
-      "time": "ab 19:00 Uhr",
-      "location": "Rampenstr. 1A (Rheinufer), 55252 Wiesbaden (Mainz-Kastel)",
-      "dj": "Deejay Antonio Y Su Combo",
-      "price": "Eintritt frei",
-      "desc": "Fiesta Tropical Open Air am Rheinufer in Mainz-Kastel. Salsa, Bachata, Merengue & mehr mit Deejay Antonio Y Su Combo.",
-      "cats": "party outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Party","tag-party"], ["Kostenlos","tag-free"]]
-    },
-    {
-      "date": "2026-05-29",
-      "order": 3,
-      "type": "outdoor",
-      "emoji": "💃",
-      "title": "Bachata at GoetheUni – Open Air",
-      "time": "18:00–19:00 Practice · 19:00–20:00 Bachazouk · 20:00–22:00 Open Air Practice",
-      "location": "Goetheuniversitat, Theodor-W.-Adorno-Platz 2, Frankfurt",
-      "price": "Eintritt frei",
-      "desc": "Bachata Open Air an der Goetheuniversitat Frankfurt. 18:00 Practice, 19:00 Bachazouk, 20:00 Open Air Practice bis 22:00. Dance. Connect. Enjoy.",
-      "cats": "workshop outdoor free",
-      "tags": [["☀️ Outdoor","tag-outdoor"], ["Workshop","tag-workshop"], ["Kostenlos","tag-free"]]
-    },
-    {
-      "date": "2026-05-29",
-      "order": 7,
-      "type": "party",
-      "emoji": "🎺",
-      "title": "Havana Night – Salon Latino Darmstadt",
-      "time": "19:00 Einsteiger Workshop · 20:00 Fortgeschrittene · 21:00 Salsa Party",
-      "location": "Salon Latino, Rheinstr. 99, 64295 Darmstadt",
-      "dj": "DJ Calentador",
-      "price": "Eintritt variiert",
-      "desc": "Havana Night im Salon Latino. 19:00 Einsteiger Workshop, 20:00 Workshop Fortgeschrittene, ab 21:00 Salsa Party mit DJ Calentador. Veranstalter: Ronneburger Tanzsportclub.",
-      "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
-    },
     {
       "date": "2026-05-30",
       "order": 5,
@@ -368,7 +258,24 @@
       "link": "https://salsa-autentica.de/event/",
       "desc": "Workshop Intermediate On2 mit Salsa Auténtica / Gül & Ben (20:00). Ab 21:00 Salsa Party bis 01:00 mit DJ Kamal Dura. Eintritt 10 € inkl. Workshop, nur Barzahlung.",
       "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["Wiesbaden","tag-free"]]
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ],
+        [
+          "Wiesbaden",
+          "tag-free"
+        ]
+      ]
     },
     {
       "date": "2026-05-30",
@@ -382,7 +289,55 @@
       "price": "12 € inkl. Kurse",
       "desc": "Gratis Preparty Kurse: 20:45–22:00 Salsa & Bachata Beginner. 20:00–21:00 Bachata Mittelstufe 2 (Nick & Raquel). 21:00–22:00 Bachata Mittelstufe 1 (Nick & Raquel). 21:00–22:00 Salsa Suelta for Men & Ladies (Yordan). Ab 22:00 Party auf 4 Floors: Salsa Cubana, Salsa Mambo, Bachata, Kizomba. After Raquel's Bootcamp.",
       "cats": "party workshop indoor festival",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"], ["4 Floors","tag-festival"]]
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ],
+        [
+          "4 Floors",
+          "tag-festival"
+        ]
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "order": 5,
+      "type": "outdoor",
+      "emoji": "🌟",
+      "title": "Outdoor Fiesta Latina – Honsellbrücke",
+      "time": "16:00–17:00 Salsa for Beginner · 17:00–18:00 Rueda for Beginner · 18:00–19:00 Rueda de Casino · 19:00–22:30 Social Club Dance",
+      "location": "Unter der Honsellbrücke, Honsellstraße 7, 60314 Frankfurt",
+      "link": "https://maps.app.goo.gl/j3bLNYy2dig9uyvcA",
+      "price": "Spendenbasis (PayPal: youyouffm@gmail.com)",
+      "desc": "16:00–17:00 Salsa for Beginner. 17:00–18:00 Rueda for Beginner. 18:00–19:00 Rueda de Casino for all. 19:00–22:30 Social Club Dance – freies Tanzen: Salsa, Bachata, Kizomba, Merengue, Reggaeton. Wasser, Softgetränke & Naschereien vorhanden – Fingerfood willkommen! Parken: Querstraße 24, 60314 Frankfurt.",
+      "cats": "party workshop outdoor free",
+      "tags": [
+        [
+          "🌟 Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos (Spende)",
+          "tag-free"
+        ]
+      ]
     },
     {
       "date": "2026-06-03",
@@ -396,7 +351,20 @@
       "price": "ca. 130 €",
       "desc": "Gemeinsame Anreise per Auto. 4.–6. Juni in Opatija. Ab 6. Juni: Einschiffung in Pula (16:00 Uhr) für das SailnSalsa-Festival. Alternativ: Flug nach Pula, Rijeka oder Triest. Buchung: booking.schneebeben.de/5/802",
       "cats": "festival reise",
-      "tags": [["🌟 Festival","tag-festival"], ["⛵ Segelreise","tag-reise"], ["☀️ Outdoor","tag-outdoor"]]
+      "tags": [
+        [
+          "🌟 Festival",
+          "tag-festival"
+        ],
+        [
+          "⛵ Segelreise",
+          "tag-reise"
+        ],
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ]
+      ]
     },
     {
       "date": "2026-06-06",
@@ -409,35 +377,24 @@
       "price": "im Reisepaket (ca. 130 €)",
       "desc": "Salsa, Bachata & Kizomba auf der Adria! Check-out 13. Juni morgens, Rückreise über Opatija. Anmeldung via WhatsApp-Gruppe bei Youyou.",
       "cats": "festival reise outdoor party",
-      "tags": [["🌟 Festival","tag-festival"], ["⛵ Segeln","tag-reise"], ["7 Tage","tag-outdoor"], ["Party","tag-party"]]
-    },
-    {
-      "date": "2026-08-22",
-      "order": 5,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Salsa & Bachata Night – Motsi Mabuse Taunustanzschule",
-      "time": "18:00 Aperitif · 19:15 Bachata Workshop · 20:15 Salsa Workshop · ab 21:00 Party",
-      "location": "Motsi Mabuse – Die Taunustanzschule, Margarete-v.-Wrangell-Str. 15, 65779 Kelkheim",
-      "dj": "Laura del Vecchio (Live DJ) · DJ Yala",
-      "price": "ab 20 € (Party) / 45 € (Party + Workshops)",
-      "desc": "Salsa & Bachata Night prasentiert von Motsi Mabuse – Die Taunustanzschule. 18:00 Aperitif, 19:15–20:00 Bachata Workshop, 20:15–21:00 Salsa Workshop, ab 21:00 Party open end. Tickets: Option 1 Party ohne Workshops 20€ (VVK) / 25€ Abendkasse inkl. Aperol Spritz. Option 2 Party + Workshops 45€ inkl. Aperol Spritz. Option 3 nur Workshop 20€ / beide Workshops 35€. Anmeldung: info@motsimabuse-dietanzschule.de oder Tel. +49 6195 977 59 40.",
-      "cats": "party workshop indoor",
-      "tags": [["Party","tag-party"], ["Workshop","tag-workshop"], ["Indoor","tag-indoor"]]
-    },
-    {
-      "date": "2026-10-30",
-      "order": 5,
-      "type": "festival",
-      "emoji": "🎊",
-      "title": "Bachata Flow Generation Festival (30. Okt – 1. Nov)",
-      "time": "3 Tage · Workshops, Shows & Partys",
-      "location": "Centrium, Frankfurt",
-      "link": "https://fluxdancefestival.com",
-      "price": "Festivalpass (siehe Website)",
-      "desc": "Flux Dance presents: The Bachata Flow Generation. 3-tagiges internationales Festival in Frankfurt mit Top-Artists, Workshops und Partys. Infos & Tickets: fluxdancefestival.com",
-      "cats": "festival workshop party indoor",
-      "tags": [["🌟 Festival","tag-festival"], ["3 Tage","tag-outdoor"], ["Workshop","tag-workshop"], ["Party","tag-party"]]
+      "tags": [
+        [
+          "🌟 Festival",
+          "tag-festival"
+        ],
+        [
+          "⛵ Segeln",
+          "tag-reise"
+        ],
+        [
+          "7 Tage",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ]
     },
     {
       "date": "2026-07-10",
@@ -452,7 +409,82 @@
       "price": "Festivalpass (Frühbucher-Rabatt)",
       "desc": "Internationales Festival mit Top-Artists: Marco Espejo, Raquel, Gero & Migle, Eduardo & Natalia (Frankfurt). Live: Shama. Tickets: goandance.com/en/event/8960/strasbourg-bachata-festival-2026 · Code: DJROBERTO",
       "cats": "festival workshop party",
-      "tags": [["🌟 Festival","tag-festival"], ["3 Tage","tag-outdoor"], ["Workshop","tag-workshop"], ["Party","tag-party"]]
+      "tags": [
+        [
+          "🌟 Festival",
+          "tag-festival"
+        ],
+        [
+          "3 Tage",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "order": 5,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Salsa & Bachata Night – Motsi Mabuse Taunustanzschule",
+      "time": "18:00 Aperitif · 19:15 Bachata Workshop · 20:15 Salsa Workshop · ab 21:00 Party",
+      "location": "Motsi Mabuse – Die Taunustanzschule, Margarete-v.-Wrangell-Str. 15, 65779 Kelkheim",
+      "dj": "Laura del Vecchio (Live DJ) · DJ Yala",
+      "price": "ab 20 € (Party) / 45 € (Party + Workshops)",
+      "desc": "Salsa & Bachata Night prasentiert von Motsi Mabuse – Die Taunustanzschule. 18:00 Aperitif, 19:15–20:00 Bachata Workshop, 20:15–21:00 Salsa Workshop, ab 21:00 Party open end. Tickets: Option 1 Party ohne Workshops 20€ (VVK) / 25€ Abendkasse inkl. Aperol Spritz. Option 2 Party + Workshops 45€ inkl. Aperol Spritz. Option 3 nur Workshop 20€ / beide Workshops 35€. Anmeldung: info@motsimabuse-dietanzschule.de oder Tel. +49 6195 977 59 40.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "order": 5,
+      "type": "festival",
+      "emoji": "🎊",
+      "title": "Bachata Flow Generation Festival (30. Okt – 1. Nov)",
+      "time": "3 Tage · Workshops, Shows & Partys",
+      "location": "Centrium, Frankfurt",
+      "link": "https://fluxdancefestival.com",
+      "price": "Festivalpass (siehe Website)",
+      "desc": "Flux Dance presents: The Bachata Flow Generation. 3-tagiges internationales Festival in Frankfurt mit Top-Artists, Workshops und Partys. Infos & Tickets: fluxdancefestival.com",
+      "cats": "festival workshop party indoor",
+      "tags": [
+        [
+          "🌟 Festival",
+          "tag-festival"
+        ],
+        [
+          "3 Tage",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ]
     }
   ]
 }
