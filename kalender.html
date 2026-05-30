@@ -444,9 +444,15 @@ end.setDate(end.getDate() + 70);
 
 const allEvents = [];
 
+// Daten wo recurring Events unterdrückt werden (hideRecurring: true)
+const hideRecurringDates = new Set(
+  specific.filter(s => s.hideRecurring).map(s => s.date)
+);
+
 // Wiederkehrende Termine
 for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
   const cur = new Date(d);
+  if (hideRecurringDates.has(dateKey(cur))) continue;
   recurring.forEach(r => {
     if (cur.getDay() === r.weekday) {
       allEvents.push({ ...r, dateObj: new Date(cur), isRecurring: true });
