@@ -32,7 +32,8 @@
           "Kostenlos (Spende)",
           "tag-free"
         ]
-      ]
+      ],
+      "dj": "Youyou"
     },
     {
       "weekday": 2,
@@ -88,7 +89,8 @@
           "Kostenlos (Spende)",
           "tag-free"
         ]
-      ]
+      ],
+      "dj": "Youyou"
     },
     {
       "weekday": 3,
@@ -364,7 +366,9 @@
           "Kostenlos (Spende)",
           "tag-free"
         ]
-      ]
+      ],
+      "dj": "Youyou",
+      "hideRecurring": true
     },
     {
       "date": "2026-06-03",
