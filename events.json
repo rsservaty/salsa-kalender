@@ -247,6 +247,33 @@
   "specific": [
     {
       "date": "2026-05-30",
+      "order": 3,
+      "type": "outdoor",
+      "emoji": "🎧",
+      "title": "Rumba y Vacilón – Salsa & Bachata in the Mix",
+      "time": "ab 19:00 Uhr",
+      "location": "An der Honselbrücke, Frankfurt am Main",
+      "dj": "DJ del Barrio",
+      "price": "Freier Eintritt",
+      "desc": "Salsa und Bachata in the Mix – Open-Air an der Honselbrücke Frankfurt mit DJ del Barrio. Freier Eintritt.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-05-30",
       "order": 5,
       "type": "party",
       "emoji": "🎺",
@@ -344,12 +371,12 @@
       "order": 5,
       "type": "festival",
       "emoji": "⛵",
-      "title": "Sail & Salsa 2026 – Abfahrt Kroatien",
-      "time": "Abends: Autofahrt Richtung Kroatien",
+      "title": "Sail'n'Salsa 2026 – Roadtrip ab Frankfurt",
+      "time": "Später Abend – Roadtrip Richtung Opatija/Kroatien",
       "location": "Ziel: Opatija & Pula, Kroatien",
-      "link": "https://booking.schneebeben.de/5/802",
+      "link": "https://www.instagram.com/sailnsalsa",
       "price": "ca. 130 €",
-      "desc": "Gemeinsame Anreise per Auto. 4.–6. Juni in Opatija. Ab 6. Juni: Einschiffung in Pula (16:00 Uhr) für das SailnSalsa-Festival. Alternativ: Flug nach Pula, Rijeka oder Triest. Buchung: booking.schneebeben.de/5/802",
+      "desc": "03.06. Roadtrip ab Frankfurt (später Abend). 04.–06.06. Opatija: Sonne, Strand & Rueda de Casino. Ab 06.06. Einschiffung in Pula. Flugoptionen: Pula, Rijeka oder Triest. Flixbus nach Rijeka (03.06.) verfügbar. Kontakt: Telegram @sailnsalsa · Instagram @sailnsalsa",
       "cats": "festival reise",
       "tags": [
         [
@@ -371,11 +398,11 @@
       "order": 5,
       "type": "festival",
       "emoji": "🌊",
-      "title": "SailnSalsa Festival – Segelwoche (6.–13. Juni)",
-      "time": "16:00 Uhr Check-in auf Yachten · bis 13. Juni",
-      "location": "Hafen Pula, Kroatien → Adria",
+      "title": "Sail'n'Salsa Festival – Segelwoche (6.–13. Juni)",
+      "time": "06.06. Einschiffung Pula · bis 13.06.",
+      "location": "Hafen Pula, Kroatien → Adria (Istrien, Opatija, Rovinj)",
       "price": "im Reisepaket (ca. 130 €)",
-      "desc": "Salsa, Bachata & Kizomba auf der Adria! Check-out 13. Juni morgens, Rückreise über Opatija. Anmeldung via WhatsApp-Gruppe bei Youyou.",
+      "desc": "Sail & Salsa Week ab Pula! 2 Segelyachten: Lagoon 46 Catamaran & Beneteau 46.1. Bis 22 Salsailors, 7+ Sprachen, Altersgruppe 27–46. Route: Pula → Adria → Rovinj. Startoptionen: Opatija 04.–05.06. oder direkt Pula 06.06. Kontakt: Telegram @sailnsalsa · Instagram @sailnsalsa",
       "cats": "festival reise outdoor party",
       "tags": [
         [
@@ -394,7 +421,8 @@
           "Party",
           "tag-party"
         ]
-      ]
+      ],
+      "link": "https://www.instagram.com/sailnsalsa"
     },
     {
       "date": "2026-07-10",
