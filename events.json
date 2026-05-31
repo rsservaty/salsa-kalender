@@ -248,96 +248,6 @@
   ],
   "specific": [
     {
-      "date": "2026-05-30",
-      "order": 3,
-      "type": "outdoor",
-      "emoji": "🎧",
-      "title": "Rumba y Vacilón – Salsa & Bachata in the Mix",
-      "time": "ab 19:00 Uhr",
-      "location": "An der Honselbrücke, Frankfurt am Main",
-      "dj": "DJ del Barrio",
-      "price": "Freier Eintritt",
-      "desc": "Salsa und Bachata in the Mix – Open-Air an der Honselbrücke Frankfurt mit DJ del Barrio. Freier Eintritt.",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ]
-    },
-    {
-      "date": "2026-05-30",
-      "order": 5,
-      "type": "party",
-      "emoji": "🎺",
-      "title": "Salsa Party Wiesbaden – Sombrero Latino",
-      "time": "20:00 Workshop (Intermediate On2) · 21:00 Party bis 01:00",
-      "location": "Sombrero Latino, Adolfstraße 3, 65185 Wiesbaden",
-      "dj": "DJ Kamal Dura",
-      "price": "10 € inkl. Workshop (nur Bar)",
-      "link": "https://salsa-autentica.de/event/",
-      "desc": "Workshop Intermediate On2 mit Salsa Auténtica / Gül & Ben (20:00). Ab 21:00 Salsa Party bis 01:00 mit DJ Kamal Dura. Eintritt 10 € inkl. Workshop, nur Barzahlung.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ],
-        [
-          "Wiesbaden",
-          "tag-free"
-        ]
-      ]
-    },
-    {
-      "date": "2026-05-30",
-      "order": 8,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Gran Fiesta – 4 Floors / 4 DJs (Conexion)",
-      "time": "20:00 Gratis Kurse · 22:00 Party",
-      "location": "Conexion, Am Industriehof 7, Frankfurt",
-      "dj": "DJ Francesco (Salsa Cubana) · DJane Mambo · DJ ABDD (Bachata) · DJ Arman (Kiz)",
-      "price": "12 € inkl. Kurse",
-      "desc": "Gratis Preparty Kurse: 20:45–22:00 Salsa & Bachata Beginner. 20:00–21:00 Bachata Mittelstufe 2 (Nick & Raquel). 21:00–22:00 Bachata Mittelstufe 1 (Nick & Raquel). 21:00–22:00 Salsa Suelta for Men & Ladies (Yordan). Ab 22:00 Party auf 4 Floors: Salsa Cubana, Salsa Mambo, Bachata, Kizomba. After Raquel's Bootcamp.",
-      "cats": "party workshop indoor festival",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ],
-        [
-          "4 Floors",
-          "tag-festival"
-        ]
-      ]
-    },
-    {
       "date": "2026-05-31",
       "order": 5,
       "type": "outdoor",
@@ -396,6 +306,30 @@
           "tag-outdoor"
         ]
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "order": 30,
+      "type": "party",
+      "emoji": "⭐",
+      "title": "Bachata XXL Darmstadt – Vorfeiertags Special",
+      "time": "20:00 Workshops · 22:00 – 03:00 Party",
+      "location": "Weststadt Bar, Mainzer Strasse 106, Darmstadt",
+      "dj": "DJ Roberto",
+      "price": "10 €",
+      "desc": "Bachata Fusion-Workshop mit Sofia & Nick (20–21 Uhr) · Bachazouk mit Nick & Daniela (21–22 Uhr) · Party bis 3:00 Uhr. Eintritt inkl. Workshops, zzgl. 5 € Mindestverzehr.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": ""
     },
     {
       "date": "2026-06-06",
