@@ -248,37 +248,52 @@
   ],
   "specific": [
     {
-      "date": "2026-05-31",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "🌟",
-      "title": "Outdoor Fiesta Latina – Honsellbrücke",
-      "time": "16:00–17:00 Salsa for Beginner · 17:00–18:00 Rueda for Beginner · 18:00–19:00 Rueda de Casino · 19:00–22:30 Social Club Dance",
-      "location": "Unter der Honsellbrücke, Honsellstraße 7, 60314 Frankfurt",
-      "link": "https://maps.app.goo.gl/j3bLNYy2dig9uyvcA",
-      "price": "Spendenbasis (PayPal: youyouffm@gmail.com)",
-      "desc": "16:00–17:00 Salsa for Beginner. 17:00–18:00 Rueda for Beginner. 18:00–19:00 Rueda de Casino for all. 19:00–22:30 Social Club Dance – freies Tanzen: Salsa, Bachata, Kizomba, Merengue, Reggaeton. Wasser, Softgetränke & Naschereien vorhanden – Fingerfood willkommen! Parken: Querstraße 24, 60314 Frankfurt.",
-      "cats": "party workshop outdoor free",
+      "date": "2026-06-02",
+      "order": 20,
+      "type": "workshop",
+      "emoji": "💃",
+      "title": "Frankfurt International Bachata – Lessons & Practice",
+      "time": "18:00 Einlass · 18:45 – 20:15 Lessons · danach Social Dancing",
+      "location": "El Punto, Sachsenhausen, Frankfurt",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Bachata Lessons & Practice Session. All Levels Welcome. Great music, great people, great vibes.",
       "tags": [
-        [
-          "🌟 Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
         [
           "Workshop",
           "tag-workshop"
         ],
         [
-          "Kostenlos (Spende)",
+          "Indoor",
+          "tag-indoor"
+        ]
+      ],
+      "cats": "workshop indoor",
+      "link": ""
+    },
+    {
+      "date": "2026-06-02",
+      "order": 30,
+      "type": "outdoor",
+      "emoji": "🌙",
+      "title": "Bachata Super-Sensual – Outdoor Hangout",
+      "time": "20:45",
+      "location": "EZB Honsellbruecke, Frankfurt (Uferweg)",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "100% Bachata Sensual – privates & kostenloses Outdoor-Hangout. Kein Kurs, keine Salsa, keine Kizomba. Nur JBL & Playlist.",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Kostenlos",
           "tag-free"
         ]
       ],
-      "dj": "Youyou",
-      "hideRecurring": true
+      "cats": "outdoor",
+      "link": ""
     },
     {
       "date": "2026-06-03",
@@ -306,6 +321,54 @@
           "tag-outdoor"
         ]
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Open Air Kizomba-Event mit Schnupperkurs. Veranstalter: Ritmovida Latin Dance Studio.",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ],
+      "cats": "outdoor workshop",
+      "link": ""
+    },
+    {
+      "date": "2026-06-03",
+      "order": 20,
+      "type": "workshop",
+      "emoji": "💃",
+      "title": "Frankfurt International – Salsa Wednesday",
+      "time": "18:00 Einlass · 18:45 – 20:00 Workshop · danach Practice",
+      "location": "El Punto, Sachsenhausen, Frankfurt",
+      "dj": "",
+      "price": "5 €",
+      "desc": "Salsa Workshops & Social Dancing. Instructors: Cristina, NB & Johnson. All levels welcome.",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ],
+      "cats": "workshop indoor",
+      "link": ""
     },
     {
       "date": "2026-06-03",
@@ -361,6 +424,58 @@
         ]
       ],
       "link": "https://www.instagram.com/sailnsalsa"
+    },
+    {
+      "date": "2026-06-06",
+      "order": 15,
+      "type": "party",
+      "emoji": "🤍",
+      "title": "Gran Fiesta Blanca – Conexion Frankfurt",
+      "time": "20:45 Kurse · 22:00 Party",
+      "location": "Conexion, Am Industriehof 7, Frankfurt",
+      "dj": "",
+      "price": "12 €",
+      "desc": "Fiesta Blanca – Dress Code: White/Black. Salsa Mix, Salsa Cubana, Bachata, Kiz. Free Preparty-Kurse: Salsa & Bachata Beginner, Bachata Mittelstufe (Andres & Yessica), Salsa Suelta (Dunja). Eintritt inkl. Kurse.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": ""
+    },
+    {
+      "date": "2026-06-06",
+      "order": 20,
+      "type": "party",
+      "emoji": "🎉",
+      "title": "Finest Salsa & Bachata – DJ Lobo",
+      "time": "20:30 – 01:00",
+      "location": "Latin Dance Station, Line 9, Griesheim",
+      "dj": "DJ Lobo · Special Guest: DJ CAS",
+      "price": "k.A.",
+      "desc": "Samstags-Party mit 2 Salsa Line Workshops. Baila con Corazon Vibe.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ],
+      "cats": "party workshop indoor",
+      "link": ""
     },
     {
       "date": "2026-07-10",
