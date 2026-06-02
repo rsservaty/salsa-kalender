@@ -255,6 +255,26 @@
     }
     .ics-btn:active { transform: scale(0.96); }
 
+    /* ── ABGESAGT ── */
+    .card.cancelled {
+      opacity: 0.55;
+      border-left-color: #ef4444 !important;
+    }
+    .card.cancelled .card-title { text-decoration: line-through; color: #8899b4; }
+    .cancelled-badge {
+      display: inline-block;
+      background: rgba(239,68,68,0.18);
+      color: #fca5a5;
+      border: 1px solid rgba(239,68,68,0.4);
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0.12rem 0.5rem;
+      border-radius: 99px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+      letter-spacing: 0.04em;
+    }
+
     /* empty */
     .empty { text-align: center; padding: 3rem 1rem; color: #8899b4; font-size: 0.9rem; }
 
@@ -511,7 +531,7 @@ Object.keys(groups).sort().forEach(key => {
   // Cards
   group.events.forEach(e => {
     const card = document.createElement('div');
-    card.className = 'card';
+    card.className = 'card' + (e.cancelled ? ' cancelled' : '');
     card.dataset.type = e.type;
     card.dataset.cats = e.cats;
 
@@ -519,11 +539,12 @@ Object.keys(groups).sort().forEach(key => {
       `<span class="tag ${cls}">${label}</span>`
     ).join('');
     const djHTML = e.dj ? `<span class="dj-info">🎧 ${e.dj}</span>` : '';
+    const cancelledBadge = e.cancelled ? `<span class="cancelled-badge">⛔ Abgesagt</span>` : '';
 
     card.innerHTML = `
       <div class="type-icon">${e.emoji}</div>
       <div class="card-body">
-        <div class="card-title">${e.link ? `<a class="event-link" href="${e.link}" target="_blank" rel="noopener">${e.title}</a>` : e.title}<span class="price">${e.price}</span></div>
+        <div class="card-title">${e.link ? `<a class="event-link" href="${e.link}" target="_blank" rel="noopener">${e.title}</a>` : e.title}<span class="price">${e.price}</span>${cancelledBadge}</div>
         <div class="card-meta">
           <span>🕒 ${e.time}</span>
           <span>${mapsLink(e.location)}</span>
