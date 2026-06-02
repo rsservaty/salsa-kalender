@@ -269,7 +269,8 @@
         ]
       ],
       "cats": "workshop indoor",
-      "link": ""
+      "link": "",
+      "cancelled": true
     },
     {
       "date": "2026-06-02",
