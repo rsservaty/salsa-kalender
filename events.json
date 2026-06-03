@@ -248,55 +248,6 @@
   ],
   "specific": [
     {
-      "date": "2026-06-02",
-      "order": 20,
-      "type": "workshop",
-      "emoji": "💃",
-      "title": "Frankfurt International Bachata – Lessons & Practice",
-      "time": "18:00 Einlass · 18:45 – 20:15 Lessons · danach Social Dancing",
-      "location": "El Punto, Sachsenhausen, Frankfurt",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Bachata Lessons & Practice Session. All Levels Welcome. Great music, great people, great vibes.",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ],
-      "cats": "workshop indoor",
-      "link": "",
-      "cancelled": true
-    },
-    {
-      "date": "2026-06-02",
-      "order": 30,
-      "type": "outdoor",
-      "emoji": "🌙",
-      "title": "Bachata Super-Sensual – Outdoor Hangout",
-      "time": "20:45",
-      "location": "EZB Honsellbruecke, Frankfurt (Uferweg)",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "100% Bachata Sensual – privates & kostenloses Outdoor-Hangout. Kein Kurs, keine Salsa, keine Kizomba. Nur JBL & Playlist.",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ],
-      "cats": "outdoor",
-      "link": ""
-    },
-    {
       "date": "2026-06-03",
       "order": 5,
       "type": "festival",
@@ -322,6 +273,34 @@
           "tag-outdoor"
         ]
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "order": 10,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Bachata am Main – Vorfeiertags Special",
+      "time": "19:00 Anfaenger · 20:00 Intermediate · 21:00 Party",
+      "location": "Honsellstrasse 7, Frankfurt am Main",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Special Edition Vorfeiertag – The Night Before a Holiday! In Collab mit Montez Kunstverein. Salsa, Bachata – Good vibes, great music, amazing people.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ]
+      ],
+      "cats": "party workshop outdoor",
+      "link": ""
     },
     {
       "date": "2026-06-03",
@@ -373,6 +352,34 @@
     },
     {
       "date": "2026-06-03",
+      "order": 25,
+      "type": "party",
+      "emoji": "🎵",
+      "title": "Noche de Salsa – Brotfabrik Salsadisco",
+      "time": "21:00",
+      "location": "Brotfabrik Kulturzentrum, Hausen, Frankfurt",
+      "dj": "DJ Andres",
+      "price": "k.A.",
+      "desc": "Seit ueber 30 Jahren jeden Mittwoch Salsadisco in der Brotfabrik. Erster Mittwoch im Monat: DJ Andres mit Schnupperkurs.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ],
+      "cats": "party workshop indoor",
+      "link": ""
+    },
+    {
+      "date": "2026-06-03",
       "order": 30,
       "type": "party",
       "emoji": "⭐",
@@ -393,6 +400,58 @@
         ]
       ],
       "cats": "party workshop",
+      "link": ""
+    },
+    {
+      "date": "2026-06-03",
+      "order": 35,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Salsa Party – Forum Hanau",
+      "time": "19:00 Einsteigerkurs · 20:00 Party",
+      "location": "Forum 5A, 63450 Hanau",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kostenloser Salsa-Einsteigerkurs um 19 Uhr. Veranstalter: Ronneburger TSC & Forum Hanau.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": ""
+    },
+    {
+      "date": "2026-06-05",
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🌟",
+      "title": "Fiesta Latina Streetparty – Campus Bockenheim",
+      "time": "ab 20:00",
+      "location": "Campus Bockenheim, Bockenheimer Landstrasse 133, Frankfurt",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Open Air Streetparty auf dem Campus der Goethe-Universitaet. Salsa, Bachata, Merengue, Kizomba.",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "cats": "outdoor party",
       "link": ""
     },
     {
