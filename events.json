@@ -248,119 +248,16 @@
   ],
   "specific": [
     {
-      "date": "2026-06-03",
-      "order": 5,
-      "type": "festival",
-      "emoji": "⛵",
-      "title": "Sail'n'Salsa 2026 – Roadtrip ab Frankfurt",
-      "time": "Später Abend – Roadtrip Richtung Opatija/Kroatien",
-      "location": "Ziel: Opatija & Pula, Kroatien",
-      "link": "https://www.instagram.com/sailnsalsa",
-      "price": "ca. 130 €",
-      "desc": "03.06. Roadtrip ab Frankfurt (später Abend). 04.–06.06. Opatija: Sonne, Strand & Rueda de Casino. Ab 06.06. Einschiffung in Pula. Flugoptionen: Pula, Rijeka oder Triest. Flixbus nach Rijeka (03.06.) verfügbar. Kontakt: Telegram @sailnsalsa · Instagram @sailnsalsa",
-      "cats": "festival reise",
-      "tags": [
-        [
-          "🌟 Festival",
-          "tag-festival"
-        ],
-        [
-          "⛵ Segelreise",
-          "tag-reise"
-        ],
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-03",
+      "date": "2026-06-04",
       "order": 10,
       "type": "party",
-      "emoji": "💃",
-      "title": "Bachata am Main – Vorfeiertags Special",
-      "time": "19:00 Anfaenger · 20:00 Intermediate · 21:00 Party",
-      "location": "Honsellstrasse 7, Frankfurt am Main",
-      "dj": "",
+      "emoji": "🎉",
+      "title": "Bachata & Salsa Night – MyZeil Frankfurt",
+      "time": "19:00 Basics · 20:00 Mittelstufe · 21:00 Party",
+      "location": "MyZeil, Frankfurt",
+      "dj": "DJ Roberto",
       "price": "k.A.",
-      "desc": "Special Edition Vorfeiertag – The Night Before a Holiday! In Collab mit Montez Kunstverein. Salsa, Bachata – Good vibes, great music, amazing people.",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ]
-      ],
-      "cats": "party workshop outdoor",
-      "link": ""
-    },
-    {
-      "date": "2026-06-03",
-      "order": 15,
-      "type": "outdoor",
-      "emoji": "🌅",
-      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
-      "time": "ab 18:00",
-      "location": "Schloss Biergarten, Mainz",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Open Air Kizomba-Event mit Schnupperkurs. Veranstalter: Ritmovida Latin Dance Studio.",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ]
-      ],
-      "cats": "outdoor workshop",
-      "link": ""
-    },
-    {
-      "date": "2026-06-03",
-      "order": 20,
-      "type": "workshop",
-      "emoji": "💃",
-      "title": "Frankfurt International – Salsa Wednesday",
-      "time": "18:00 Einlass · 18:45 – 20:00 Workshop · danach Practice",
-      "location": "El Punto, Sachsenhausen, Frankfurt",
-      "dj": "",
-      "price": "5 €",
-      "desc": "Salsa Workshops & Social Dancing. Instructors: Cristina, NB & Johnson. All levels welcome.",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ],
-      "cats": "workshop indoor",
-      "link": ""
-    },
-    {
-      "date": "2026-06-03",
-      "order": 25,
-      "type": "party",
-      "emoji": "🎵",
-      "title": "Noche de Salsa – Brotfabrik Salsadisco",
-      "time": "21:00",
-      "location": "Brotfabrik Kulturzentrum, Hausen, Frankfurt",
-      "dj": "DJ Andres",
-      "price": "k.A.",
-      "desc": "Seit ueber 30 Jahren jeden Mittwoch Salsadisco in der Brotfabrik. Erster Mittwoch im Monat: DJ Andres mit Schnupperkurs.",
+      "desc": "2 Bachata Workshops mit Eduardo & Natalia (Basics 19 Uhr, Mittelstufe 20 Uhr), danach Bachata & Salsa Party.",
       "tags": [
         [
           "Party",
@@ -376,58 +273,6 @@
         ]
       ],
       "cats": "party workshop indoor",
-      "link": ""
-    },
-    {
-      "date": "2026-06-03",
-      "order": 30,
-      "type": "party",
-      "emoji": "⭐",
-      "title": "Bachata XXL Darmstadt – Vorfeiertags Special",
-      "time": "20:00 Workshops · 22:00 – 03:00 Party",
-      "location": "Weststadt Bar, Mainzer Strasse 106, Darmstadt",
-      "dj": "DJ Roberto",
-      "price": "10 €",
-      "desc": "Bachata Fusion-Workshop mit Sofia & Nick (20–21 Uhr) · Bachazouk mit Nick & Daniela (21–22 Uhr) · Party bis 3:00 Uhr. Eintritt inkl. Workshops, zzgl. 5 € Mindestverzehr.",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ]
-      ],
-      "cats": "party workshop",
-      "link": ""
-    },
-    {
-      "date": "2026-06-03",
-      "order": 35,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Salsa Party – Forum Hanau",
-      "time": "19:00 Einsteigerkurs · 20:00 Party",
-      "location": "Forum 5A, 63450 Hanau",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Kostenloser Salsa-Einsteigerkurs um 19 Uhr. Veranstalter: Ronneburger TSC & Forum Hanau.",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ],
-      "cats": "party workshop",
       "link": ""
     },
     {
