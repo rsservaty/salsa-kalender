@@ -508,38 +508,6 @@
       "link": ""
     },
     {
-      "date": "2026-07-10",
-      "order": 5,
-      "type": "festival",
-      "emoji": "🇫🇷",
-      "title": "Strasbourg Bachata Festival 2026 (10.–12. Juli)",
-      "time": "3 Tage · Workshops, Shows & Partys",
-      "location": "Straßburg, Frankreich",
-      "link": "https://www.goandance.com/en/event/8960/strasbourg-bachata-festival-2026",
-      "dj": "DJ Roberto",
-      "price": "Festivalpass (Frühbucher-Rabatt)",
-      "desc": "Internationales Festival mit Top-Artists: Marco Espejo, Raquel, Gero & Migle, Eduardo & Natalia (Frankfurt). Live: Shama. Tickets: goandance.com/en/event/8960/strasbourg-bachata-festival-2026 · Code: DJROBERTO",
-      "cats": "festival workshop party",
-      "tags": [
-        [
-          "🌟 Festival",
-          "tag-festival"
-        ],
-        [
-          "3 Tage",
-          "tag-outdoor"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ]
-    },
-    {
       "date": "2026-08-22",
       "order": 5,
       "type": "party",
