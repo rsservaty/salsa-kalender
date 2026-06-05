@@ -357,37 +357,6 @@
     },
     {
       "date": "2026-06-06",
-      "order": 5,
-      "type": "festival",
-      "emoji": "🌊",
-      "title": "Sail'n'Salsa Festival – Segelwoche (6.–13. Juni)",
-      "time": "06.06. Einschiffung Pula · bis 13.06.",
-      "location": "Hafen Pula, Kroatien → Adria (Istrien, Opatija, Rovinj)",
-      "price": "im Reisepaket (ca. 130 €)",
-      "desc": "Sail & Salsa Week ab Pula! 2 Segelyachten: Lagoon 46 Catamaran & Beneteau 46.1. Bis 22 Salsailors, 7+ Sprachen, Altersgruppe 27–46. Route: Pula → Adria → Rovinj. Startoptionen: Opatija 04.–05.06. oder direkt Pula 06.06. Kontakt: Telegram @sailnsalsa · Instagram @sailnsalsa",
-      "cats": "festival reise outdoor party",
-      "tags": [
-        [
-          "🌟 Festival",
-          "tag-festival"
-        ],
-        [
-          "⛵ Segeln",
-          "tag-reise"
-        ],
-        [
-          "7 Tage",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "link": "https://www.instagram.com/sailnsalsa"
-    },
-    {
-      "date": "2026-06-06",
       "order": 10,
       "type": "outdoor",
       "emoji": "🏖️",
