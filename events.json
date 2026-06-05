@@ -484,6 +484,30 @@
       "link": ""
     },
     {
+      "date": "2026-06-12",
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🎸",
+      "title": "Latin Night – Los 4 del Son (Konzerte im Park)",
+      "time": "19:30",
+      "location": "DGD Klinik Hohe Mark, Friedlaenderstr. 2, Oberursel",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Live-Konzert im Park mit der Band Los 4 del Son. Veranstalter: Kultur- und Sportfoerderverein Oberursel e.V.",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "cats": "outdoor party",
+      "link": ""
+    },
+    {
       "date": "2026-07-10",
       "order": 5,
       "type": "festival",
