@@ -248,34 +248,6 @@
   ],
   "specific": [
     {
-      "date": "2026-06-04",
-      "order": 10,
-      "type": "party",
-      "emoji": "🎉",
-      "title": "Bachata & Salsa Night – MyZeil Frankfurt",
-      "time": "19:00 Basics · 20:00 Mittelstufe · 21:00 Party",
-      "location": "MyZeil, Frankfurt",
-      "dj": "DJ Roberto",
-      "price": "k.A.",
-      "desc": "2 Bachata Workshops mit Eduardo & Natalia (Basics 19 Uhr, Mittelstufe 20 Uhr), danach Bachata & Salsa Party.",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ],
-      "cats": "party workshop indoor",
-      "link": ""
-    },
-    {
       "date": "2026-06-05",
       "order": 10,
       "type": "outdoor",
@@ -297,6 +269,90 @@
         ]
       ],
       "cats": "outdoor party",
+      "link": ""
+    },
+    {
+      "date": "2026-06-05",
+      "order": 10,
+      "type": "party",
+      "emoji": "🇨🇺",
+      "title": "Cubailamos – Salsa Cubana Night",
+      "time": "20:00 Einlass · 20:30 Workshop · 21:30 Party",
+      "location": "TSZ Blau-Gold Casino, Dornheimer Weg 79, Darmstadt",
+      "dj": "DJ Rafi · DJ El Faroun",
+      "price": "k.A.",
+      "desc": "Salsa Cubana Night – jeden 1. Freitag im Monat. Workshop mit Melina & Andreas. Bring your own drinks!",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ],
+      "cats": "party workshop indoor",
+      "link": ""
+    },
+    {
+      "date": "2026-06-05",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "💃",
+      "title": "Bachata Party am Museum – Frankfurt",
+      "time": "20:00 Workshop · 21:00 – 01:00 Party",
+      "location": "Museum Angewandte Kunst, Frankfurt",
+      "dj": "Johann & Azu",
+      "price": "k.A.",
+      "desc": "Bachata Workshop mit Johann & Azu (ab 20 Uhr), danach Party bis 01:00 Uhr. Ab Mitternacht Super Sensual. Bring deine JBL Box!",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ]
+      ],
+      "cats": "party workshop outdoor",
+      "link": ""
+    },
+    {
+      "date": "2026-06-05",
+      "order": 30,
+      "type": "outdoor",
+      "emoji": "🌴",
+      "title": "YaYo Cubania Party – Skyline Plaza Frankfurt",
+      "time": "19:00 Workshop · 20:00 Fiesta",
+      "location": "Skyline Plaza, Frankfurt",
+      "dj": "DJ Kubaton",
+      "price": "15 €",
+      "desc": "Outdoor Rooftop Experience. 19:00 Salsa Cubana Workshop, 19:30 Bachata Dominicana, ab 20:00 Fiesta. Cuban & Dominican Outdoor Vibes. Movida Dance School.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ]
+      ],
+      "cats": "party workshop outdoor",
       "link": ""
     },
     {
@@ -329,6 +385,30 @@
         ]
       ],
       "link": "https://www.instagram.com/sailnsalsa"
+    },
+    {
+      "date": "2026-06-06",
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🏖️",
+      "title": "Salsa Party am Honischbeach",
+      "time": "ab 18:00",
+      "location": "Leerweg 2, 63843 Niedernberg (Honischland)",
+      "dj": "DJ Rey",
+      "price": "5 €",
+      "desc": "Salsa Open Air am Honischbeach. Nur bei schonem Wetter (nicht bei starkem Regen).",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "cats": "outdoor party",
+      "link": ""
     },
     {
       "date": "2026-06-06",
@@ -380,6 +460,58 @@
         ]
       ],
       "cats": "party workshop indoor",
+      "link": ""
+    },
+    {
+      "date": "2026-06-06",
+      "order": 25,
+      "type": "outdoor",
+      "emoji": "🎸",
+      "title": "Salsificando Band – Live im Bogside Pub",
+      "time": "ab 20:00",
+      "location": "Bogside Pub, Domstrasse 93, Offenbach am Main",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Salsificando Band live – Salsa, Latin Vibes, Gute Laune. Spenden fur die Band willkommen.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party",
+      "link": ""
+    },
+    {
+      "date": "2026-06-06",
+      "order": 30,
+      "type": "outdoor",
+      "emoji": "🍹",
+      "title": "Play Cubanito – Latino & Reggaeton Open Air",
+      "time": "ab 18:00",
+      "location": "Riverside Taverne, Fahrenstrase 38, 63165 Muehlheim am Main",
+      "dj": "DJ Cubanito",
+      "price": "Eintritt frei",
+      "desc": "Daydrinking Open Air direkt am Main. Latino & Reggaeton Vibes.",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "outdoor party",
       "link": ""
     },
     {
