@@ -324,6 +324,34 @@
       "link": "https://www.salsa-treff.net"
     },
     {
+      "date": "2026-08-21",
+      "order": 10,
+      "type": "party",
+      "emoji": "🌶️",
+      "title": "Salsa Treff Frankfurt",
+      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
+      "location": "Miquelallee 160, Frankfurt",
+      "dj": "DJ (Name k.A.)",
+      "price": "Eintritt frei",
+      "desc": "Schnupper-Tanzkurse fuer Einsteiger in Salsa & Bachata ab 19 Uhr. Danach Salsa- und Bachata-Tanzabend mit DJ ab 20 Uhr.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": "https://www.salsa-treff.net"
+    },
+    {
       "date": "2026-08-22",
       "order": 5,
       "type": "party",
@@ -349,6 +377,34 @@
           "tag-indoor"
         ]
       ]
+    },
+    {
+      "date": "2026-09-18",
+      "order": 10,
+      "type": "party",
+      "emoji": "🌶️",
+      "title": "Salsa Treff Frankfurt",
+      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
+      "location": "Miquelallee 160, Frankfurt",
+      "dj": "DJ (Name k.A.)",
+      "price": "Eintritt frei",
+      "desc": "Schnupper-Tanzkurse fuer Einsteiger in Salsa & Bachata ab 19 Uhr. Danach Salsa- und Bachata-Tanzabend mit DJ ab 20 Uhr.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": "https://www.salsa-treff.net"
     },
     {
       "date": "2026-10-30",
@@ -380,6 +436,90 @@
           "tag-party"
         ]
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "order": 10,
+      "type": "party",
+      "emoji": "🌶️",
+      "title": "Salsa Treff Frankfurt",
+      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
+      "location": "Miquelallee 160, Frankfurt",
+      "dj": "DJ (Name k.A.)",
+      "price": "Eintritt frei",
+      "desc": "Schnupper-Tanzkurse fuer Einsteiger in Salsa & Bachata ab 19 Uhr. Danach Salsa- und Bachata-Tanzabend mit DJ ab 20 Uhr.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": "https://www.salsa-treff.net"
+    },
+    {
+      "date": "2026-11-20",
+      "order": 10,
+      "type": "party",
+      "emoji": "🌶️",
+      "title": "Salsa Treff Frankfurt",
+      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
+      "location": "Miquelallee 160, Frankfurt",
+      "dj": "DJ (Name k.A.)",
+      "price": "Eintritt frei",
+      "desc": "Schnupper-Tanzkurse fuer Einsteiger in Salsa & Bachata ab 19 Uhr. Danach Salsa- und Bachata-Tanzabend mit DJ ab 20 Uhr.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": "https://www.salsa-treff.net"
+    },
+    {
+      "date": "2026-12-04",
+      "order": 10,
+      "type": "party",
+      "emoji": "🌶️",
+      "title": "Salsa Treff Frankfurt",
+      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
+      "location": "Miquelallee 160, Frankfurt",
+      "dj": "DJ (Name k.A.)",
+      "price": "Eintritt frei",
+      "desc": "Schnupper-Tanzkurse fuer Einsteiger in Salsa & Bachata ab 19 Uhr. Danach Salsa- und Bachata-Tanzabend mit DJ ab 20 Uhr.",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ],
+      "cats": "party workshop",
+      "link": "https://www.salsa-treff.net"
     }
   ]
 }
