@@ -272,6 +272,33 @@
       "link": ""
     },
     {
+      "date": "2026-06-09",
+      "order": 30,
+      "type": "outdoor",
+      "emoji": "🌙",
+      "title": "Bachata Super-Sensual – EZB Honsellbrücke",
+      "time": "20:45 Uhr",
+      "location": "EZB Honsellbrücke, Honsellstr. 7, Frankfurt (am Flussufer)",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "100% Bachata Sensual – privates, kostenloses Open-Air Hangout am Mainufer. Kein Kurs, kein Salsa, kein Kizomba – nur JBL und Playlist. Come as you are.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-06-12",
       "order": 10,
       "type": "outdoor",
@@ -294,6 +321,60 @@
       ],
       "cats": "outdoor party",
       "link": ""
+    },
+    {
+      "date": "2026-06-16",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Veranstalter: Ritmovida Latin Dance Studio. (Ersatztermin – ursprüngliche Veranstaltung vom 9. Juni ausgefallen.)",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
     },
     {
       "date": "2026-06-26",
@@ -322,6 +403,114 @@
       ],
       "cats": "party workshop",
       "link": "https://www.salsa-treff.net"
+    },
+    {
+      "date": "2026-07-07",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
     },
     {
       "date": "2026-08-21",
@@ -379,6 +568,60 @@
       ]
     },
     {
+      "date": "2026-09-01",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-09-18",
       "order": 10,
       "type": "party",
@@ -405,6 +648,33 @@
       ],
       "cats": "party workshop",
       "link": "https://www.salsa-treff.net"
+    },
+    {
+      "date": "2026-09-29",
+      "order": 15,
+      "type": "outdoor",
+      "emoji": "🔥",
+      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
+      "time": "ab 18:00 Uhr",
+      "location": "Schloss Biergarten, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "workshop outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
     },
     {
       "date": "2026-10-30",
