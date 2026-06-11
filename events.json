@@ -323,6 +323,33 @@
       "link": ""
     },
     {
+      "date": "2026-06-12",
+      "order": 25,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kiz Chillout Summer Vibes – Free Social",
+      "time": "ab 19:30 Uhr",
+      "location": "Schlosstor, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-06-16",
       "order": 15,
       "type": "outdoor",
@@ -405,6 +432,33 @@
       "link": "https://www.salsa-treff.net"
     },
     {
+      "date": "2026-06-26",
+      "order": 25,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kiz Chillout Summer Vibes – Free Social",
+      "time": "ab 19:30 Uhr",
+      "location": "Schlosstor, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-07-07",
       "order": 15,
       "type": "outdoor",
@@ -424,6 +478,33 @@
         [
           "Workshop",
           "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "order": 25,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kiz Chillout Summer Vibes – Free Social",
+      "time": "ab 19:30 Uhr",
+      "location": "Schlosstor, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ],
         [
           "Kostenlos",
@@ -478,6 +559,33 @@
         [
           "Workshop",
           "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "order": 25,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kiz Chillout Summer Vibes – Free Social",
+      "time": "ab 19:30 Uhr",
+      "location": "Schlosstor, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ],
         [
           "Kostenlos",
@@ -648,6 +756,33 @@
       ],
       "cats": "party workshop",
       "link": "https://www.salsa-treff.net"
+    },
+    {
+      "date": "2026-09-18",
+      "order": 25,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kiz Chillout Summer Vibes – Free Social",
+      "time": "ab 19:30 Uhr",
+      "location": "Schlosstor, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
     },
     {
       "date": "2026-09-29",
