@@ -248,57 +248,6 @@
   ],
   "specific": [
     {
-      "date": "2026-06-09",
-      "order": 20,
-      "type": "workshop",
-      "emoji": "💃",
-      "title": "Frankfurt International – Bachata & Salsa Tuesday",
-      "time": "18:00 Einlass · 18:45 – 20:15 Lessons · danach Practice",
-      "location": "El Punto, Sachsenhausen, Frankfurt",
-      "dj": "",
-      "price": "5 €",
-      "desc": "Bachata & Salsa Lessons mit Cristina, NB & Johnson. All levels welcome. Later practice & social dancing.",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ],
-      "cats": "workshop indoor",
-      "link": ""
-    },
-    {
-      "date": "2026-06-09",
-      "order": 30,
-      "type": "outdoor",
-      "emoji": "🌙",
-      "title": "Bachata Super-Sensual – EZB Honsellbrücke",
-      "time": "20:45 Uhr",
-      "location": "EZB Honsellbrücke, Honsellstr. 7, Frankfurt (am Flussufer)",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "100% Bachata Sensual – privates, kostenloses Open-Air Hangout am Mainufer. Kein Kurs, kein Salsa, kein Kizomba – nur JBL und Playlist. Come as you are.",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ]
-    },
-    {
       "date": "2026-06-12",
       "order": 10,
       "type": "outdoor",
@@ -324,6 +273,33 @@
     },
     {
       "date": "2026-06-12",
+      "order": 20,
+      "type": "party",
+      "emoji": "🎉",
+      "title": "Metropolitan Salsa Night – Cafe 1",
+      "time": "20:00–20:45 Bachata Workshop · 20:45–21:30 Kizomba Workshop · 21:30–01:00 Salsa Party",
+      "location": "Cafe 1, UAS FFM, Nibelungenplatz 1, Frankfurt",
+      "dj": "DJ Mark",
+      "price": "Eintritt frei / k.A.",
+      "desc": "Bachata-Workshop (Open Level) mit Rosanna & Claudia, anschließend Kizomba-Workshop (Open Level) mit Can. Danach Salsaparty mit DJ Mark.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-12",
       "order": 25,
       "type": "outdoor",
       "emoji": "🌅",
@@ -346,6 +322,33 @@
         [
           "Kostenlos",
           "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "order": 10,
+      "type": "party",
+      "emoji": "🌆",
+      "title": "Latin Social Frankfurt – Bachata, Salsa & Zouk",
+      "time": "Workshops 19:15–22:15 · Party 22:15–03:00 (3 Dancefloors)",
+      "location": "Metropolitan im Eschenheimer Turm, Eschenheimer Anlage 40, 60318 Frankfurt",
+      "dj": "",
+      "price": "Workshops 15 € / 5 € MV · nur Party 12 € / 4 € MV · 8 € Rabatt für Studierende",
+      "desc": "Latin Social Frankfurt präsentiert von Tanzschule Wernecke & Latin Club Frankfurt. Workshops in Bachata (mit Raúl & Nazaret), Salsa & Zouk auf 3 Dancefloors, danach große Party.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
         ]
       ]
     },
