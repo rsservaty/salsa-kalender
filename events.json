@@ -380,6 +380,29 @@
       ]
     },
     {
+      "date": "2026-06-19",
+      "order": 10,
+      "type": "workshop",
+      "emoji": "🔄",
+      "title": "Salsa Rueda Workshop – Salsa Rueda Hofheim",
+      "time": "18:00–21:00 Uhr (Warm Up, Technical Evolutions, Figures & Combinations)",
+      "location": "DRK, Am Freizeitpark 3, 65830 Kriftel/Hofheim",
+      "dj": "",
+      "price": "25 € pro Person / 40 € pro Paar",
+      "desc": "Salsa Rueda Workshop für Rueda-Anfänger mit Salsa-Kenntnissen (sicherer Salsa-Grundschritt erforderlich). Veranstalter: Salsa Rueda Hofheim. Verbindliche Anmeldung per WhatsApp erforderlich (begrenzte Teilnehmerzahl).",
+      "cats": "workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
       "date": "2026-06-23",
       "order": 15,
       "type": "outdoor",
