@@ -275,6 +275,30 @@
       ]
     },
     {
+      "date": "2026-06-16",
+      "order": 20,
+      "type": "workshop",
+      "emoji": "💃",
+      "title": "Frankfurt International – Bachata & Salsa Tuesday",
+      "time": "18:00 Einlass · 18:45 – 20:30 Salsa Lessons · danach Open End",
+      "location": "El Punto, Sachsenhausen, Frankfurt",
+      "dj": "",
+      "price": "5 €",
+      "desc": "Salsa Lessons mit Cristina & Johnson. All levels welcome. Later practice & social dancing.",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ],
+      "cats": "workshop indoor",
+      "link": ""
+    },
+    {
       "date": "2026-06-19",
       "order": 10,
       "type": "workshop",
