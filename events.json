@@ -248,111 +248,6 @@
   ],
   "specific": [
     {
-      "date": "2026-06-12",
-      "order": 10,
-      "type": "outdoor",
-      "emoji": "🎸",
-      "title": "Latin Night – Los 4 del Son (Konzerte im Park)",
-      "time": "19:30",
-      "location": "DGD Klinik Hohe Mark, Friedlaenderstr. 2, Oberursel",
-      "dj": "",
-      "price": "12 €",
-      "desc": "Live-Konzert im Park mit der Band Los 4 del Son. Veranstalter: Kultur- und Sportfoerderverein Oberursel e.V.",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "cats": "outdoor party",
-      "link": ""
-    },
-    {
-      "date": "2026-06-12",
-      "order": 20,
-      "type": "party",
-      "emoji": "🎉",
-      "title": "Metropolitan Salsa Night – Cafe 1",
-      "time": "20:00–20:45 Bachata Workshop · 20:45–21:30 Kizomba Workshop · 21:30–01:00 Salsa Party",
-      "location": "Cafe 1, UAS FFM, Nibelungenplatz 1, Frankfurt",
-      "dj": "DJ Mark",
-      "price": "Eintritt frei / k.A.",
-      "desc": "Bachata-Workshop (Open Level) mit Rosanna & Claudia, anschließend Kizomba-Workshop (Open Level) mit Can. Danach Salsaparty mit DJ Mark.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "order": 25,
-      "type": "outdoor",
-      "emoji": "🌅",
-      "title": "Kiz Chillout Summer Vibes – Free Social",
-      "time": "ab 19:30 Uhr",
-      "location": "Schlosstor, Mainz",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-13",
-      "order": 10,
-      "type": "party",
-      "emoji": "🌆",
-      "title": "Latin Social Frankfurt – Bachata, Salsa & Zouk",
-      "time": "Workshops 19:15–22:15 · Party 22:15–03:00 (3 Dancefloors)",
-      "location": "Metropolitan im Eschenheimer Turm, Eschenheimer Anlage 40, 60318 Frankfurt",
-      "dj": "",
-      "price": "Workshops 15 € / 5 € MV · nur Party 12 € / 4 € MV · 8 € Rabatt für Studierende",
-      "desc": "Latin Social Frankfurt präsentiert von Tanzschule Wernecke & Latin Club Frankfurt. Workshops in Bachata (mit Raúl & Nazaret), Salsa & Zouk auf 3 Dancefloors, danach große Party.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
       "date": "2026-06-16",
       "order": 15,
       "type": "outdoor",
@@ -403,6 +298,79 @@
       ]
     },
     {
+      "date": "2026-06-19",
+      "order": 30,
+      "type": "party",
+      "emoji": "🌙",
+      "title": "Bachata Super-Sensual Party – Museum für Angewandte Kunst",
+      "time": "Party ab 21:00 Uhr · Super Sensual 24:00–01:00 Uhr",
+      "location": "Museum für Angewandte Kunst, Frankfurt",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Bachata Party mit Super-Sensual-Block von 24:00 bis 01:00 Uhr. JBL Box mitbringen erwünscht.",
+      "cats": "party indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "order": 35,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Frankfurter Ballroom Night – Opening (Conexión)",
+      "time": "20:50–21:30 Standard/Latein/Discofox-Kurs für Anfänger · Party ab 21:30",
+      "location": "Conexión, Am Industriehof 7, Frankfurt Bockenheim",
+      "dj": "",
+      "price": "10 € inkl. Kurs / 5 € Schüler & Studenten",
+      "desc": "Eröffnungsparty 'Frankfurter Ballroom Night' präsentiert von Werner Kern & Conexión. Cha Cha, Rumba, Jive, Discofox, Walzer, Foxtrott, Quickstep, Salsa, Bachata, Tango u.v.m. No Dress Code – just dance! Anfängerkurs mit Marc & Rafaela.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🎶",
+      "title": "Opernplatzfest 2026 – Orquesta Rumbón (Live)",
+      "time": "18:30–22:30 Uhr",
+      "location": "Opernplatz, Frankfurt",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Opernplatzfest 2026 mit Live-Band Orquesta Rumbón. Präsentiert von Papi Chulo Frankfurt.",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ]
+    },
+    {
       "date": "2026-06-23",
       "order": 15,
       "type": "outdoor",
@@ -426,6 +394,29 @@
         [
           "Kostenlos",
           "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "order": 10,
+      "type": "outdoor",
+      "emoji": "🎶",
+      "title": "Opernplatzfest 2026 – Salsamania (Live)",
+      "time": "18:00–22:00 Uhr",
+      "location": "Opernplatz, Frankfurt",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Opernplatzfest 2026 mit Live-Band Salsamania. Präsentiert von Papi Chulo Frankfurt.",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ]
       ]
     },
