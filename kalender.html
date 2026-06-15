@@ -467,17 +467,27 @@ end.setDate(end.getDate() + 70);
 
 const allEvents = [];
 
-// Daten wo recurring Events unterdrückt werden (hideRecurring: true)
+// Daten wo ALLE recurring Events unterdrückt werden (hideRecurring: true)
 const hideRecurringDates = new Set(
-  specific.filter(s => s.hideRecurring).map(s => s.date)
+  specific.filter(s => s.hideRecurring === true).map(s => s.date)
+);
+
+// Datum+Titel-Paare wo NUR EIN EINZELNES recurring Event unterdrückt wird
+// (hideRecurring: "Exakter Titel des wiederkehrenden Events")
+const hideRecurringSingle = new Set(
+  specific
+    .filter(s => typeof s.hideRecurring === 'string')
+    .map(s => `${s.date}|${s.hideRecurring}`)
 );
 
 // Wiederkehrende Termine
 for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
   const cur = new Date(d);
-  if (hideRecurringDates.has(dateKey(cur))) continue;
+  const dk = dateKey(cur);
+  if (hideRecurringDates.has(dk)) continue;
   recurring.forEach(r => {
     if (cur.getDay() === r.weekday) {
+      if (hideRecurringSingle.has(`${dk}|${r.title}`)) return;
       allEvents.push({ ...r, dateObj: new Date(cur), isRecurring: true });
     }
   });
@@ -485,6 +495,7 @@ for (let d = new Date(today); d <= end; d.setDate(d.getDate() + 1)) {
 
 // Einzeltermine
 specific.forEach(s => {
+  if (s.hideOnly) return; // reine Steuer-Einträge (z.B. hideRecurring) werden nicht als Karte angezeigt
   const d = new Date(s.date + 'T00:00:00');
   if (d >= today && d <= end) {
     allEvents.push({ ...s, dateObj: d, isRecurring: false });
