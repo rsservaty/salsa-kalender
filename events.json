@@ -299,6 +299,34 @@
       "link": ""
     },
     {
+      "date": "2026-06-16",
+      "hideRecurring": "Salsa Tuesday Night – Wohnzimmer Wiesbaden",
+      "hideOnly": true
+    },
+    {
+      "date": "2026-06-17",
+      "order": 25,
+      "type": "party",
+      "emoji": "🌃",
+      "title": "Salsa Wednesday – Wohnzimmer (Sondertermin statt Dienstag)",
+      "time": "ab 21:30 Uhr",
+      "location": "Wohnzimmer, Wiesbaden",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Diese Woche ausnahmsweise am Mittwoch statt Dienstag: Salsa, Bachata, Kizomba & mehr im Wohnzimmer Wiesbaden.",
+      "cats": "party indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
       "date": "2026-06-19",
       "order": 10,
       "type": "workshop",
