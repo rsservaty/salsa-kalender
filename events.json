@@ -244,25 +244,30 @@
           "tag-recurring"
         ]
       ]
-    }
-  ],
-  "specific": [
+    },
     {
-      "date": "2026-06-16",
-      "order": 15,
+      "weekday": 4,
+      "order": 20,
       "type": "outdoor",
-      "emoji": "🔥",
-      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
-      "time": "ab 18:00 Uhr",
-      "location": "Schloss Biergarten, Mainz",
-      "dj": "",
+      "emoji": "🌴",
+      "title": "Latino Donnerstag – Mainz Strand (wetterabhängig)",
+      "time": "19:30–20:15 Zumba Fitness · danach Latino-Party mit Dance-Workshop",
+      "location": "Mainz Strand, Mainz",
       "price": "Eintritt frei",
-      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Veranstalter: Ritmovida Latin Dance Studio. (Ersatztermin – ursprüngliche Veranstaltung vom 9. Juni ausgefallen.)",
-      "cats": "workshop outdoor free",
+      "desc": "Wöchentlicher Latino Donnerstag am Mainz Strand. Zumba Fitness 19:30–20:15, danach Latino-Party mit Latino-Dance-Workshop. Wetterabhängig – aktuelle Info auf Facebook/Instagram von Willius-Senzer Clubtanzschule.",
+      "cats": "party workshop outdoor recurring free",
       "tags": [
+        [
+          "🔁 Wöchentlich",
+          "tag-recurring"
+        ],
         [
           "☀️ Outdoor",
           "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ],
         [
           "Workshop",
@@ -273,35 +278,35 @@
           "tag-free"
         ]
       ]
-    },
+    }
+  ],
+  "specific": [
     {
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "order": 20,
-      "type": "workshop",
-      "emoji": "💃",
-      "title": "Frankfurt International – Bachata & Salsa Tuesday",
-      "time": "18:00 Einlass · 18:45 – 20:30 Salsa Lessons · danach Open End",
-      "location": "El Punto, Sachsenhausen, Frankfurt",
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
       "dj": "",
-      "price": "5 €",
-      "desc": "Salsa Lessons mit Cristina & Johnson. All levels welcome. Later practice & social dancing.",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "party outdoor free",
       "tags": [
         [
-          "Workshop",
-          "tag-workshop"
+          "☀️ Outdoor",
+          "tag-outdoor"
         ],
         [
-          "Indoor",
-          "tag-indoor"
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
         ]
-      ],
-      "cats": "workshop indoor",
-      "link": ""
-    },
-    {
-      "date": "2026-06-16",
-      "hideRecurring": "Salsa Tuesday Night – Wohnzimmer Wiesbaden",
-      "hideOnly": true
+      ]
     },
     {
       "date": "2026-06-17",
@@ -400,6 +405,33 @@
       ]
     },
     {
+      "date": "2026-06-19",
+      "order": 40,
+      "type": "party",
+      "emoji": "💥",
+      "title": "Bachata XXL Darmstadt",
+      "time": "20:00–21:00 Bachata Fusion · 21:00–22:00 Bachata Pasitos · Party ab 22:00 bis 03:00",
+      "location": "Weststadt Bar, Mainzer Straße 106, Darmstadt",
+      "dj": "DJ Roberto",
+      "price": "10 € inkl. Kurse / 5 € Mindestverzehr Party",
+      "desc": "Bachata XXL presented by Salsa & Bachata Club. Workshops: 20-21 Bachata Fusion (Elisabeth & Rafael), 21-22 Bachata Pasitos (Jhersy & Yulenka). Party ab 22 Uhr bis 03:00 mit DJ Roberto.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
+    },
+    {
       "date": "2026-06-20",
       "order": 10,
       "type": "outdoor",
@@ -419,6 +451,33 @@
         [
           "Party",
           "tag-party"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "order": 20,
+      "type": "party",
+      "emoji": "🎊",
+      "title": "Gran Fiesta Bachata / Salsa / Kiz – Conexión",
+      "time": "Preparty Kurse 20:00–22:00 · Party ab 22:00 (4 Dancefloors)",
+      "location": "Conexión, Am Industriehof 7, Frankfurt",
+      "dj": "DJ Roberto · DJ Arman · DJ Francesco",
+      "price": "12 € inkl. Kurse",
+      "desc": "Gran Fiesta mit Übertragung Germany vs. Elfenbeinküste! Free preparty classes: 20-21 Bachata Mittelstufe 2, 20:45-22 Salsa & Bachata Beginner, 21-22 Bachata Mittelstufe 1, 21-22 Rueda (Thomas), 21-22 Salsa Lady Styling. 4 Dancefloors. RK Ladies Team Berlin.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
         ]
       ]
     },
@@ -528,6 +587,33 @@
       ]
     },
     {
+      "date": "2026-07-01",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-07-07",
       "order": 15,
       "type": "outdoor",
@@ -547,6 +633,33 @@
         [
           "Workshop",
           "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ],
         [
           "Kostenlos",
@@ -609,6 +722,33 @@
       ]
     },
     {
+      "date": "2026-07-29",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-08-04",
       "order": 15,
       "type": "outdoor",
@@ -646,6 +786,33 @@
       "dj": "",
       "price": "Eintritt frei",
       "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
       "cats": "party outdoor free",
       "tags": [
         [
@@ -745,6 +912,33 @@
       ]
     },
     {
+      "date": "2026-08-26",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
       "date": "2026-09-01",
       "order": 15,
       "type": "outdoor",
@@ -764,6 +958,33 @@
         [
           "Workshop",
           "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ],
         [
           "Kostenlos",
@@ -837,6 +1058,33 @@
       "dj": "",
       "price": "Eintritt frei",
       "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "order": 20,
+      "type": "outdoor",
+      "emoji": "🌅",
+      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
+      "time": "18:00–22:00 Uhr",
+      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "dj": "",
+      "price": "Eintritt frei",
+      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
       "cats": "party outdoor free",
       "tags": [
         [
