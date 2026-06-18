@@ -282,16 +282,16 @@
   ],
   "specific": [
     {
-      "date": "2026-06-17",
-      "order": 20,
+      "date": "2026-06-18",
+      "order": 15,
       "type": "outdoor",
-      "emoji": "🌅",
-      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
-      "time": "18:00–22:00 Uhr",
-      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
+      "emoji": "🎵",
+      "title": "Salsa, Timba & Bachata – Marshall-Brunnen",
+      "time": "ab 19:00 Uhr",
+      "location": "Marshall-Brunnen, neben Opernplatz, Frankfurt",
       "dj": "",
       "price": "Eintritt frei",
-      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
+      "desc": "Open-Air Social Dance: Salsa, Timba & Bachata am Marshall-Brunnen neben dem Opernplatz Frankfurt. New Location!",
       "cats": "party outdoor free",
       "tags": [
         [
@@ -305,29 +305,6 @@
         [
           "Kostenlos",
           "tag-free"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "order": 25,
-      "type": "party",
-      "emoji": "🌃",
-      "title": "Salsa Wednesday – Wohnzimmer (Sondertermin statt Dienstag)",
-      "time": "ab 21:30 Uhr",
-      "location": "Wohnzimmer, Wiesbaden",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Diese Woche ausnahmsweise am Mittwoch statt Dienstag: Salsa, Bachata, Kizomba & mehr im Wohnzimmer Wiesbaden.",
-      "cats": "party indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
         ]
       ]
     },
@@ -428,6 +405,29 @@
         [
           "Indoor",
           "tag-indoor"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "order": 45,
+      "type": "outdoor",
+      "emoji": "🎉",
+      "title": "Fiesta Latina Streetparty – Campus Bockenheim",
+      "time": "ab 20:00 Uhr (Open Air)",
+      "location": "Goethe Universität, Bockenheimer Warte, Bockenheimer Landstraße 133, 60325 Frankfurt",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Fiesta Latina Streetparty auf dem Campus Bockenheim der Goethe Universität Frankfurt. Salsa, Bachata, Merengue, Kizomba – Open Air.",
+      "cats": "party outdoor",
+      "tags": [
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
         ]
       ]
     },
