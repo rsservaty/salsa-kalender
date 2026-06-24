@@ -282,233 +282,6 @@
   ],
   "specific": [
     {
-      "date": "2026-06-18",
-      "order": 15,
-      "type": "outdoor",
-      "emoji": "🎵",
-      "title": "Salsa, Timba & Bachata – Marshall-Brunnen",
-      "time": "ab 19:00 Uhr",
-      "location": "Marshall-Brunnen, neben Opernplatz, Frankfurt",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Open-Air Social Dance: Salsa, Timba & Bachata am Marshall-Brunnen neben dem Opernplatz Frankfurt. New Location!",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "order": 10,
-      "type": "workshop",
-      "emoji": "🔄",
-      "title": "Salsa Rueda Workshop – Salsa Rueda Hofheim",
-      "time": "18:00–21:00 Uhr (Warm Up, Technical Evolutions, Figures & Combinations)",
-      "location": "DRK, Am Freizeitpark 3, 65830 Kriftel/Hofheim",
-      "dj": "",
-      "price": "25 € pro Person / 40 € pro Paar",
-      "desc": "Salsa Rueda Workshop für Rueda-Anfänger mit Salsa-Kenntnissen (sicherer Salsa-Grundschritt erforderlich). Veranstalter: Salsa Rueda Hofheim. Verbindliche Anmeldung per WhatsApp erforderlich (begrenzte Teilnehmerzahl).",
-      "cats": "workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "order": 30,
-      "type": "party",
-      "emoji": "🌙",
-      "title": "Bachata Super-Sensual Party – Museum für Angewandte Kunst",
-      "time": "Party ab 21:00 Uhr · Super Sensual 24:00–01:00 Uhr",
-      "location": "Museum für Angewandte Kunst, Frankfurt",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Bachata Party mit Super-Sensual-Block von 24:00 bis 01:00 Uhr. JBL Box mitbringen erwünscht.",
-      "cats": "party indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "order": 35,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Frankfurter Ballroom Night – Opening (Conexión)",
-      "time": "20:50–21:30 Standard/Latein/Discofox-Kurs für Anfänger · Party ab 21:30",
-      "location": "Conexión, Am Industriehof 7, Frankfurt Bockenheim",
-      "dj": "",
-      "price": "10 € inkl. Kurs / 5 € Schüler & Studenten",
-      "desc": "Eröffnungsparty 'Frankfurter Ballroom Night' präsentiert von Werner Kern & Conexión. Cha Cha, Rumba, Jive, Discofox, Walzer, Foxtrott, Quickstep, Salsa, Bachata, Tango u.v.m. No Dress Code – just dance! Anfängerkurs mit Marc & Rafaela.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "order": 40,
-      "type": "party",
-      "emoji": "💥",
-      "title": "Bachata XXL Darmstadt",
-      "time": "20:00–21:00 Bachata Fusion · 21:00–22:00 Bachata Pasitos · Party ab 22:00 bis 03:00",
-      "location": "Weststadt Bar, Mainzer Straße 106, Darmstadt",
-      "dj": "DJ Roberto",
-      "price": "10 € inkl. Kurse / 5 € Mindestverzehr Party",
-      "desc": "Bachata XXL presented by Salsa & Bachata Club. Workshops: 20-21 Bachata Fusion (Elisabeth & Rafael), 21-22 Bachata Pasitos (Jhersy & Yulenka). Party ab 22 Uhr bis 03:00 mit DJ Roberto.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "order": 45,
-      "type": "outdoor",
-      "emoji": "🎉",
-      "title": "Fiesta Latina Streetparty – Campus Bockenheim",
-      "time": "ab 20:00 Uhr (Open Air)",
-      "location": "Goethe Universität, Bockenheimer Warte, Bockenheimer Landstraße 133, 60325 Frankfurt",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Fiesta Latina Streetparty auf dem Campus Bockenheim der Goethe Universität Frankfurt. Salsa, Bachata, Merengue, Kizomba – Open Air.",
-      "cats": "party outdoor",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-20",
-      "order": 10,
-      "type": "outdoor",
-      "emoji": "🎶",
-      "title": "Opernplatzfest 2026 – Orquesta Rumbón (Live)",
-      "time": "18:30–22:30 Uhr",
-      "location": "Opernplatz, Frankfurt",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Opernplatzfest 2026 mit Live-Band Orquesta Rumbón. Präsentiert von Papi Chulo Frankfurt.",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-20",
-      "order": 20,
-      "type": "party",
-      "emoji": "🎊",
-      "title": "Gran Fiesta Bachata / Salsa / Kiz – Conexión",
-      "time": "Preparty Kurse 20:00–22:00 · Party ab 22:00 (4 Dancefloors)",
-      "location": "Conexión, Am Industriehof 7, Frankfurt",
-      "dj": "DJ Roberto · DJ Arman · DJ Francesco",
-      "price": "12 € inkl. Kurse",
-      "desc": "Gran Fiesta mit Übertragung Germany vs. Elfenbeinküste! Free preparty classes: 20-21 Bachata Mittelstufe 2, 20:45-22 Salsa & Bachata Beginner, 21-22 Bachata Mittelstufe 1, 21-22 Rueda (Thomas), 21-22 Salsa Lady Styling. 4 Dancefloors. RK Ladies Team Berlin.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "order": 15,
-      "type": "outdoor",
-      "emoji": "🔥",
-      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
-      "time": "ab 18:00 Uhr",
-      "location": "Schloss Biergarten, Mainz",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
-      "cats": "workshop outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ]
-    },
-    {
       "date": "2026-06-24",
       "order": 10,
       "type": "outdoor",
@@ -528,6 +301,33 @@
         [
           "Party",
           "tag-party"
+        ]
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "order": 15,
+      "type": "party",
+      "emoji": "💃",
+      "title": "Bachata am Main – The Midweek Vibe",
+      "time": "20:00–21:00 Workshop (Open Level) · ab 21:00 Social Party",
+      "location": "Honsellstrasse 7, 60314 Frankfurt am Main",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Bachata am Main – The Midweek Vibe. Open-Level Workshop 20-21 Uhr, danach Social Party. Good Music, Good People, Good Vibes. Everyone is welcome.",
+      "cats": "party workshop indoor",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
         ]
       ]
     },
@@ -558,6 +358,29 @@
       ],
       "cats": "party workshop",
       "link": "https://www.salsa-treff.net"
+    },
+    {
+      "date": "2026-06-26",
+      "order": 15,
+      "type": "party",
+      "emoji": "🌙",
+      "title": "Bachata Party – Museum für Angewandte Kunst",
+      "time": "ab 21:00 bis 01:00 Uhr",
+      "location": "Museum für Angewandte Kunst, Schaumainkai 17, 60594 Frankfurt am Main",
+      "dj": "",
+      "price": "k.A.",
+      "desc": "Bachata Party im Museum für Angewandte Kunst Frankfurt. JBL Box mitbringen erwünscht.",
+      "cats": "party indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Indoor",
+          "tag-indoor"
+        ]
+      ]
     },
     {
       "date": "2026-06-26",
