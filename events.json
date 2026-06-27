@@ -624,6 +624,11 @@
       ]
     },
     {
+      "date": "2026-08-02",
+      "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
+      "hideOnly": true
+    },
+    {
       "date": "2026-08-04",
       "order": 15,
       "type": "outdoor",
@@ -678,6 +683,11 @@
       ]
     },
     {
+      "date": "2026-08-09",
+      "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
+      "hideOnly": true
+    },
+    {
       "date": "2026-08-12",
       "order": 20,
       "type": "outdoor",
@@ -703,6 +713,11 @@
           "tag-free"
         ]
       ]
+    },
+    {
+      "date": "2026-08-16",
+      "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
+      "hideOnly": true
     },
     {
       "date": "2026-08-18",
@@ -787,6 +802,11 @@
       ]
     },
     {
+      "date": "2026-08-23",
+      "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
+      "hideOnly": true
+    },
+    {
       "date": "2026-08-26",
       "order": 20,
       "type": "outdoor",
@@ -812,6 +832,11 @@
           "tag-free"
         ]
       ]
+    },
+    {
+      "date": "2026-08-30",
+      "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
+      "hideOnly": true
     },
     {
       "date": "2026-09-01",
