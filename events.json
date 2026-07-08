@@ -33,7 +33,9 @@
           "tag-free"
         ]
       ],
-      "dj": "Youyou"
+      "dj": "Youyou",
+      "id": "evt_402e5907",
+      "organizer_id": "org_youyou"
     },
     {
       "weekday": 2,
@@ -59,7 +61,9 @@
           "Kostenlos (Spende)",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_b5dc5290",
+      "organizer_id": "org_unknown"
     },
     {
       "weekday": 2,
@@ -90,7 +94,9 @@
           "tag-free"
         ]
       ],
-      "dj": "Youyou"
+      "dj": "Youyou",
+      "id": "evt_99054d7f",
+      "organizer_id": "org_youyou"
     },
     {
       "weekday": 3,
@@ -121,7 +127,9 @@
           "Workshop",
           "tag-workshop"
         ]
-      ]
+      ],
+      "id": "evt_7f38cdea",
+      "organizer_id": "org_wsdc"
     },
     {
       "weekday": 2,
@@ -152,7 +160,9 @@
           "Wiesbaden",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_538dd002",
+      "organizer_id": "org_wohnzimmer"
     },
     {
       "weekday": 5,
@@ -178,7 +188,9 @@
           "Indoor",
           "tag-indoor"
         ]
-      ]
+      ],
+      "id": "evt_8b719bfa",
+      "organizer_id": "org_ritmovida"
     },
     {
       "weekday": 6,
@@ -209,7 +221,9 @@
           "Wetterabhängig",
           "tag-recurring"
         ]
-      ]
+      ],
+      "id": "evt_2dad3134",
+      "organizer_id": "org_wohnzimmer"
     },
     {
       "weekday": 4,
@@ -243,7 +257,9 @@
           "Wetterabhängig",
           "tag-recurring"
         ]
-      ]
+      ],
+      "id": "evt_207320b4",
+      "organizer_id": "org_unknown"
     },
     {
       "weekday": 4,
@@ -277,7 +293,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_1e94be2f",
+      "organizer_id": "org_willius"
     }
   ],
   "specific": [
@@ -302,7 +320,9 @@
           "Party",
           "tag-party"
         ]
-      ]
+      ],
+      "id": "evt_1554ff0e",
+      "organizer_id": "org_papi_chulo"
     },
     {
       "date": "2026-06-24",
@@ -329,7 +349,9 @@
           "Indoor",
           "tag-indoor"
         ]
-      ]
+      ],
+      "id": "evt_18efca01",
+      "organizer_id": "org_unknown"
     },
     {
       "date": "2026-06-26",
@@ -357,7 +379,9 @@
         ]
       ],
       "cats": "party workshop",
-      "link": "https://www.salsa-treff.net"
+      "link": "https://www.salsa-treff.net",
+      "id": "evt_5fcd30c6",
+      "organizer_id": "org_salsa_treff"
     },
     {
       "date": "2026-06-26",
@@ -380,7 +404,9 @@
           "Indoor",
           "tag-indoor"
         ]
-      ]
+      ],
+      "id": "evt_23fbac58",
+      "organizer_id": "org_unknown"
     },
     {
       "date": "2026-06-26",
@@ -407,7 +433,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_1f5619ca",
+      "organizer_id": "org_kac"
     },
     {
       "date": "2026-06-28",
@@ -434,7 +462,9 @@
           "Kostenlos (Spende)",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_f73baad6",
+      "organizer_id": "org_youyou"
     },
     {
       "date": "2026-06-28",
@@ -466,7 +496,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_4edd04ec",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-07-05",
@@ -498,7 +530,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_35205192",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-07-12",
@@ -530,7 +564,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_d0af7b86",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-07-17",
@@ -557,7 +593,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_68d08a2f",
+      "organizer_id": "org_kac"
     },
     {
       "date": "2026-07-19",
@@ -589,7 +627,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_9a6476e9",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-07-26",
@@ -621,7 +661,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_3b7cc6f6",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-08-02",
@@ -653,7 +695,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_ccd71e9e",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-08-07",
@@ -680,7 +724,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_35ffb549",
+      "organizer_id": "org_kac"
     },
     {
       "date": "2026-08-09",
@@ -712,7 +758,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_dae9cfbd",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-08-16",
@@ -744,7 +792,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_55855728",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-08-21",
@@ -772,7 +822,9 @@
         ]
       ],
       "cats": "party workshop",
-      "link": "https://www.salsa-treff.net"
+      "link": "https://www.salsa-treff.net",
+      "id": "evt_fee399fa",
+      "organizer_id": "org_salsa_treff"
     },
     {
       "date": "2026-08-22",
@@ -799,7 +851,9 @@
           "Indoor",
           "tag-indoor"
         ]
-      ]
+      ],
+      "id": "evt_39029bb9",
+      "organizer_id": "org_unknown"
     },
     {
       "date": "2026-08-23",
@@ -831,7 +885,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_92908b72",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-08-30",
@@ -863,7 +919,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_fc3a804d",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-09-09",
@@ -890,7 +948,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_6c2dff91",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-09-15",
@@ -917,7 +977,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_762b509c",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-09-18",
@@ -945,7 +1007,9 @@
         ]
       ],
       "cats": "party workshop",
-      "link": "https://www.salsa-treff.net"
+      "link": "https://www.salsa-treff.net",
+      "id": "evt_7a782560",
+      "organizer_id": "org_salsa_treff"
     },
     {
       "date": "2026-09-18",
@@ -972,7 +1036,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_260711ba",
+      "organizer_id": "org_kac"
     },
     {
       "date": "2026-09-23",
@@ -999,7 +1065,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_5acfe2f8",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-09-29",
@@ -1026,7 +1094,9 @@
           "Kostenlos",
           "tag-free"
         ]
-      ]
+      ],
+      "id": "evt_b27e21e8",
+      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-10-30",
@@ -1057,7 +1127,9 @@
           "Party",
           "tag-party"
         ]
-      ]
+      ],
+      "id": "evt_9fa03204",
+      "organizer_id": "org_unknown"
     },
     {
       "date": "2026-10-30",
@@ -1085,7 +1157,9 @@
         ]
       ],
       "cats": "party workshop",
-      "link": "https://www.salsa-treff.net"
+      "link": "https://www.salsa-treff.net",
+      "id": "evt_c72058af",
+      "organizer_id": "org_salsa_treff"
     },
     {
       "date": "2026-11-20",
@@ -1113,7 +1187,9 @@
         ]
       ],
       "cats": "party workshop",
-      "link": "https://www.salsa-treff.net"
+      "link": "https://www.salsa-treff.net",
+      "id": "evt_3087e5ff",
+      "organizer_id": "org_salsa_treff"
     },
     {
       "date": "2026-12-04",
@@ -1141,7 +1217,71 @@
         ]
       ],
       "cats": "party workshop",
-      "link": "https://www.salsa-treff.net"
+      "link": "https://www.salsa-treff.net",
+      "id": "evt_8352c28c",
+      "organizer_id": "org_salsa_treff"
+    }
+  ],
+  "organizers": [
+    {
+      "id": "org_youyou",
+      "name": "Youyou",
+      "location": "Frankfurt",
+      "note": "Outdoor Social Dance, Salsa Cubana"
+    },
+    {
+      "id": "org_ritmovida",
+      "name": "Ritmovida Latin Dance Studio",
+      "location": "Mainz",
+      "note": "Latin Heat, Kizomba Sunset"
+    },
+    {
+      "id": "org_salsa_treff",
+      "name": "Salsa Treff Frankfurt",
+      "location": "Frankfurt",
+      "note": "Miquelallee 160"
+    },
+    {
+      "id": "org_conexion",
+      "name": "Conexión Frankfurt",
+      "location": "Frankfurt",
+      "note": "Am Industriehof 7"
+    },
+    {
+      "id": "org_kac",
+      "name": "Kizz_and_Connect (KAC)",
+      "location": "Mainz",
+      "note": "Kiz Chillout Summer Vibes"
+    },
+    {
+      "id": "org_wohnzimmer",
+      "name": "Wohnzimmer Wiesbaden",
+      "location": "Wiesbaden",
+      "note": "Salsa Tuesday/Wednesday Night"
+    },
+    {
+      "id": "org_wsdc",
+      "name": "Wednesday Social Dance Meetup",
+      "location": "Frankfurt",
+      "note": "Karlson, Karlstraße"
+    },
+    {
+      "id": "org_willius",
+      "name": "Willius-Senzer Clubtanzschule",
+      "location": "Mainz",
+      "note": "Latino Donnerstag"
+    },
+    {
+      "id": "org_papi_chulo",
+      "name": "Papi Chulo Frankfurt",
+      "location": "Frankfurt",
+      "note": "Opernplatzfest"
+    },
+    {
+      "id": "org_unknown",
+      "name": "Unbekannt / Sonstiges",
+      "location": "",
+      "note": ""
     }
   ]
 }
