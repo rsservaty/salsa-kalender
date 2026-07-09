@@ -543,25 +543,25 @@ Object.keys(groups).sort().forEach(key => {
   group.events.forEach(e => {
     const card = document.createElement('div');
     card.className = 'card' + (e.cancelled ? ' cancelled' : '');
-    card.dataset.type = e.type;
-    card.dataset.cats = e.cats;
+    card.dataset.type = e.type || 'indoor';
+    card.dataset.cats = e.cats || '';
 
-    const tagsHTML = e.tags.map(([label, cls]) =>
+    const tagsHTML = (e.tags || []).map(([label, cls]) =>
       `<span class="tag ${cls}">${label}</span>`
     ).join('');
     const djHTML = e.dj ? `<span class="dj-info">🎧 ${e.dj}</span>` : '';
     const cancelledBadge = e.cancelled ? `<span class="cancelled-badge">⛔ Abgesagt</span>` : '';
 
     card.innerHTML = `
-      <div class="type-icon">${e.emoji}</div>
+      <div class="type-icon">${e.emoji || '🎵'}</div>
       <div class="card-body">
-        <div class="card-title">${e.link ? `<a class="event-link" href="${e.link}" target="_blank" rel="noopener">${e.title}</a>` : e.title}<span class="price">${e.price}</span>${cancelledBadge}</div>
+        <div class="card-title">${e.link ? `<a class="event-link" href="${e.link}" target="_blank" rel="noopener">${e.title}</a>` : e.title}<span class="price">${e.price || ''}</span>${cancelledBadge}</div>
         <div class="card-meta">
-          <span>🕒 ${e.time}</span>
+          <span>🕒 ${e.time || ''}</span>
           <span>${mapsLink(e.location)}</span>
           ${djHTML}
         </div>
-        <div class="card-desc">${e.desc}</div>
+        <div class="card-desc">${e.desc || e.description || ''}</div>
         <div class="card-footer">
           <div class="card-tags">${tagsHTML}</div>
           <button class="ics-btn">📅 Speichern</button>
