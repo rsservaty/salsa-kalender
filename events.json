@@ -350,6 +350,26 @@
       "price": ""
     },
     {
+      "id": "evt_439b7647",
+      "date": "2026-07-11",
+      "title": "Gran Fiesta – Salsa Cubana, Bachata & Kiz",
+      "time": "Preparty Classes ab 20:45 Uhr, Party ab 22:00 Uhr",
+      "location": "Conexion, Am Industriehof 7, Frankfurt",
+      "description": "Salsa Cubana, Bachata & Kiz Party mit Free Preparty Classes. DJs: DJane, Juta, DJ Abdo & DJ Arman.",
+      "type": "party",
+      "organizer_id": "org_conexion",
+      "emoji": "🎉",
+      "cats": "party indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "12€ inkl. Kurse",
+      "desc": "Salsa Cubana, Bachata & Kiz Party mit Free Preparty Classes (20:45 Uhr). DJs: DJane, Juta, DJ Abdo & DJ Arman."
+    },
+    {
       "date": "2026-07-12",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
@@ -1003,6 +1023,26 @@
       "link": "https://www.salsa-treff.net",
       "id": "evt_c72058af",
       "organizer_id": "org_salsa_treff"
+    },
+    {
+      "id": "evt_fe8ca974",
+      "date": "2026-11-06",
+      "title": "Gran Bachata Latin Festival",
+      "time": "6.–8. November 2026",
+      "location": "Frankfurt",
+      "description": "Gran Bachata Latin Festival, 3 Tage Bachata, Salsa & Kiz in Frankfurt.",
+      "type": "festival",
+      "organizer_id": "org_conexion",
+      "emoji": "🎊",
+      "cats": "festival indoor",
+      "tags": [
+        [
+          "Festival",
+          "tag-festival"
+        ]
+      ],
+      "price": "",
+      "desc": "3-tägiges Latin Dance Festival mit Bachata, Salsa & Kiz. Veranstalter: Conexión Frankfurt."
     },
     {
       "date": "2026-11-20",
