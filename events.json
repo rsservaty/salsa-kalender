@@ -300,205 +300,9 @@
   ],
   "specific": [
     {
-      "date": "2026-06-24",
-      "order": 10,
-      "type": "outdoor",
-      "emoji": "🎶",
-      "title": "Opernplatzfest 2026 – Salsamania (Live)",
-      "time": "18:00–22:00 Uhr",
-      "location": "Opernplatz, Frankfurt",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Opernplatzfest 2026 mit Live-Band Salsamania. Präsentiert von Papi Chulo Frankfurt.",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "id": "evt_1554ff0e",
-      "organizer_id": "org_papi_chulo"
-    },
-    {
-      "date": "2026-06-24",
-      "order": 15,
-      "type": "party",
-      "emoji": "💃",
-      "title": "Bachata am Main – The Midweek Vibe",
-      "time": "20:00–21:00 Workshop (Open Level) · ab 21:00 Social Party",
-      "location": "Honsellstrasse 7, 60314 Frankfurt am Main",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Bachata am Main – The Midweek Vibe. Open-Level Workshop 20-21 Uhr, danach Social Party. Good Music, Good People, Good Vibes. Everyone is welcome.",
-      "cats": "party workshop indoor",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ],
-      "id": "evt_18efca01",
-      "organizer_id": "org_unknown"
-    },
-    {
-      "date": "2026-06-26",
-      "order": 10,
-      "type": "party",
-      "emoji": "🌶️",
-      "title": "Salsa Treff Frankfurt",
-      "time": "19:00 Schnupperkurs · 20:00 Tanzabend",
-      "location": "Miquelallee 160, Frankfurt",
-      "dj": "DJ (Name k.A.)",
-      "price": "Eintritt frei",
-      "desc": "Schnupper-Tanzkurse fuer Einsteiger in Salsa & Bachata ab 19 Uhr. Danach Salsa- und Bachata-Tanzabend mit DJ ab 20 Uhr.",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ],
-      "cats": "party workshop",
-      "link": "https://www.salsa-treff.net",
-      "id": "evt_5fcd30c6",
-      "organizer_id": "org_salsa_treff"
-    },
-    {
-      "date": "2026-06-26",
-      "order": 15,
-      "type": "party",
-      "emoji": "🌙",
-      "title": "Bachata Party – Museum für Angewandte Kunst",
-      "time": "ab 21:00 bis 01:00 Uhr",
-      "location": "Museum für Angewandte Kunst, Schaumainkai 17, 60594 Frankfurt am Main",
-      "dj": "",
-      "price": "k.A.",
-      "desc": "Bachata Party im Museum für Angewandte Kunst Frankfurt. JBL Box mitbringen erwünscht.",
-      "cats": "party indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Indoor",
-          "tag-indoor"
-        ]
-      ],
-      "id": "evt_23fbac58",
-      "organizer_id": "org_unknown"
-    },
-    {
-      "date": "2026-06-26",
-      "order": 25,
-      "type": "outdoor",
-      "emoji": "🌅",
-      "title": "Kiz Chillout Summer Vibes – Free Social",
-      "time": "ab 19:30 Uhr",
-      "location": "Schlosstor, Mainz",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Kizomba Open-Air Social von Kizz_and_Connect (KAC) am Schlosstor Mainz. Entspanntes Tanzen bei Sonnenuntergang.",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ],
-      "id": "evt_1f5619ca",
-      "organizer_id": "org_kac"
-    },
-    {
-      "date": "2026-06-28",
-      "order": 5,
-      "type": "outdoor",
-      "emoji": "🌟",
-      "title": "Outdoor Fiesta Latina – Letzter Termin Honsellbrücke!",
-      "time": "19:30 – 22:30 Uhr (Social Club Dance – Freies Tanzen)",
-      "location": "Unter der Honsellbrücke, Honsellstraße 7, 60314 Frankfurt",
-      "dj": "Youyou",
-      "price": "Spendenbasis",
-      "desc": "Letzter Termin an der Honsellbrücke in dieser Saison! Wegen Hitze und Ironman beginnt es heute später. Kein Kurs – nur freies Social Dancing. Wasser, Softdrinks & Naschereien werden gestellt. Gerne Fingerfood für das gemeinsame Buffet mitbringen! Weiter geht es im September. Parkplätze: Querstraße 24, 60314 Frankfurt.",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos (Spende)",
-          "tag-free"
-        ]
-      ],
-      "id": "evt_f73baad6",
-      "organizer_id": "org_youyou"
-    },
-    {
       "date": "2026-06-28",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
-    },
-    {
-      "date": "2026-07-01",
-      "order": 20,
-      "type": "outdoor",
-      "emoji": "🌅",
-      "title": "Kizomba Sunset Open Air – Schloss Biergarten Mainz",
-      "time": "18:00–22:00 Uhr",
-      "location": "Kurfürstliches Schloss / Schloss Biergarten, Peter-Altmeier-Allee 9, Mainz",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Kizomba Open-Air Party mit Salsa & Bachata Schnupperkurs. Jeden zweiten Mittwoch ab 18:00. Veranstalter: Ritmovida Latin Dance Studio.",
-      "cats": "party outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ],
-      "id": "evt_4edd04ec",
-      "organizer_id": "org_ritmovida"
     },
     {
       "date": "2026-07-05",
@@ -506,38 +310,39 @@
       "hideOnly": true
     },
     {
-      "date": "2026-07-07",
-      "order": 15,
-      "type": "outdoor",
-      "emoji": "🔥",
-      "title": "Latin Heat Open Air – Schloss Biergarten Mainz",
-      "time": "ab 18:00 Uhr",
-      "location": "Schloss Biergarten, Mainz",
-      "dj": "",
-      "price": "Eintritt frei",
-      "desc": "Open Air Salsa & Bachata Schnupperkurs im Schloss Biergarten Mainz. Jeden zweiten Dienstag. Veranstalter: Ritmovida Latin Dance Studio.",
-      "cats": "workshop outdoor free",
-      "tags": [
-        [
-          "☀️ Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Workshop",
-          "tag-workshop"
-        ],
-        [
-          "Kostenlos",
-          "tag-free"
-        ]
-      ],
-      "id": "evt_35205192",
-      "organizer_id": "org_ritmovida"
+      "date": "2026-07-10",
+      "title": "Bachazouk Workshop – GoetheUni",
+      "time": "18:00 Practice, 18:30 Warm-up, 19:00 Bachazouk, 20:00 Open Air Practice",
+      "location": "Casino Anbau Saal, Goetheuniversität, Theodor-W.-Adorno-Platz 2, Frankfurt",
+      "description": "End of Semester Bachazouk Workshop: Practice, somatisches Warm-up, Bachazouk-Unterricht, danach Open Air Practice.",
+      "type": "Indoor",
+      "organizer_id": "org_unknown",
+      "id": "evt_8ff40435"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "Salsa in the Skyline",
+      "time": "ab 20:00 Uhr",
+      "location": "Große Gallusstraße 14, 60313 Frankfurt",
+      "description": "Salsa, Timba & Bachata Party mitten in der Frankfurter Skyline.",
+      "type": "Indoor",
+      "organizer_id": "org_unknown",
+      "id": "evt_16afeeb9"
     },
     {
       "date": "2026-07-12",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
+    },
+    {
+      "date": "2026-07-12",
+      "title": "Mookai Beach Club – Sunday Day Drinking Vibes",
+      "time": "14:00 Uhr",
+      "location": "Mookai Beach Club, Am Aueweg 3, 63517 Rodenbach",
+      "description": "Sunday Day Drinking Vibes mit DJ Louis. Latin, Salsa, Merengue, Bachata, Linedance. Freier Eintritt zum Beach Club.",
+      "type": "Outdoor",
+      "organizer_id": "org_unknown",
+      "id": "evt_71d78e7e"
     },
     {
       "date": "2026-07-15",
