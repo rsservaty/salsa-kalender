@@ -543,8 +543,8 @@ Object.keys(groups).sort().forEach(key => {
   group.events.forEach(e => {
     const card = document.createElement('div');
     card.className = 'card' + (e.cancelled ? ' cancelled' : '');
-    card.dataset.type = e.type || 'indoor';
-    card.dataset.cats = e.cats || '';
+    card.dataset.type = (e.type || 'indoor').toLowerCase();
+    card.dataset.cats = (e.cats || '').toLowerCase();
 
     const tagsHTML = (e.tags || []).map(([label, cls]) =>
       `<span class="tag ${cls}">${label}</span>`
