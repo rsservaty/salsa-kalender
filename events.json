@@ -317,7 +317,17 @@
       "description": "End of Semester Bachazouk Workshop: Practice, somatisches Warm-up, Bachazouk-Unterricht, danach Open Air Practice.",
       "type": "Indoor",
       "organizer_id": "org_unknown",
-      "id": "evt_8ff40435"
+      "id": "evt_8ff40435",
+      "emoji": "🎓",
+      "cats": "workshop",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ],
+      "desc": "End of Semester Bachazouk Workshop: Practice, somatisches Warm-up, Bachazouk-Unterricht, danach Open Air Practice.",
+      "price": ""
     },
     {
       "date": "2026-07-11",
@@ -327,7 +337,17 @@
       "description": "Salsa, Timba & Bachata Party mitten in der Frankfurter Skyline.",
       "type": "Indoor",
       "organizer_id": "org_unknown",
-      "id": "evt_16afeeb9"
+      "id": "evt_16afeeb9",
+      "emoji": "🌆",
+      "cats": "party indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "desc": "Salsa, Timba & Bachata Party mitten in der Frankfurter Skyline.",
+      "price": ""
     },
     {
       "date": "2026-07-12",
@@ -342,7 +362,25 @@
       "description": "Sunday Day Drinking Vibes mit DJ Louis. Latin, Salsa, Merengue, Bachata, Linedance. Freier Eintritt zum Beach Club.",
       "type": "Outdoor",
       "organizer_id": "org_unknown",
-      "id": "evt_71d78e7e"
+      "id": "evt_71d78e7e",
+      "emoji": "☀️",
+      "cats": "party outdoor free",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Eintritt frei",
+          "tag-free"
+        ]
+      ],
+      "desc": "Sunday Day Drinking Vibes mit DJ Louis. Latin, Salsa, Bachata, Linedance. Freier Eintritt.",
+      "price": "Eintritt frei"
     },
     {
       "date": "2026-07-15",
