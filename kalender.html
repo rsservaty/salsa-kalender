@@ -167,6 +167,10 @@
       border-bottom: 1px dotted rgba(167,139,250,0.5);
     }
     .card-title a.event-link:hover { color: #c4b5fd; border-bottom-color: #a78bfa; }
+    .card-title a.flyer-link {
+      border-bottom: 2px solid #a78bfa;
+    }
+    .card-title a.flyer-link:hover { color: #c4b5fd; border-bottom-color: #c4b5fd; }
     .price {
       display: inline-block;
       background: rgba(99,102,241,0.15);
@@ -555,7 +559,7 @@ Object.keys(groups).sort().forEach(key => {
     card.innerHTML = `
       <div class="type-icon">${e.emoji || '🎵'}</div>
       <div class="card-body">
-        <div class="card-title">${e.link ? `<a class="event-link" href="${e.link}" target="_blank" rel="noopener">${e.title}</a>` : e.title}<span class="price">${e.price || ''}</span>${cancelledBadge}</div>
+        <div class="card-title">${e.flyer ? `<a class="event-link flyer-link" href="${e.flyer}" target="_blank" rel="noopener">${e.title}</a>` : e.link ? `<a class="event-link" href="${e.link}" target="_blank" rel="noopener">${e.title}</a>` : e.title}<span class="price">${e.price || ''}</span>${cancelledBadge}</div>
         <div class="card-meta">
           <span>🕒 ${e.time || ''}</span>
           <span>${mapsLink(e.location)}</span>
