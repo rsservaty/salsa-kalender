@@ -370,6 +370,30 @@
       "desc": "Salsa Cubana, Bachata & Kiz Party mit Free Preparty Classes (20:45 Uhr). DJs: DJane, Juta, DJ Abdo & DJ Arman."
     },
     {
+      "id": "evt_448e2112",
+      "date": "2026-07-11",
+      "title": "Tanzen am Rheinufer – Hello Summer Special",
+      "time": "Bachata Workshop ab 18:00 Uhr, DJ TomX ab 19:00 Uhr",
+      "location": "Rampenstraße 1, 55252 Wiesbaden (Mainz-Kastel, Rheinufer)",
+      "description": "Outdoor-Sommerevent am Rheinufer mit Bachata Workshop (Silke & Jan) und DJ TomX. Dresscode: Summer Feeling.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "☀️",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "",
+      "desc": "Outdoor-Tanzabend am Rheinufer. Bachata Workshop mit Silke & Jan ab 18:00, danach DJ TomX mit Salsa, Bachata, Kizomba & mehr."
+    },
+    {
       "date": "2026-07-12",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
