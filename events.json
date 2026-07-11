@@ -310,46 +310,6 @@
       "hideOnly": true
     },
     {
-      "date": "2026-07-10",
-      "title": "Bachazouk Workshop – GoetheUni",
-      "time": "18:00 Practice, 18:30 Warm-up, 19:00 Bachazouk, 20:00 Open Air Practice",
-      "location": "Casino Anbau Saal, Goetheuniversität, Theodor-W.-Adorno-Platz 2, Frankfurt",
-      "description": "End of Semester Bachazouk Workshop: Practice, somatisches Warm-up, Bachazouk-Unterricht, danach Open Air Practice.",
-      "type": "workshop",
-      "organizer_id": "org_unknown",
-      "id": "evt_8ff40435",
-      "emoji": "🎓",
-      "cats": "workshop",
-      "tags": [
-        [
-          "Workshop",
-          "tag-workshop"
-        ]
-      ],
-      "desc": "End of Semester Bachazouk Workshop: Practice, somatisches Warm-up, Bachazouk-Unterricht, danach Open Air Practice.",
-      "price": ""
-    },
-    {
-      "id": "evt_f6ca5f5d",
-      "date": "2026-07-10",
-      "title": "Bachata Party – Museum für Angewandte Kunst",
-      "time": "ab 21:00 Uhr",
-      "location": "Museum für Angewandte Kunst, Schaumainkai 17, 60594 Frankfurt am Main",
-      "description": "Bachata Party im Museum für Angewandte Kunst am Frankfurter Museumsufer. Bring your JBL Box!",
-      "type": "party",
-      "organizer_id": "org_unknown",
-      "emoji": "🎉",
-      "cats": "party indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "price": "",
-      "desc": "Bachata Party am Museumsufer Frankfurt. Ab 21:00 Uhr im Museum für Angewandte Kunst."
-    },
-    {
       "date": "2026-07-11",
       "title": "Salsa in the Skyline",
       "time": "ab 20:00 Uhr",
@@ -434,6 +394,54 @@
       "desc": "Früh-morgens tanzen beim Sonnenaufgang am Eisernen Steg. Bachata Social Dance von 7–10 Uhr."
     },
     {
+      "id": "evt_234cbfde",
+      "date": "2026-07-11",
+      "title": "Latino Dance Party – Mainz Strand",
+      "time": "ab 20:00 Uhr",
+      "location": "Mainz Strand, Mainz",
+      "description": "Latino Dance Party mit DJ Darius. Salsa, Bachata, Reggaeton, Merengue & More.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🌊",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "",
+      "desc": "Latino Dance Party am Mainzer Strand mit DJ Darius. Salsa, Bachata, Reggaeton, Merengue & More."
+    },
+    {
+      "id": "evt_d8cc304c",
+      "date": "2026-07-11",
+      "title": "Latin Night All White – Open Air Kiezgarten",
+      "time": "Start 17:00 Uhr, Workshop 18:30 Uhr",
+      "location": "Kiezgarten am Sedanplatz, Grünfläche Sedanplatz, 65183 Wiesbaden",
+      "description": "Open Air Latin Night All White im Kiezgarten Wiesbaden. Salsa, Bachata, Merengue, Latin Hits.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "☀️",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "",
+      "desc": "Open Air Latin Night – Dresscode: All White. Workshop mit Miguel Moya Gomez, Musik: DJ C Ubuntu."
+    },
+    {
       "date": "2026-07-12",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
@@ -465,6 +473,54 @@
       ],
       "desc": "Sunday Day Drinking Vibes mit DJ Louis. Latin, Salsa, Bachata, Linedance. Freier Eintritt.",
       "price": "Eintritt frei"
+    },
+    {
+      "id": "evt_35fdee03",
+      "date": "2026-07-12",
+      "title": "Salsa & Bachata Picknick – Lieblingspaltz",
+      "time": "ab 18:00 Uhr, Bachata Workshop 18-19 Uhr",
+      "location": "Lieblingspaltz, Rampenstraße, 55252 Wiesbaden (Mainz-Kastel)",
+      "description": "Salsa & Bachata Picknick am Rheinufer Mainz-Kastel mit DJ Lobo.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "☀️",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "",
+      "desc": "Salsa & Bachata Picknick am Rheinufer mit DJ Lobo. Bachata Workshop 18-19 Uhr."
+    },
+    {
+      "id": "evt_ae50c795",
+      "date": "2026-07-12",
+      "title": "Pop Up Kiz Frankfurt – Deutschherrnbrücke",
+      "time": "19:00 Uhr Tarraxo, 20:00 Uhr Party",
+      "location": "Deutschherrnbrücke bei EZB, Frankfurt",
+      "description": "Outdoor Kizomba Social bei der Deutschherrnbrücke Frankfurt. Tarraxo & Party.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "☀️",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "",
+      "desc": "Outdoor Kizomba Pop-Up bei der Deutschherrnbrücke (EZB). Tarraxo ab 19 Uhr, Party ab 20 Uhr mit DJ Arman & DJ Timeline."
     },
     {
       "date": "2026-07-15",
@@ -559,9 +615,49 @@
       "organizer_id": "org_ritmovida"
     },
     {
+      "id": "evt_de872117",
+      "date": "2026-07-25",
+      "title": "Contemporary Workshop mit Valeriia – Alma Dance",
+      "time": "13:00 - 15:00 Uhr",
+      "location": "Alma Dance Frankfurt, Alt-Bornheim 35, Frankfurt",
+      "description": "Exclusive Contemporary Dance Workshop für alle Levels mit Valeriia. Anmeldung: bachata-salsa-online.eu",
+      "type": "workshop",
+      "organizer_id": "org_unknown",
+      "emoji": "🎓",
+      "cats": "workshop",
+      "tags": [
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ],
+      "price": "",
+      "desc": "Contemporary Dance Workshop (Open Level) mit Valeriia bei Alma Dance Frankfurt. Anmeldung: bachata-salsa-online.eu"
+    },
+    {
       "date": "2026-07-26",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
+    },
+    {
+      "id": "evt_f23fb799",
+      "date": "2026-07-26",
+      "title": "Pure Kizomba Night Party 2.0 – Wohnzimmer Wiesbaden",
+      "time": "Bootcamp ab 15:00 Uhr, Party ab 19:00 Uhr",
+      "location": "Das Wohnzimmer, Schwalbacher Straße 51, 65183 Wiesbaden",
+      "description": "Kizomba Bootcamp + Kizomba Night Party im Wohnzimmer Wiesbaden. Kurse mit Irina & Mory, Daniel Schauenburg, Irina & Kevin.",
+      "type": "party",
+      "organizer_id": "org_wohnzimmer",
+      "emoji": "🎉",
+      "cats": "party indoor",
+      "tags": [
+        [
+          "Party",
+          "tag-party"
+        ]
+      ],
+      "price": "",
+      "desc": "Kizomba Bootcamp (15-18:30 Uhr) + Party (19-24 Uhr). Kurse: Tango Kiz, Kizomba Fusion, Urban Kiz."
     },
     {
       "date": "2026-07-29",
