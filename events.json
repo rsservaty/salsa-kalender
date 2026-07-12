@@ -523,6 +523,25 @@
       "desc": "Outdoor Kizomba Pop-Up bei der Deutschherrnbrücke (EZB). Tarraxo ab 19 Uhr, Party ab 20 Uhr mit DJ Arman & DJ Timeline."
     },
     {
+      "id": "evt_ccdfdb8c",
+      "date": "2026-07-12",
+      "title": "DNA Sommerfest – Community Open Air",
+      "time": "ab 17:30 Uhr",
+      "location": "Open Air, Stuttgarter Straße 7, 65760 Eschborn",
+      "description": "DNA Community Sommerfest Open Air. Ein Tag mit Freunden, Musik & Sommerfeeling. Eintritt kostenlos für DNA-Mitglieder.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🌞",
+      "cats": "outdoor party free",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Kostenlos", "tag-free"]
+      ],
+      "price": "Kostenlos (für Mitglieder)",
+      "desc": "DNA Community Sommerfest Open Air in Eschborn. Gemeinsames Essen, Sommer Drinks, freies Tanzen & gute Gespräche. Anmeldung über Google Formular erforderlich."
+    },
+    {
       "date": "2026-07-15",
       "order": 20,
       "type": "outdoor",
