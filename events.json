@@ -618,7 +618,8 @@
       ],
       "price": "Eintritt frei",
       "desc": "Salsa Mocion Open Air Salsa Beach Party am Heuchelheimer Surfsee. Kostenloser Schnupperworkshop inklusive. Infos: www.SalsaMocion.com",
-      "link": "https://www.salsaFmocion.com"
+      "link": "https://www.salsaFmocion.com",
+      "link": "https://www.salsamocion.com"
     },
     {
       "date": "2026-07-19",
@@ -675,6 +676,26 @@
       "desc": "Contemporary Dance Workshop (Open Level) mit Valeriia bei Alma Dance Frankfurt. Anmeldung: bachata-salsa-online.eu"
     },
     {
+      "id": "evt_4e4b74b3",
+      "date": "2026-07-25",
+      "title": "Open Air Salsa Beach Party – Heuchelheimer Surfsee",
+      "time": "ab 19:00 Uhr",
+      "location": "Heuchelheimer Surfsee, Lahnparkstraße, 35452 Heuchelheim",
+      "description": "Open Air Salsa Beach Party am Heuchelheimer Surfsee mit kostenlosem Schnupperworkshop ab 19 Uhr.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🏖️",
+      "cats": "outdoor party workshop free",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Workshop", "tag-workshop"],
+        ["Kostenlos", "tag-free"]
+      ],
+      "price": "Eintritt frei",
+      "desc": "Salsa Mocion Open Air Salsa Beach Party am Heuchelheimer Surfsee. Kostenloser Schnupperworkshop inklusive. Infos: www.SalsaMocion.com"
+    },
+    {
       "date": "2026-07-26",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
@@ -727,6 +748,26 @@
       ],
       "id": "evt_3b7cc6f6",
       "organizer_id": "org_ritmovida"
+    },
+    {
+      "id": "evt_4a5b6bdf",
+      "date": "2026-08-01",
+      "title": "Open Air Salsa Beach Party – Heuchelheimer Surfsee",
+      "time": "ab 19:00 Uhr",
+      "location": "Heuchelheimer Surfsee, Lahnparkstraße, 35452 Heuchelheim",
+      "description": "Open Air Salsa Beach Party am Heuchelheimer Surfsee mit kostenlosem Schnupperworkshop ab 19 Uhr.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🏖️",
+      "cats": "outdoor party workshop free",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Workshop", "tag-workshop"],
+        ["Kostenlos", "tag-free"]
+      ],
+      "price": "Eintritt frei",
+      "desc": "Salsa Mocion Open Air Salsa Beach Party am Heuchelheimer Surfsee. Kostenloser Schnupperworkshop inklusive. Infos: www.SalsaMocion.com"
     },
     {
       "date": "2026-08-02",
