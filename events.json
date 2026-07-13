@@ -310,158 +310,21 @@
       "hideOnly": true
     },
     {
-      "date": "2026-07-11",
-      "title": "Salsa in the Skyline",
-      "time": "ab 20:00 Uhr",
-      "location": "Große Gallusstraße 14, 60313 Frankfurt",
-      "description": "Salsa, Timba & Bachata Party mitten in der Frankfurter Skyline.",
-      "type": "party",
-      "organizer_id": "org_unknown",
-      "id": "evt_16afeeb9",
-      "emoji": "🌆",
-      "cats": "party indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "desc": "Salsa, Timba & Bachata Party mitten in der Frankfurter Skyline.",
-      "price": ""
-    },
-    {
-      "id": "evt_439b7647",
-      "date": "2026-07-11",
-      "title": "Gran Fiesta – Salsa Cubana, Bachata & Kiz",
-      "time": "Preparty Classes ab 20:45 Uhr, Party ab 22:00 Uhr",
-      "location": "Conexion, Am Industriehof 7, Frankfurt",
-      "description": "Salsa Cubana, Bachata & Kiz Party mit Free Preparty Classes. DJs: DJane, Juta, DJ Abdo & DJ Arman.",
-      "type": "party",
-      "organizer_id": "org_conexion",
-      "emoji": "🎉",
-      "cats": "party indoor",
-      "tags": [
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "price": "12€ inkl. Kurse",
-      "desc": "Salsa Cubana, Bachata & Kiz Party mit Free Preparty Classes (20:45 Uhr). DJs: DJane, Juta, DJ Abdo & DJ Arman."
-    },
-    {
-      "id": "evt_448e2112",
-      "date": "2026-07-11",
-      "title": "Tanzen am Rheinufer – Hello Summer Special",
-      "time": "Bachata Workshop ab 18:00 Uhr, DJ TomX ab 19:00 Uhr",
-      "location": "Rampenstraße 1, 55252 Wiesbaden (Mainz-Kastel, Rheinufer)",
-      "description": "Outdoor-Sommerevent am Rheinufer mit Bachata Workshop (Silke & Jan) und DJ TomX. Dresscode: Summer Feeling.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "☀️",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "price": "",
-      "desc": "Outdoor-Tanzabend am Rheinufer. Bachata Workshop mit Silke & Jan ab 18:00, danach DJ TomX mit Salsa, Bachata, Kizomba & mehr."
-    },
-    {
-      "id": "evt_d0cd8a35",
-      "date": "2026-07-11",
-      "title": "Sunrise Social in Frankfurt",
-      "time": "7:00 – 10:00 Uhr",
-      "location": "Eiserner Steg, 60311 Frankfurt am Main",
-      "description": "Outdoor Social Dance beim Sonnenaufgang am Eisernen Steg. Bachata, Dance, Connect & Enjoy the Sunrise. Veranstalter: Bachata Meet Up Rhein Main.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "🌅",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ]
-      ],
-      "price": "",
-      "desc": "Früh-morgens tanzen beim Sonnenaufgang am Eisernen Steg. Bachata Social Dance von 7–10 Uhr."
-    },
-    {
-      "id": "evt_234cbfde",
-      "date": "2026-07-11",
-      "title": "Latino Dance Party – Mainz Strand",
-      "time": "ab 20:00 Uhr",
-      "location": "Mainz Strand, Mainz",
-      "description": "Latino Dance Party mit DJ Darius. Salsa, Bachata, Reggaeton, Merengue & More.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "🌊",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "price": "",
-      "desc": "Latino Dance Party am Mainzer Strand mit DJ Darius. Salsa, Bachata, Reggaeton, Merengue & More."
-    },
-    {
-      "id": "evt_d8cc304c",
-      "date": "2026-07-11",
-      "title": "Latin Night All White – Open Air Kiezgarten",
-      "time": "Start 17:00 Uhr, Workshop 18:30 Uhr",
-      "location": "Kiezgarten am Sedanplatz, Grünfläche Sedanplatz, 65183 Wiesbaden",
-      "description": "Open Air Latin Night All White im Kiezgarten Wiesbaden. Salsa, Bachata, Merengue, Latin Hits.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "☀️",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "price": "",
-      "desc": "Open Air Latin Night – Dresscode: All White. Workshop mit Miguel Moya Gomez, Musik: DJ C Ubuntu."
-    },
-    {
       "date": "2026-07-12",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
     },
     {
-      "date": "2026-07-12",
-      "title": "Mookai Beach Club – Sunday Day Drinking Vibes",
-      "time": "14:00 Uhr",
-      "location": "Mookai Beach Club, Am Aueweg 3, 63517 Rodenbach",
-      "description": "Sunday Day Drinking Vibes mit DJ Louis. Latin, Salsa, Merengue, Bachata, Linedance. Freier Eintritt zum Beach Club.",
+      "date": "2026-07-14",
+      "title": "Bachata Super-Sensual Hangout (EZB Honsellbrücke)",
+      "time": "ab 20:45 Uhr",
+      "location": "EZB / Honsellbrücke, Mainuferweg, Frankfurt am Main",
+      "description": "100% Bachata Sensual Hangout am Mainufer bei der EZB/Honsellbrücke. Kein Kurs, nur JBL-Box und Playlist - privates, kostenloses Treffen. Kein Salsa, kein Kizomba.",
       "type": "outdoor",
       "organizer_id": "org_unknown",
-      "id": "evt_71d78e7e",
       "emoji": "☀️",
-      "cats": "party outdoor free",
+      "cats": "outdoor free",
       "tags": [
-        [
-          "Party",
-          "tag-party"
-        ],
         [
           "Outdoor",
           "tag-outdoor"
@@ -469,77 +332,15 @@
         [
           "Eintritt frei",
           "tag-free"
-        ]
-      ],
-      "desc": "Sunday Day Drinking Vibes mit DJ Louis. Latin, Salsa, Bachata, Linedance. Freier Eintritt.",
-      "price": "Eintritt frei"
-    },
-    {
-      "id": "evt_35fdee03",
-      "date": "2026-07-12",
-      "title": "Salsa & Bachata Picknick – Lieblingspaltz",
-      "time": "ab 18:00 Uhr, Bachata Workshop 18-19 Uhr",
-      "location": "Lieblingspaltz, Rampenstraße, 55252 Wiesbaden (Mainz-Kastel)",
-      "description": "Salsa & Bachata Picknick am Rheinufer Mainz-Kastel mit DJ Lobo.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "☀️",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
         ],
         [
-          "Party",
-          "tag-party"
+          "Bachata",
+          "tag-bachata"
         ]
       ],
-      "price": "",
-      "desc": "Salsa & Bachata Picknick am Rheinufer mit DJ Lobo. Bachata Workshop 18-19 Uhr."
-    },
-    {
-      "id": "evt_ae50c795",
-      "date": "2026-07-12",
-      "title": "Pop Up Kiz Frankfurt – Deutschherrnbrücke",
-      "time": "19:00 Uhr Tarraxo, 20:00 Uhr Party",
-      "location": "Deutschherrnbrücke bei EZB, Frankfurt",
-      "description": "Outdoor Kizomba Social bei der Deutschherrnbrücke Frankfurt. Tarraxo & Party.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "☀️",
-      "cats": "outdoor party",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Party",
-          "tag-party"
-        ]
-      ],
-      "price": "",
-      "desc": "Outdoor Kizomba Pop-Up bei der Deutschherrnbrücke (EZB). Tarraxo ab 19 Uhr, Party ab 20 Uhr mit DJ Arman & DJ Timeline."
-    },
-    {
-      "id": "evt_ccdfdb8c",
-      "date": "2026-07-12",
-      "title": "DNA Sommerfest – Community Open Air",
-      "time": "ab 17:30 Uhr",
-      "location": "Open Air, Stuttgarter Straße 7, 65760 Eschborn",
-      "description": "DNA Community Sommerfest Open Air. Ein Tag mit Freunden, Musik & Sommerfeeling. Eintritt kostenlos für DNA-Mitglieder.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "🌞",
-      "cats": "outdoor party free",
-      "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Kostenlos", "tag-free"]
-      ],
-      "price": "Kostenlos (für Mitglieder)",
-      "desc": "DNA Community Sommerfest Open Air in Eschborn. Gemeinsames Essen, Sommer Drinks, freies Tanzen & gute Gespräche. Anmeldung über Google Formular erforderlich."
+      "price": "Eintritt frei",
+      "desc": "Privates, kostenloses Bachata-Sensual-Hangout am Mainufer - nur Playlist, kein Kurs.",
+      "id": "evt_d6fb3301"
     },
     {
       "date": "2026-07-15",
@@ -569,6 +370,34 @@
       ],
       "id": "evt_d0af7b86",
       "organizer_id": "org_ritmovida"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "White Salsa an der Oper",
+      "time": "ab 20:00 Uhr",
+      "location": "Opernplatz, 60313 Frankfurt am Main",
+      "description": "White Party mit Salsa, Timba & Bachata am Opernplatz vor der Alten Oper.",
+      "type": "outdoor",
+      "organizer_id": "org_papi_chulo",
+      "emoji": "☀️",
+      "cats": "outdoor party",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "White Party",
+          "tag-white"
+        ]
+      ],
+      "price": "",
+      "desc": "White Party: Salsa, Timba & Bachata am Opernplatz - komm in Weiß!",
+      "id": "evt_be380376"
     },
     {
       "date": "2026-07-17",
@@ -611,14 +440,25 @@
       "emoji": "🏖️",
       "cats": "outdoor party workshop free",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Workshop", "tag-workshop"],
-        ["Kostenlos", "tag-free"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
       ],
       "price": "Eintritt frei",
       "desc": "Salsa Mocion Open Air Salsa Beach Party am Heuchelheimer Surfsee. Kostenloser Schnupperworkshop inklusive. Infos: www.SalsaMocion.com",
-      "link": "https://www.salsaFmocion.com",
       "link": "https://www.salsamocion.com"
     },
     {
@@ -687,10 +527,22 @@
       "emoji": "🏖️",
       "cats": "outdoor party workshop free",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Workshop", "tag-workshop"],
-        ["Kostenlos", "tag-free"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
       ],
       "price": "Eintritt frei",
       "desc": "Salsa Mocion Open Air Salsa Beach Party am Heuchelheimer Surfsee. Kostenloser Schnupperworkshop inklusive. Infos: www.SalsaMocion.com"
@@ -761,10 +613,22 @@
       "emoji": "🏖️",
       "cats": "outdoor party workshop free",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Workshop", "tag-workshop"],
-        ["Kostenlos", "tag-free"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ],
+        [
+          "Kostenlos",
+          "tag-free"
+        ]
       ],
       "price": "Eintritt frei",
       "desc": "Salsa Mocion Open Air Salsa Beach Party am Heuchelheimer Surfsee. Kostenloser Schnupperworkshop inklusive. Infos: www.SalsaMocion.com"
