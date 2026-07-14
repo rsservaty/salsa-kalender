@@ -895,6 +895,63 @@
       "organizer_id": "org_ritmovida"
     },
     {
+      "id": "evt_7bf6b227",
+      "date": "2026-08-28",
+      "title": "Fiesta Tropical – Salsa Open Air Museumsuferfest",
+      "time": "ab 18:00 Uhr",
+      "location": "Mainkai, Römerberg-Seite (100m vom Eisernen Steg), Frankfurt",
+      "description": "Fiesta Tropical Salsa Open Air auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo: Salsa, Bachata, Merengue, Cumbia.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🎪",
+      "cats": "outdoor party festival",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Festival", "tag-festival"]
+      ],
+      "price": "Museumsufer-Eintritt",
+      "desc": "Fiesta Tropical auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo mit Salsa, Bachata, Merengue & Cumbia. Infos: www.quantanamera.org"
+    },
+    {
+      "id": "evt_7f3ffdd2",
+      "date": "2026-08-29",
+      "title": "Fiesta Tropical – Salsa Open Air Museumsuferfest",
+      "time": "ab 18:00 Uhr",
+      "location": "Mainkai, Römerberg-Seite (100m vom Eisernen Steg), Frankfurt",
+      "description": "Fiesta Tropical Salsa Open Air auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo: Salsa, Bachata, Merengue, Cumbia.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🎪",
+      "cats": "outdoor party festival",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Festival", "tag-festival"]
+      ],
+      "price": "Museumsufer-Eintritt",
+      "desc": "Fiesta Tropical auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo mit Salsa, Bachata, Merengue & Cumbia. Infos: www.quantanamera.org"
+    },
+    {
+      "id": "evt_b829f922",
+      "date": "2026-08-30",
+      "title": "Fiesta Tropical – Salsa Open Air Museumsuferfest",
+      "time": "ab 18:00 Uhr",
+      "location": "Mainkai, Römerberg-Seite (100m vom Eisernen Steg), Frankfurt",
+      "description": "Fiesta Tropical Salsa Open Air auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo: Salsa, Bachata, Merengue, Cumbia.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🎪",
+      "cats": "outdoor party festival",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Festival", "tag-festival"]
+      ],
+      "price": "Museumsufer-Eintritt",
+      "desc": "Fiesta Tropical auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo mit Salsa, Bachata, Merengue & Cumbia. Infos: www.quantanamera.org"
+    },
+    {
       "date": "2026-08-30",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
