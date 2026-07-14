@@ -480,6 +480,25 @@
       "link": "https://www.salsamocion.com"
     },
     {
+      "id": "evt_5fab0be1",
+      "date": "2026-07-18",
+      "title": "Fiesta Tropical Open Air – Mainz-Kastel Rheinufer",
+      "time": "ab 19:00 Uhr (bei Regen entfällt), Party ab 20:00 Uhr",
+      "location": "Rampenstr. 1A (Rheinufer), 55252 Wiesbaden-Mainz-Kastel",
+      "description": "Fiesta Tropical Open Air am Rheinufer in Mainz-Kastel. Bachata-Rueda-Workshop 19 Uhr, Party ab 20 Uhr mit DJ Antonio Y Su Combo.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "🌴",
+      "cats": "outdoor party workshop",
+      "tags": [
+        ["☀️ Outdoor", "tag-outdoor"],
+        ["Party", "tag-party"],
+        ["Workshop", "tag-workshop"]
+      ],
+      "price": "k.A.",
+      "desc": "Fiesta Tropical Open Air am Rheinufer Mainz-Kastel. Bachata-Rueda-Workshop mit Neli & Chris ab 19 Uhr, Fiesta ab 20 Uhr. DJ Antonio Y Su Combo: Salsa, Bachata, Merengue, Cumbia. Nur bei trockenem Wetter."
+    },
+    {
       "date": "2026-07-19",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
