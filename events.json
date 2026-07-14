@@ -343,6 +343,24 @@
       "id": "evt_d6fb3301"
     },
     {
+      "id": "evt_a41a79dc",
+      "date": "2026-07-14",
+      "title": "Frankfurt International Event – Salsa/Bachata El Punto",
+      "time": "18:00 Uhr (Workshop 18:45–20:15, Practice ab 20:15)",
+      "location": "El Punto, Walther von Cronberg Platz 3, Frankfurt",
+      "description": "Frankfurt International Salsa/Bachata Event im El Punto. Workshop 18:45–20:15 Uhr, danach Practice bis Open End.",
+      "type": "party",
+      "organizer_id": "org_unknown",
+      "emoji": "💃",
+      "cats": "party workshop indoor",
+      "tags": [
+        ["Party", "tag-party"],
+        ["Workshop", "tag-workshop"]
+      ],
+      "price": "5€",
+      "desc": "Frankfurt International Salsa & Bachata Event im El Punto. Salsa/Bachata Workshop 18:45–20:15 Uhr, danach freies Tanzen bis Open End. Eintritt 5€."
+    },
+    {
       "date": "2026-07-15",
       "order": 20,
       "type": "outdoor",
