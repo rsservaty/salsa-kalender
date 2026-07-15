@@ -315,52 +315,6 @@
       "hideOnly": true
     },
     {
-      "date": "2026-07-14",
-      "title": "Bachata Super-Sensual Hangout (EZB Honsellbrücke)",
-      "time": "ab 20:45 Uhr",
-      "location": "EZB / Honsellbrücke, Mainuferweg, Frankfurt am Main",
-      "description": "100% Bachata Sensual Hangout am Mainufer bei der EZB/Honsellbrücke. Kein Kurs, nur JBL-Box und Playlist - privates, kostenloses Treffen. Kein Salsa, kein Kizomba.",
-      "type": "outdoor",
-      "organizer_id": "org_unknown",
-      "emoji": "☀️",
-      "cats": "outdoor free",
-      "tags": [
-        [
-          "Outdoor",
-          "tag-outdoor"
-        ],
-        [
-          "Eintritt frei",
-          "tag-free"
-        ],
-        [
-          "Bachata",
-          "tag-bachata"
-        ]
-      ],
-      "price": "Eintritt frei",
-      "desc": "Privates, kostenloses Bachata-Sensual-Hangout am Mainufer - nur Playlist, kein Kurs.",
-      "id": "evt_d6fb3301"
-    },
-    {
-      "id": "evt_a41a79dc",
-      "date": "2026-07-14",
-      "title": "Frankfurt International Event – Salsa/Bachata El Punto",
-      "time": "18:00 Uhr (Workshop 18:45–20:15, Practice ab 20:15)",
-      "location": "El Punto, Walther von Cronberg Platz 3, Frankfurt",
-      "description": "Frankfurt International Salsa/Bachata Event im El Punto. Workshop 18:45–20:15 Uhr, danach Practice bis Open End.",
-      "type": "party",
-      "organizer_id": "org_unknown",
-      "emoji": "💃",
-      "cats": "party workshop indoor",
-      "tags": [
-        ["Party", "tag-party"],
-        ["Workshop", "tag-workshop"]
-      ],
-      "price": "5€",
-      "desc": "Frankfurt International Salsa & Bachata Event im El Punto. Salsa/Bachata Workshop 18:45–20:15 Uhr, danach freies Tanzen bis Open End. Eintritt 5€."
-    },
-    {
       "date": "2026-07-15",
       "order": 20,
       "type": "outdoor",
@@ -491,9 +445,18 @@
       "emoji": "🌴",
       "cats": "outdoor party workshop",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Workshop", "tag-workshop"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
       ],
       "price": "k.A.",
       "desc": "Fiesta Tropical Open Air am Rheinufer Mainz-Kastel. Bachata-Rueda-Workshop mit Neli & Chris ab 19 Uhr, Fiesta ab 20 Uhr. DJ Antonio Y Su Combo: Salsa, Bachata, Merengue, Cumbia. Nur bei trockenem Wetter."
@@ -502,6 +465,34 @@
       "date": "2026-07-19",
       "hideRecurring": "Outdoor Social Dance (bei Regen: Indoor)",
       "hideOnly": true
+    },
+    {
+      "id": "evt_7e3f848b",
+      "date": "2026-07-19",
+      "title": "Salsa & Bachata Picknick am Rhein mit DJ Lobo",
+      "time": "ab 18:00 Uhr (Salsa Workshop 18-19 Uhr)",
+      "location": "Rampenstraße, 55252 Mainz-Kastel",
+      "description": "Salsa Picknick am Rhein mit DJ Lobo - Finest Salsa, Bachata y Kizomba (Lieblingsplatz). Vorab Salsa Workshop von 18-19 Uhr, danach Open-Air Party am Rheinufer.",
+      "type": "outdoor",
+      "organizer_id": "org_unknown",
+      "emoji": "☀️",
+      "cats": "outdoor party workshop",
+      "tags": [
+        [
+          "Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Workshop",
+          "tag-workshop"
+        ]
+      ],
+      "price": "",
+      "desc": "Open-Air Salsa & Bachata Picknick am Rhein in Mainz-Kastel mit DJ Lobo, davor Salsa Workshop 18-19 Uhr."
     },
     {
       "date": "2026-07-21",
@@ -906,9 +897,18 @@
       "emoji": "🎪",
       "cats": "outdoor party festival",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Festival", "tag-festival"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Festival",
+          "tag-festival"
+        ]
       ],
       "price": "Museumsufer-Eintritt",
       "desc": "Fiesta Tropical auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo mit Salsa, Bachata, Merengue & Cumbia. Infos: www.quantanamera.org"
@@ -925,9 +925,18 @@
       "emoji": "🎪",
       "cats": "outdoor party festival",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Festival", "tag-festival"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Festival",
+          "tag-festival"
+        ]
       ],
       "price": "Museumsufer-Eintritt",
       "desc": "Fiesta Tropical auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo mit Salsa, Bachata, Merengue & Cumbia. Infos: www.quantanamera.org"
@@ -944,9 +953,18 @@
       "emoji": "🎪",
       "cats": "outdoor party festival",
       "tags": [
-        ["☀️ Outdoor", "tag-outdoor"],
-        ["Party", "tag-party"],
-        ["Festival", "tag-festival"]
+        [
+          "☀️ Outdoor",
+          "tag-outdoor"
+        ],
+        [
+          "Party",
+          "tag-party"
+        ],
+        [
+          "Festival",
+          "tag-festival"
+        ]
       ],
       "price": "Museumsufer-Eintritt",
       "desc": "Fiesta Tropical auf der Latino-Treff-Bühne beim Museumsuferfest Frankfurt. DJ Antonio Y Su Combo mit Salsa, Bachata, Merengue & Cumbia. Infos: www.quantanamera.org"
