@@ -495,6 +495,24 @@
       "desc": "Open-Air Salsa & Bachata Picknick am Rhein in Mainz-Kastel mit DJ Lobo, davor Salsa Workshop 18-19 Uhr."
     },
     {
+      "id": "evt_d895b845",
+      "date": "2026-07-20",
+      "title": "Kizomba Schnupperkurs – Goethe Universität Frankfurt",
+      "time": "19:30–20:30 Uhr, danach 1 Std. Social",
+      "location": "IG Farbenhaus, Campus Westend, Raum 0.457, Frankfurt",
+      "description": "Kizomba Schnupperkurs zum Feriensemesterstart an der Goethe Universität Frankfurt. Danach freies Tanzen / Social.",
+      "type": "workshop",
+      "organizer_id": "org_unknown",
+      "emoji": "🎓",
+      "cats": "workshop indoor free",
+      "tags": [
+        ["Workshop", "tag-workshop"],
+        ["Kostenlos", "tag-free"]
+      ],
+      "price": "Eintritt frei",
+      "desc": "Kizomba Schnupperkurs zum Beginn des Feriensemesters an der Goethe Uni Frankfurt. 19:30–20:30 Uhr Kurs, danach 1 Stunde Social / freies Tanzen. IG Farbenhaus Campus Westend, Raum 0.457."
+    },
+    {
       "date": "2026-07-21",
       "order": 15,
       "type": "outdoor",
